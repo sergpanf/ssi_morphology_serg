@@ -82,7 +82,7 @@ def main(args):
     parser.add_argument("-sz", metavar="beam_size", help="Optional: size of beam during beam size decoding. If 0 is chosen, decoding takes place with greedy decoding", type=int, default=3, nargs='?')
     parser.add_argument("-ba", metavar="beam_alpha", help="Optional: alpha value regulates the penalty for longer sequences during beam search.", type=float, default=0.75, nargs='?')
 
-    args = parser.parse_args()
+    args = parser.parse_args(args)
     
     assert args.mo
     
