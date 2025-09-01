@@ -1,18 +1,19 @@
-# %%
+# %% initialize torch and CUDA
 import torch
 torch.cuda.is_available()
 
-# %%
+from main import main
+
+# %% initialize TF and related libraries
 from tf.app import use
 import re
 import os
 import matplotlib.pyplot as plt
 import numpy as np
 
-# %%
-from main import main
 
-# %%
+
+# %% initialize TF datasets
 # SP = use("DT-UCPH/sp", version="3.4.1", hoist=globals())
 # BHS = use("etcbc/bhsa", version=2021, hoist=globals())
 
@@ -21,12 +22,7 @@ Fsp, Lsp, Tsp = SP.api.F, SP.api.L, SP.api.T
 MT = use('etcbc/bhsa', version='2021')
 Fmt, Lmt, Tmt = MT.api.F, MT.api.L, MT.api.T
 
-# %% [markdown]
-# ## May 27 experiment - Creating dataset
-
-# %% 1
-
-# serg: works both for MT and SP depending on the switch
+# %% testing MT and SP (depending on the switch)
 
 i=0
 file_input=[]
@@ -56,10 +52,7 @@ with open('../data/input', 'w', encoding='utf-8') as file:
         file.write(line + '\n')
     
     
-
-# %% 2
-
-# serg: this prepared only for MT, not SP
+# %% testing MT and SP (2) this prepared only for MT, not SP
 
 i=0
 file_input=[]
@@ -108,495 +101,53 @@ with open('../data/output', 'w', encoding='utf-8') as file:
     for line in file_input:
         file.write(line + '\n')
 
-# %% [markdown]
-# ## Analyzing the input and output files
+# %% TRAINING without EVAL flag (via MAIN.py)
 
-# %% 3
-def count_words_in_line(file_path, line_number):
-    """
-    Counts the number of words in the specified line of a text file.
-
-    Args:
-        file_path (str): Path to the text file.
-        line_number (int): Number of the line to count the words in.
-
-    Returns:
-        int: Number of words in the specified line.
-    """
-
-    with open(file_path, 'r') as f:
-        lines = f.readlines()
-    try:
-        # Access the specified line
-        line = lines[line_number - 1]
-        # Remove leading and trailing whitespace from the line
-        line = line.strip()
-        # Split the line into words using whitespace as delimiters
-        words = line.split()
-        # Return the number of words
-        return len(words)
-    except IndexError:
-        print(f"Error: Line {line_number} does not exist in the file.")
-        return 0
-
-# sergp
-def count_words_in_line(file_lines: list[str], line_number: int) -> int:
-    """
-    Counts the number of words in the specified line from a list of lines.
-
-    Args:
-        file_lines (list[str]): A list of strings, each representing a line from a text file.
-        line_number (int): The line number to count the words in (1-indexed).
-
-    Returns:
-        int: The number of words in the specified line.
-    """
-    try:
-        # Access the specified line (adjusting for 1-indexing)
-        line = file_lines[line_number - 1]
-        # Remove leading and trailing whitespace from the line
-        line = line.strip()
-        # Split the line into words using whitespace as delimiters
-        words = line.split()
-        # Return the number of words
-        return len(words)
-    except IndexError:
-        print(f"Error: Line {line_number} does not exist in the file.")
-        return 0
-
-# %% 4
-#My files
-# sp_good
-
-# words for both set of files
-
-inputfilePath = "../data/input" # -- I generated this file
-outputfilePath = "../data/output" # -- I generated this file
-# inputfilePath = "../data/t-in_con" -- were in the project earlier
-# outputfilePath = "../data/t-out" -- were in the project earlier 
-
-with open(inputfilePath, 'r') as fi, open(outputfilePath, 'r') as fo:
-
-    lines_fi = fi.readlines()
-    lines_fo = fo.readlines()
-
-    for i in range(1,1533):
-        word_count_line_input = count_words_in_line(lines_fi, i)
-        word_count_line_output = count_words_in_line(lines_fo, i)
-
-        if word_count_line_input != word_count_line_output:
-            print(f"Line {i} of file {inputfilePath} contains {word_count_line_input} words.")
-            print(f"Line {i} of file {outputfilePath} contains {word_count_line_output} words.\n")
-
-        i=i+1
-
-# %%  -- previous version of the code fixed above
-
-# inputfilePath = "../data/input"
-# outputfilePath = "../data/output"
-
-# # Downloaded files
-# # inputfilePath = "../data/t-in_con"
-# # outputfilePath = "../data/t-out"
-
-# for i in range(1,1533):
-#     word_count_line_input = count_words_in_line(inputfilePath, i)
-#     word_count_line_output = count_words_in_line(outputfilePath, i)
-
-#     if word_count_line_input != word_count_line_output:
-#         print(f"Line {i} of file {inputfilePath} contains {word_count_line_input} words.")
-#         print(f"Line {i} of file {outputfilePath} contains {word_count_line_output} words.\n")
-
-#     i=i+1
-
-
-# %% MAIN
-
-# main("train")
-# main(["-mo", "train", "-i", "input", "-o", "output", "-ep", "2", "-l", "5", "-lr", "0.0001"])
-main(["-mo", "train", "-i", "input_NT_normalized", "-o", "output_NT_normalized_XYs", "-ep", "2", "-l", "5", "-lr", "0.0001"])
 # sp: good values of Saulo: ep=15 (or 30), l=10 (or 7), lr=0.0001, et=True
-# main(mo='train', i='input', o='output', ep=2, l=5, lr=0.0001, et=True)
+main(["-mo", "train", "-i", "input_NT_normalized", "-o", "output_NT_normalized_XYs", "-ep", "1", "-l", "1", "-lr", "0.0001"])
+# main(["-mo", "train", "-i", "input_III_John_normalized", "-o", "output_III_John_normalized_XYs", "-ep", "2", "-l", "10", "-lr", "0.0001"])
 
-# %%
-!python main.py -mo=train -i=input -o=output -ep=2 -l=5 -lr=0.0001
 
-# %%
-!python main.py -mo=train -i=input -o=output -ep=2 -l=5 -lr=0.0001
+# %% TRAINING with EVAL flag
 
-# %%
-!python main.py -mo=train -i=input -o=output -ep=2 -l=5 -lr=0.0001
+# main(["-mo", "train", "-i", "input_NT_normalized", "-o", "output_NT_normalized_XYs", "-ep", "15", "-l", "10", "-lr", "0.0001", "-et", "True"])
+# III_John is too little? and fails
+# main(["-mo", "train", "-i", "input_III_John_normalized", "-o", "output_III_John_normalized_XYs", "-ep", "15", "-l", "10", "-lr", "0.0001", "-et", "True"])
+# main(["-mo", "train", "-i", "input_NT_normalized", "-o", "output_NT_normalized_XYs", "-ep", "1", "-l", "1", "-lr", "0.0001", "-et", "True"])
+# main(["-mo", "train", "-i", "input_NT_normalized", "-o", "output_NT_normalized_XYs", "-ep", "20", "-l", "15", "-lr", "0.0001", "-et", "True"])
+main(["-mo", "train", "-i", "input_NT_normalized", "-o", "output_NT_normalized_XYs", "-ep", "20", "-l", "10", "-lr", "0.0001", "-et", "True"])
 
-# %% [markdown]
-# ### Issue with Genesis 7:16
 
-# %%
-results = BHS.search("""
-book book=Genesis
-    chapter chapter=7
-        verse verse=16
-            word gloss*
-""")
-BHS.show(results, end=4, multiFeatures=False, queryFeatures=True, condensed=True)
-
-# %% [markdown]
-# ![image.png](attachment:3d9476cd-f1e7-48d0-ba8c-e4d419426f45.png)v>
-
-# %%
-!python main.py -mo=train -i=t-in_con_gen -o=t-out_gen -ep=2 -l=5 -lr=0.0001
-
-# %%
-!python main.py -mo=train -i=input -o=output -ep=2 -l=5 -lr=0.0001
-
-# %% [markdown]
-# ## May 29 experiment
-
-# %%
-i=0
-file_input=[]
-
-for verse in F.otype.s('verse'):
-    text = "".join([F.g_cons.v(word) if not F.trailer.v(word) else F.g_cons.v(word)+" " for word in L.d(verse,'word')]).replace("_", " ")
-    bo, ch, ve = T.sectionFromNode(verse)
-    final = "\t".join([bo, str(ch), str(ve), text.strip()])
-
-    if bo in ['Genesis', 'Exodus']:
-        file_input.append(final)
-
-        with open('../data/input_gn_ex', 'w', encoding='utf-8') as file:
-            for line in file_input:
-                file.write(line + '\n')
-
-# %%
-i=0
-file_input=[]
-
-for verse in F.otype.s('verse'):
-    verse_text = ""
-    cl_atoms = L.d(verse,'clause_atom')
-    for clause_atom in cl_atoms:
-        #clause_atom_text = "".join([F.g_cons.v(word) + (" " if F.trailer.v(word) else "") for word in L.d(clause_atom, 'word')]).replace("_", " ").strip()
-        #clause_atom_text += "|" if clause_atom_text == 'W' else "| "
-
-        text = []
-        for word in L.d(clause_atom, 'word'):
-            #if not F.trailer.v(word):
-            #    text.append(F.g_cons.v(word))
-            #else:
-            #    text.append(F.g_cons.v(word) + " ")
-            
-            #Replacing the words in the output file as 'X' 
-            if not F.trailer.v(word):
-                text.append('X')
-            else:
-                text.append('X' + " ")
-        clause_atom_text = "".join(text)
-        clause_atom_text = clause_atom_text.replace("_"," ")
-        clause_atom_text = clause_atom_text.strip()
-
-        if F.g_cons.v(word) in ['W','H'] and F.trailer.v(word) == "":
-            clause_atom_text += "|"
-        else:
-            clause_atom_text += "| "
-            
-        #Replacing the words in the output file as 'X' 
-        #if clause_atom_text in ['W','H']:
-        #    clause_atom_text += "|"
-        #else:
-        #    clause_atom_text += "| "
-        
-        verse_text = verse_text + clause_atom_text
-    verse_text = verse_text.strip()
-    bo, ch, ve = T.sectionFromNode(verse)
-    final = "\t".join([bo, str(ch), str(ve), verse_text.strip()])
-
-    if bo == 'Exodus' and str(ch) == '2' and str(ve) == '14':
-        if i<10:
-            print(final)
-        i=i+1
-    
-    if bo in ['Genesis', 'Exodus']:
-        file_input.append(final)
-
-        with open('../data/outputX_gn_ex', 'w', encoding='utf-8') as file:
-            for line in file_input:
-                file.write(line + '\n')
-#Genesis	7	16	W|HB>JM| ZKR WNQBH MKL BFR B>W| K>CR YWH >TW >LHJM| WJSGR JHWH B<DW|
-#Genesis	7	16	X|X| X X X X X| X X X X| X X X|
-
-#Exodus	2	14	WJ>MR| MJ FMK L>JC FR WCPV <LJNW| H|LHRGNJ| >TH >MR| K>CR HRGT >T HMYRJ| WJJR> MCH| WJ>MR| >KN NWD< HDBR|
-#Exodus	2	14	X| X X X X X X| X|X| X X| X X X X| X X| X| X X X|
-
-# %% [markdown]
-# ![image.png](attachment:053ef609-417d-4249-af87-043cc55802ab.png)
-
-# %%
-def count_words_in_line(file_path, line_number):
-    """
-    Counts the number of words in the specified line of a text file.
-
-    Args:
-        file_path (str): Path to the text file.
-        line_number (int): Number of the line to count the words in.
-
-    Returns:
-        int: Number of words in the specified line.
-    """
-
-    with open(file_path, 'r') as f:
-        lines = f.readlines()
-    try:
-        # Access the specified line
-        line = lines[line_number - 1]
-        # Remove leading and trailing whitespace from the line
-        line = line.strip()
-        # Split the line into words using whitespace as delimiters
-        words = line.split()
-        # Return the number of words
-        return len(words)
-    except IndexError:
-        print(f"Error: Line {line_number} does not exist in the file.")
-        return 0
-
-# %%
-#My files
-inputfilePath = "../data/input_gn_ex"
-outputfilePath = "../data/outputX_gn_ex"
-
-# %%
-for i in range(1,2746):
-    word_count_line_input = count_words_in_line(inputfilePath, i)
-    word_count_line_output = count_words_in_line(outputfilePath, i)
-
-    if word_count_line_input != word_count_line_output:
-        print(f"Line {i} of file {inputfilePath} contains {word_count_line_input} words.")
-        print(f"Line {i} of file {outputfilePath} contains {word_count_line_output} words.\n")
-
-    i=i+1
-
-# %%
-#My files
-inputfilePath = "../data/input_gn_ex"
-outputfilePath = "../data/outputX_gn_ex"
-
-# %%
-for i in range(1,2746):
-    word_count_line_input = count_words_in_line(inputfilePath, i)
-    word_count_line_output = count_words_in_line(outputfilePath, i)
-
-    if word_count_line_input != word_count_line_output:
-        print(f"Line {i} of file {inputfilePath} contains {word_count_line_input} words.")
-        print(f"Line {i} of file {outputfilePath} contains {word_count_line_output} words.\n")
-
-    i=i+1
-
-# %%
-!python main.py -mo=train -i=input_gn_ex -o=outputX_gn_ex -ep=5 -l=5 -lr=0.0001 -et=True
-
-# %% [markdown]
-# Time of execution = 1:42 min
-
-# %%
-import re
-
-# %%
-Genesis	4	22	WYLH GM HW> JLDH >T TWBL QJN| LVC KL XRC NXCT WBRZL| W>XWT TWBL QJN N<MH|
-Genesis	4	22	X X X X X X X| X X X X X| X X X X|
-
-Genesis	10	11	MN H>RY HHW> JY> >CWR| WJBN >T NJNWH W>T RXBT <JR W>T KLX|
-Genesis	10	11	X X X X X| X X X X X X X X|
-
-# %%
-i=0
-file_input=[]
-
-#pattern = r"\b\w+\b(?!\|)"
-pattern = r"[^\s|]+"
-
-for verse in F.otype.s('verse'):
-    verse_text = ""
-    cl_atoms = L.d(verse,'clause_atom')
-    for clause_atom in cl_atoms:
-        #clause_atom_text = "".join([F.g_cons.v(word) + (" " if F.trailer.v(word) else "") for word in L.d(clause_atom, 'word')]).replace("_", " ").strip()
-        #clause_atom_text += "|" if clause_atom_text == 'W' else "| "
-
-        text = []
-        for word in L.d(clause_atom, 'word'):
-            if not F.trailer.v(word):
-                text.append(F.g_cons.v(word))
-            else:
-                text.append(F.g_cons.v(word) + " ")
-            
-        clause_atom_text = "".join(text)
-        clause_atom_text = clause_atom_text.replace("_"," ")
-        clause_atom_text = clause_atom_text.strip()
-
-        if F.g_cons.v(word) in ['W','H'] and F.trailer.v(word) == "":
-            clause_atom_text += "|"
-        else:
-            clause_atom_text += "| "
-            
-        #Replacing the words in the output file as 'X' 
-        #if clause_atom_text in ['W','H']:
-        #    clause_atom_text += "|"
-        #else:
-        #    clause_atom_text += "| "
-
-        clause_atom_text = re.sub(pattern, "X", clause_atom_text)
-        
-        verse_text = verse_text + clause_atom_text
-    verse_text = verse_text.strip()
-    bo, ch, ve = T.sectionFromNode(verse)
-    final = "\t".join([bo, str(ch), str(ve), verse_text.strip()])
-
-    if bo == 'Genesis' and str(ch) == '7' and str(ve) == '16':
-        if i<10:
-            print(final)
-        i=i+1
-    
-    if bo in ['Genesis', 'Exodus']:
-        file_input.append(final)
-
-        with open('../data/outputX_gn_ex', 'w', encoding='utf-8') as file:
-            for line in file_input:
-                file.write(line + '\n')
-#Genesis	7	16	W|HB>JM| ZKR WNQBH MKL BFR B>W| K>CR YWH >TW >LHJM| WJSGR JHWH B<DW|
-
-# %% [markdown]
-# Using `X` in the output file:
-
-# %%
-!python main.py -mo=train -i=input_gn_ex -o=outputX_gn_ex -ep=5 -l=5 -lr=0.0001 -et=True
-
-# %% [markdown]
-# Time of execution = 1:54 min
-
-# %% [markdown]
-# Without using X (normal data) in the output file:
-
-# %%
-inputfilePath = "../data/input_gn_ex"
-outputfilePath = "../data/output_gn_ex"
-
-for i in range(1,2746):
-    word_count_line_input = count_words_in_line(inputfilePath, i)
-    word_count_line_output = count_words_in_line(outputfilePath, i)
-
-    if word_count_line_input != word_count_line_output:
-        print(f"Line {i} of file {inputfilePath} contains {word_count_line_input} words.")
-        print(f"Line {i} of file {outputfilePath} contains {word_count_line_output} words.\n")
-
-    i=i+1
-
-# %%
-!python main.py -mo=train -i=input_gn_ex -o=output_gn_ex -ep=5 -l=5 -lr=0.0001 -et=True
-
-# %% [markdown]
-# Time of execution = 3:19 min
-
-# %% [markdown]
-# ## May 30 Experiment
-
-# %%
-i=0
-file_input=[]
-
-#pattern = r"\b\w+\b(?!\|)"
-pattern = r"[^\s|]+"
-
-for verse in F.otype.s('verse'):
-    verse_text = ""
-    cl_atoms = L.d(verse,'clause_atom')
-    for clause_atom in cl_atoms:
-        #clause_atom_text = "".join([F.g_cons.v(word) + (" " if F.trailer.v(word) else "") for word in L.d(clause_atom, 'word')]).replace("_", " ").strip()
-        #clause_atom_text += "|" if clause_atom_text == 'W' else "| "
-
-        text = []
-        for word in L.d(clause_atom, 'word'):
-            if not F.trailer.v(word):
-                text.append(F.g_cons.v(word))
-            else:
-                text.append(F.g_cons.v(word) + " ")
-            
-        clause_atom_text = "".join(text)
-        clause_atom_text = clause_atom_text.replace("_"," ")
-        clause_atom_text = clause_atom_text.strip()
-
-        if F.g_cons.v(word) in ['W','H'] and F.trailer.v(word) == "":
-            clause_atom_text += "|"
-        else:
-            clause_atom_text += "| "
-            
-        #Replacing the words in the output file as 'X' 
-        #if clause_atom_text in ['W','H']:
-        #    clause_atom_text += "|"
-        #else:
-        #    clause_atom_text += "| "
-
-        clause_atom_text = re.sub(pattern, "X", clause_atom_text)
-        clause_atom_text = clause_atom_text.replace("X|", "Y")
-        
-        verse_text = verse_text + clause_atom_text
-    verse_text = verse_text.strip()
-    bo, ch, ve = T.sectionFromNode(verse)
-    final = "\t".join([bo, str(ch), str(ve), verse_text.strip()])
-
-    if bo == 'Genesis' and str(ch) == '7' and str(ve) == '16':
-        if i<10:
-            print(final)
-        i=i+1
-    
-    if bo in ['Genesis']:
-        file_input.append(final)
-
-        with open('../data/outputY_gn', 'w', encoding='utf-8') as file:
-            for line in file_input:
-                file.write(line + '\n')
-#Genesis	7	16	X|X| X X X X X| X X X X| X X X|
-
-# %%
-inputfilePath = "../data/input"
-outputfilePath = "../data/outputY_gn"
-
-for i in range(1,1533):
-    word_count_line_input = count_words_in_line(inputfilePath, i)
-    word_count_line_output = count_words_in_line(outputfilePath, i)
-
-    if word_count_line_input != word_count_line_output:
-        print(f"Line {i} of file {inputfilePath} contains {word_count_line_input} words.")
-        print(f"Line {i} of file {outputfilePath} contains {word_count_line_output} words.\n")
-
-    i=i+1
-
-# %%
-!python main.py -mo=train -i=input -o=outputY_gn -ep=5 -l=10 -lr=0.0001 -et=True
-
-# %% [markdown]
-# Time of execution = 1:35 min
-
-# %%
-file = "../evaluation_results_transformer/input_outputY_gn_ONE_DATASET/results_10seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_5epochs_3beamsize.txt"
-
-n = 5848
-
-n = int(float(n)/2)
+# %% F-SCORE of the MODEL
+# file = "../sp_evaluation_results_transformer/input_NT_normalized_output_NT_normalized_XYs_ONE_DATASET/results_10seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_15epochs_3beamsize.txt"
+# file = "../sp_evaluation_results_transformer/input_NT_normalized_output_NT_normalized_XYs_ONE_DATASET/results_15seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_20epochs_3beamsize.txt"
+file = "../sp_evaluation_results_transformer/input_NT_normalized_output_NT_normalized_XYs_ONE_DATASET/results_10seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_20epochs_3beamsize.txt"
 
 TP = 0
 FP = 0
 FN = 0
 TN = 0
 
-length = 10
-
 with open(file, 'r') as f:
     lines = f.readlines()
 
-    for i in range(0, n):
-        predicted = lines[2*i].strip()
+    lines_count = len(lines)-3 # =39269; "-3" is because the comments at the end takes up 3 lines. The last empty line is not retreived
+    # pair_count = int(float(lines_count)/2) # number of line pairs (=19635)
+
+    # print (f"Number of line pairs = {n}; last line nr = {2*n}")
+    print (f"last line nr = {lines_count}")
+
+    for line_predicted_nr in range(1, lines_count, 2):
+
+        line_truevalue_nr = line_predicted_nr+1
+
+        predicted = lines[line_predicted_nr-1].strip()
         predicted = predicted[10:].replace(" ","")
         
-        truevalue = lines[2*i+1].strip()
+        truevalue = lines[line_truevalue_nr-1].strip()
         truevalue = truevalue[10:].replace(" ","")
+
+        length = len(predicted)
 
         for j in range(0,length):
             if predicted[j] == truevalue[j] and truevalue[j] == 'X':
@@ -608,8 +159,9 @@ with open(file, 'r') as f:
             if predicted[j] != truevalue[j] and truevalue[j] == 'X':
                 FP = FP+1
          
-        if i < 10:
-            print(i, predicted)   
+        if line_predicted_nr < 5 or line_predicted_nr > lines_count-5:
+            print(f"line number {line_predicted_nr} predicted {predicted}")   
+            print(f"line number {line_truevalue_nr} truevalue {truevalue}")   
     
 print(f"TP = {TP} --- FP = {FP}\nFN = {FN} --- TN = {TN}")
 
