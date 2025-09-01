@@ -56,12 +56,12 @@ class DataReader:
         self.OUTPUT_WORD_TO_IDX = OUTPUT_WORD_TO_IDX
         
         try:
-            with open(self.input_filename, 'r') as f:
+            with open(self.input_filename, 'r', encoding='utf-8') as f:
                 input_verses = f.readlines()
         except FileNotFoundError as err:
             print(err)
         try:
-            with open(self.output_filename, 'r') as f:
+            with open(self.output_filename, 'r', encoding='utf-8') as f:
                 output_verses = f.readlines()
         except FileNotFoundError as err:
             print(err)
