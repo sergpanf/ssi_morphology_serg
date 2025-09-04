@@ -110,12 +110,11 @@ main(["-mo", "train", "-i", "input_NT_normalized", "-o", "output_NT_normalized_X
 
 # %% TRAINING with EVAL flag
 
-# main(["-mo", "train", "-i", "input_NT_translit", "-o", "output_NT_translit_XYs", "-ep", "20", "-l", "10", "-lr", "0.0001", "-et", "True"])
-main(["-mo", "train", "-i", "input_NT_nt", "-o", "output_NT_nt_XYs", "-ep", "20", "-l", "10", "-lr", "0.0001", "-et", "True"])
+main(["-mo", "train", "-i", "input_NT_nmt", "-o", "output_NT_nmt_XYs", "-ep", "20", "-l", "10", "-lr", "0.0001", "-et", "True"])
 
 
 # %% F-SCORE of the MODEL
-file = "../sp_evaluation_results_transformer/input_NT_nt_output_NT_nt_XYs_ONE_DATASET/results_10seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_20epochs_3beamsize.txt"
+file = "../sp_evaluation_results_transformer/input_NT_nmt_output_NT_nmt_XYs_ONE_DATASET/results_10seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_20epochs_3beamsize.txt"
 
 TP = 0
 FP = 0
