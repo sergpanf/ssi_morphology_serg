@@ -110,11 +110,11 @@ main(["-mo", "train", "-i", "input_NT_normalized", "-o", "output_NT_normalized_X
 
 # %% TRAINING with EVAL flag
 
-main(["-mo", "train", "-i", "input_NT_nmt_llt", "-o", "output_NT_nmt_llt_XYs", "-ep", "20", "-l", "10", "-lr", "0.0001", "-et", "True"])
+main(["-mo", "train", "-i", "input_NT_nmt_llt_cgp", "-o", "output_NT_nmt_llt_XYs", "-ep", "20", "-l", "10", "-lr", "0.0001", "-et", "True"]) # useing older output file, as XY-phrase-pattern will stay the same and the word count of the input file stays equal with it
 
 
 # %% F-SCORE of the MODEL
-file = "../sp_evaluation_results_transformer/input_NT_nmt_llt_output_NT_nmt_llt_XYs_ONE_DATASET/results_10seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_20epochs_3beamsize.txt"
+file = "../sp_evaluation_results_transformer/input_NT_nmt_llt_cgp_output_NT_nmt_llt_XYs_ONE_DATASET/results_10seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_20epochs_3beamsize.txt"
 
 TP = 0
 FP = 0
