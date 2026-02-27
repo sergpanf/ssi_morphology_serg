@@ -113,9 +113,28 @@ main(["-mo", "train", "-i", "input_NT_normalized", "-o", "output_NT_normalized_X
 # main(["-mo", "train", "-i", "input_NT_nlcgpnmst", "-o", "output_NT_XYs", "-ep", "20", "-l", "10", "-lr", "0.0001", "-et", "True"]) # using older output file, as XY-phrase-pattern will stay the same and the word count of the input file stays equal with it
 main(["-mo", "train", "-i", "fileA__NT", "-o", "fileB__NT", "-ep", "20", "-l", "10", "-lr", "0.0001", "-et", "True"]) # first OOP-refactored version testing
 
+# %% TRAINING with EVAL flag and reduced parameters
+
+main(["-mo", "train"
+      , "-i", "fileA__NT"
+      , "-o", "fileB__NT"
+      , "-ep", "10"
+      , "-l", "10"
+      , "-lr", "0.0001"
+      , "-et", "True"
+      # non-reduced extra parameters
+    #   , "-emb", "64" # default: 512
+    #   , "-nh", "2"  # default: 8
+    #   , "-nel", "1"  # default: 3
+    #   , "-ndl", "1"  # default: 3
+    #   , "-ffn", "256"  # default: 2048 
+    #   , "-b", "1" # default: 128
+      ]) # first OOP-refactored version testing 
+
 
 # %% F-SCORE of the MODEL
-file = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_20epochs_3beamsize.txt"
+file = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_10epochs_3beamsize.txt"
+# file = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0001lr_64embsize_2nhead_transformer_0.1dropout_1_batchsize_20epochs_3beamsize.txt"
 
 TP = 0
 FP = 0
