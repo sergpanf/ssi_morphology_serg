@@ -172,7 +172,7 @@ def evaluate_transformer_model(eval_path: str,
     if not os.path.exists(eval_path):
         os.makedirs(eval_path)
 
-    with open(f'{eval_path}/results_{evaluation_file_name}.txt', 'w') as f:
+    with open(f'{eval_path}/results_{evaluation_file_name}.txt', 'w', encoding='utf-8') as f:
         test_len = len(evaluation_data)
         for i in range(test_len):
             predicted = translate(loaded_transf.to(device), evaluation_data[i]['encoded_text'].to(device), OUTPUT_IDX_TO_WORD, OUTPUT_WORD_TO_IDX, beam_size, beam_alpha)
