@@ -79,6 +79,7 @@ def main(args):
     
     # Evaluate on test set after training the model.
     parser.add_argument("-et", metavar="eval_test", help="Optional: evaluate at the end on test set (True) or not (False)", type=str2bool, const=True, default=False, nargs='?')
+    parser.add_argument("-etonly", metavar="eval_test_only", help="Optional: do not create model, but ONLY evaluate the previously created model. (True) or (False)", type=str2bool, const=True, default=False, nargs='?')
     parser.add_argument("-sz", metavar="beam_size", help="Optional: size of beam during beam size decoding. If 0 is chosen, decoding takes place with greedy decoding", type=int, default=3, nargs='?')
     parser.add_argument("-ba", metavar="beam_alpha", help="Optional: alpha value regulates the penalty for longer sequences during beam search.", type=float, default=0.75, nargs='?')
 
@@ -158,7 +159,15 @@ def main(args):
             syr_train, syr_val, test_set = pipeline.make_pytorch_datasets(pipeline.data_set_two)
         elif training_type == TrainingType.ONE_DATASET:
             hebrew_train, hebrew_val, test_set = pipeline.make_pytorch_datasets(pipeline.data_set_one)
-
+        
+        if args.etonly:
+            import os
+            model_folder = f'MODEL_{pipeline.input_file}_{pipeline.output_file}_{training_type.name}'
+            pth = os.path.join(pipeline.model_path, model_folder)
+            pipeline.model_path_full = os.path.join(pth, pipeline.model_name)
+            pipeline.evaluate_on_test_set(test_set, training_type.name)
+            return
+        
         # Train model on (first) dataset
         train_dataloader, eval_dataloader = pipeline.make_data_loader(hebrew_train, hebrew_val)
         transformer = pipeline.initialize_model()
@@ -171,7 +180,7 @@ def main(args):
             pipeline.save_model(trained_transformer, training_type.name)
             if args.et:
                 pipeline.evaluate_on_test_set(test_set, training_type.name)
-         
+        
         # Train model on second dataset, save model and evaluate it.
         elif training_type == TrainingType.TWO_DATASETS_SEQUENTIALLY:
             train_dataloader_s, eval_dataloader_s = pipeline.make_data_loader(syr_train, syr_val)
