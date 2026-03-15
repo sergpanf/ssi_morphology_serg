@@ -13,7 +13,7 @@ Matthew	1	12	Y Y X X Y Y Y X Y Y Y Y X Y
 Matthew	1	13	Y Y Y X Y Y Y Y X Y Y Y Y X Y
 Matthew	1	14	Y Y Y X Y Y Y Y X Y Y Y Y X Y
 Matthew	1	15	Y Y Y X Y Y Y Y X Y Y Y Y X Y
-Matthew	1	16	Y Y Y X X X X Y X Y Y X X X Y
+Matthew	1	16	Y Y Y X X X X Y X Y Y X Y Y Y
 Matthew	1	17	Y Y X X X X X Y X Y Y X X X X X Y X Y Y X X X X X X Y X Y
 Matthew	1	18	Y Y X X X Y Y Y Y X X X Y X Y X Y Y Y Y X Y Y X X Y
 Matthew	1	19	Y Y X X Y Y Y Y Y Y Y Y Y Y Y Y
@@ -40,7 +40,7 @@ Matthew	2	14	Y Y Y Y X X X X X Y Y Y Y X Y
 Matthew	2	15	Y Y Y X X X Y Y Y Y Y X Y X X Y Y X Y Y X X Y
 Matthew	2	16	Y Y Y Y Y X X Y Y Y Y Y Y X X X X X X X X X X X X X X X Y X X Y Y Y X X Y
 Matthew	2	17	Y Y Y Y X X X Y Y
-Matthew	2	18	Y Y Y Y X X X Y Y Y X X Y Y Y Y Y Y Y Y
+Matthew	2	18	Y X Y Y X X X Y Y Y X X Y Y Y Y Y Y Y Y
 Matthew	2	19	Y Y X Y Y X Y Y X Y X Y X Y
 Matthew	2	20	Y Y Y X X X X X Y Y Y X X Y Y X Y Y X X X Y
 Matthew	2	21	Y Y Y Y X X X X X Y Y Y X X Y
@@ -55,7 +55,7 @@ Matthew	3	6	Y Y X X X Y X Y Y X X Y
 Matthew	3	7	Y Y X X X X Y Y X X Y Y Y X Y Y Y Y Y X Y Y Y
 Matthew	3	8	Y Y X X X Y
 Matthew	3	9	Y Y Y Y X Y Y Y X Y Y Y Y Y Y X Y X X X Y Y Y X Y
-Matthew	3	10	Y Y X Y X X X X Y Y X X Y Y Y X Y Y Y X Y Y
+Matthew	3	10	Y Y X Y X X X X Y Y Y Y Y Y Y X Y Y Y X Y Y
 Matthew	3	11	Y Y Y Y X Y X Y X Y X Y Y Y Y Y Y Y Y Y X Y Y Y Y Y X X X X Y
 Matthew	3	12	X X Y X X X Y Y Y X X Y Y Y X X Y X X Y Y Y Y Y X Y
 Matthew	3	13	Y Y X Y X X Y X X Y X X Y Y Y X Y
@@ -66,7 +66,7 @@ Matthew	3	17	X Y Y X X Y Y Y Y X X X X Y X Y Y
 Matthew	4	1	Y X Y Y X X Y X X Y Y X X Y
 Matthew	4	2	Y Y X X X X Y Y Y
 Matthew	4	3	Y Y Y Y Y Y Y Y Y X Y Y Y X X Y Y Y
-Matthew	4	4	Y Y Y Y Y Y X X Y Y X Y Y X X X X X X Y
+Matthew	4	4	Y Y Y Y Y Y X X Y Y X Y Y X X Y Y X X Y
 Matthew	4	5	Y Y Y X Y X X X Y Y Y Y X X X X Y
 Matthew	4	6	Y Y Y Y Y Y X Y Y Y Y Y X Y X X Y Y X Y Y X Y Y Y Y Y Y X Y X X Y
 Matthew	4	7	Y Y X Y Y Y Y Y X X X Y
@@ -86,7 +86,7 @@ Matthew	4	20	Y Y Y Y X Y Y Y
 Matthew	4	21	Y Y Y Y X X X X X X X X X X X Y X X Y X X X X Y Y X X Y Y Y Y
 Matthew	4	22	Y Y Y Y X X X X X Y Y Y
 Matthew	4	23	Y Y X X X Y Y X X X Y Y Y X X X Y Y Y X X X X Y X X Y
-Matthew	4	24	Y Y X X Y X X X Y Y Y Y X Y Y Y X X X Y Y Y Y Y X X Y Y Y
+Matthew	4	24	Y Y X X Y X X X Y Y Y Y X Y Y Y X X X Y Y Y Y Y X Y Y Y Y
 Matthew	4	25	Y Y Y X X X X X X X X X X X X X X Y
 Matthew	5	1	Y Y X Y Y X X Y Y Y Y Y Y X X Y
 Matthew	5	2	Y Y X X Y Y Y Y
@@ -115,7 +115,7 @@ Matthew	5	24	Y Y X X Y X X Y Y Y Y Y X X Y Y Y Y Y X X Y
 Matthew	5	25	X Y X X Y Y Y Y Y X Y X X Y Y Y Y Y X Y X Y Y X Y X Y Y X Y Y
 Matthew	5	26	Y Y Y X Y Y Y X Y Y X X Y
 Matthew	5	27	Y Y Y Y Y
-Matthew	5	28	Y Y Y Y Y X Y Y Y X X X Y Y Y Y X X X Y
+Matthew	5	28	Y Y Y Y Y X Y Y Y X Y Y Y Y Y Y X X X Y
 Matthew	5	29	X Y X X X X Y Y Y Y Y Y Y X Y Y Y Y Y Y X X X Y Y Y X X X Y Y X Y
 Matthew	5	30	X Y X X X Y Y Y Y Y Y Y X Y Y Y Y Y Y X X X Y Y Y X X X Y X Y Y
 Matthew	5	31	Y Y Y Y Y X X Y Y Y Y
@@ -177,7 +177,7 @@ Matthew	7	4	Y Y Y X X Y Y Y X Y X X X Y X Y X Y X X X Y
 Matthew	7	5	Y Y Y X X X Y X Y Y Y Y Y X Y X X X X X Y
 Matthew	7	6	Y Y X Y X Y Y Y X X Y X X Y Y Y Y Y X X X Y Y Y Y Y
 Matthew	7	7	Y Y Y Y Y Y Y Y Y Y Y
-Matthew	7	8	X X Y Y Y X Y Y Y X Y Y Y
+Matthew	7	8	Y Y Y Y Y X Y Y Y X Y Y Y
 Matthew	7	9	X Y Y X Y Y Y Y X X Y Y Y Y Y Y
 Matthew	7	10	Y X Y Y Y Y Y Y
 Matthew	7	11	X Y Y Y Y Y X Y Y X X Y X Y X X X X X X Y Y Y Y Y Y
@@ -193,7 +193,7 @@ Matthew	7	20	Y X X X Y Y Y
 Matthew	7	21	Y X Y Y Y X Y Y X X X X Y X Y Y X X X X X X X X Y
 Matthew	7	22	Y Y Y X X X Y X X Y X X Y Y Y X X Y Y Y Y X X Y X Y Y
 Matthew	7	23	Y Y Y Y Y Y Y Y Y X Y Y Y X Y
-Matthew	7	24	X Y Y Y X X X Y Y Y Y Y X Y Y Y X X Y X X Y
+Matthew	7	24	Y Y Y Y X X X Y Y Y Y Y X Y Y Y X X Y X X Y
 Matthew	7	25	Y Y X Y Y Y X Y Y Y X Y Y Y X X Y Y Y Y Y Y X X Y
 Matthew	7	26	Y X Y Y X X X Y Y Y Y Y Y X Y Y Y X X Y X X Y
 Matthew	7	27	Y Y X Y Y Y X Y Y Y X Y Y Y X X Y Y Y Y Y X X Y Y
@@ -207,14 +207,14 @@ Matthew	8	5	Y Y Y X Y Y Y Y Y Y
 Matthew	8	6	Y Y Y X X Y Y X X Y Y Y Y
 Matthew	8	7	Y Y Y Y Y Y
 Matthew	8	8	Y Y X Y Y Y Y Y Y Y X X X Y Y Y Y Y Y Y Y X X Y
-Matthew	8	9	Y Y Y X X X Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y Y Y Y Y
+Matthew	8	9	Y Y Y Y Y X Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y Y Y Y Y
 Matthew	8	10	Y Y X Y Y Y Y Y Y Y Y Y X Y X Y X X Y Y
 Matthew	8	11	Y Y Y Y Y X X X Y Y Y Y X X X X X Y X X X X Y
 Matthew	8	12	Y Y X X Y Y X X X X Y Y Y X X X X X X Y
 Matthew	8	13	Y Y X Y X Y Y Y Y Y Y Y Y X Y X X X Y
 Matthew	8	14	Y Y X Y X X X Y Y X X Y X X Y
 Matthew	8	15	Y Y X X Y Y Y Y X Y Y Y Y Y Y
-Matthew	8	16	Y Y Y Y Y Y X Y Y X Y Y Y X Y Y Y Y
+Matthew	8	16	Y Y Y Y Y Y Y Y Y X Y Y Y X Y Y Y Y
 Matthew	8	17	Y Y Y Y X X X Y Y Y X X Y Y Y X Y Y
 Matthew	8	18	Y Y X Y Y X Y Y Y X X Y
 Matthew	8	19	Y Y X Y Y Y Y Y Y Y Y Y
@@ -281,7 +281,7 @@ Matthew	10	7	Y Y Y Y Y Y X X X Y
 Matthew	10	8	Y Y Y Y Y Y Y Y Y Y Y Y
 Matthew	10	9	Y Y X X X X Y X X X Y
 Matthew	10	10	Y X X X X X X X X X Y Y Y X Y X X Y
-Matthew	10	11	X Y Y Y X X Y Y Y Y X Y Y Y Y Y X Y Y
+Matthew	10	11	X Y X Y X X Y Y Y Y X Y Y Y Y Y X Y Y
 Matthew	10	12	Y Y X X Y Y Y
 Matthew	10	13	X X Y Y X Y Y Y X X Y X Y X Y Y Y Y X X Y X Y Y
 Matthew	10	14	Y Y Y Y Y Y Y Y X X Y Y X X X X X X Y Y X X X X Y
@@ -364,7 +364,7 @@ Matthew	12	18	Y X X Y Y Y X X Y Y Y X X Y Y X X Y X Y Y Y X Y Y
 Matthew	12	19	Y Y Y Y Y Y Y X X Y X X Y
 Matthew	12	20	Y Y Y Y Y Y Y Y Y X Y Y X Y X Y
 Matthew	12	21	Y X X Y Y Y
-Matthew	12	22	Y Y Y Y X X X Y Y Y Y X Y X X Y
+Matthew	12	22	Y Y Y Y X X Y Y Y Y Y X Y X X Y
 Matthew	12	23	Y Y X X Y Y Y Y Y Y X X Y
 Matthew	12	24	Y Y Y Y Y Y Y Y X Y Y Y X X X X X Y
 Matthew	12	25	Y Y X X Y Y Y X Y Y X Y Y Y X X X Y Y X Y Y Y
@@ -417,7 +417,7 @@ Matthew	13	21	Y Y Y Y X Y Y Y Y Y Y X X Y X X Y Y Y
 Matthew	13	22	X Y X X Y Y Y Y Y X Y Y Y X X X X X X X X Y Y X Y Y Y Y
 Matthew	13	23	X Y X X X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Matthew	13	24	X Y Y Y Y Y X X X Y Y Y X Y X X X Y
-Matthew	13	25	X X Y Y X Y Y X X Y Y Y Y X X X Y Y Y
+Matthew	13	25	Y Y Y Y X Y Y X X Y Y Y Y X X X Y Y Y
 Matthew	13	26	X Y Y X Y Y Y Y Y Y X X Y
 Matthew	13	27	Y Y X X X Y Y Y X Y X Y Y X X X Y Y Y Y Y
 Matthew	13	28	Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y
@@ -431,7 +431,7 @@ Matthew	13	35	Y Y Y Y X X Y Y Y X Y X X Y Y Y X Y
 Matthew	13	36	Y Y X Y Y X X Y Y Y Y X X Y Y Y Y X X X X X Y
 Matthew	13	37	Y Y Y Y Y Y X X Y Y X X X Y
 Matthew	13	38	Y Y Y Y X Y X X X Y Y Y X X X Y Y Y Y Y X X X Y
-Matthew	13	39	X X X Y Y Y Y X Y Y Y Y X Y Y Y Y Y Y Y
+Matthew	13	39	Y Y X Y Y Y Y X Y Y Y Y X Y Y Y Y Y Y Y
 Matthew	13	40	X Y Y X Y Y Y Y Y Y X X X X Y
 Matthew	13	41	Y X X X Y X X Y Y Y X X X Y X X X X Y Y X Y
 Matthew	13	42	Y Y Y X X X X Y Y Y X X X X X X Y
@@ -603,7 +603,7 @@ Matthew	18	21	Y Y X Y Y Y Y Y Y X Y X X Y Y Y Y X Y
 Matthew	18	22	Y Y X Y Y Y Y X Y Y X X Y
 Matthew	18	23	X Y Y X X X Y X Y Y Y Y Y X X X Y
 Matthew	18	24	Y Y Y Y Y Y Y X X Y
-Matthew	18	25	Y Y Y Y Y Y X X X X X X X X X X X Y Y Y Y Y
+Matthew	18	25	Y Y Y Y Y Y Y X Y Y X X X X X X X Y Y Y Y Y
 Matthew	18	26	Y Y X Y Y Y Y Y X Y Y Y Y Y
 Matthew	18	27	Y Y X X X X Y Y Y Y X Y Y Y
 Matthew	18	28	Y Y X X Y Y X X X Y Y Y Y X Y Y Y Y Y Y Y Y Y Y
@@ -612,7 +612,7 @@ Matthew	18	30	Y Y Y Y Y Y Y Y X Y Y Y Y Y
 Matthew	18	31	Y Y X X Y Y Y Y Y Y Y Y X X Y X Y Y
 Matthew	18	32	Y Y Y X X Y Y Y X Y X X X Y Y Y Y Y Y
 Matthew	18	33	Y Y X Y Y X X Y Y Y Y Y
-Matthew	18	34	Y Y X X Y Y Y X Y Y Y Y X X X Y
+Matthew	18	34	Y Y X X Y Y Y X Y Y Y Y X Y Y Y
 Matthew	18	35	Y X X X X X Y Y Y Y Y Y Y X X Y X X X Y
 Matthew	19	1	Y Y Y Y X Y X X Y Y X X Y Y Y X X X X X X X Y
 Matthew	19	2	Y Y Y X Y Y Y Y Y
@@ -655,7 +655,7 @@ Matthew	20	8	Y Y Y Y X X X Y X X Y Y X Y Y Y X Y Y X X Y X X Y
 Matthew	20	9	Y Y X X X X Y Y Y Y
 Matthew	20	10	Y Y X Y Y Y Y Y Y Y X X Y X Y
 Matthew	20	11	Y Y Y X X Y
-Matthew	20	12	Y X X Y X Y Y Y Y Y X X Y Y X X X X X X Y
+Matthew	20	12	Y X X Y X Y Y Y Y Y Y Y Y Y X X X X X X Y
 Matthew	20	13	Y Y Y X Y Y Y Y Y Y Y Y Y Y
 Matthew	20	14	Y X Y Y Y Y Y X X Y Y Y X Y
 Matthew	20	15	Y Y Y Y Y Y X X Y Y X X Y Y Y Y Y Y Y
@@ -686,10 +686,10 @@ Matthew	21	5	Y X X Y Y X X Y Y Y X Y Y X X X X X X Y
 Matthew	21	6	Y Y X Y Y Y Y Y Y X Y
 Matthew	21	7	Y X X X X Y Y Y X Y X Y Y Y X Y
 Matthew	21	8	Y Y X Y Y X X Y X X Y Y Y Y Y X X Y Y Y X X Y
-Matthew	21	9	X X X Y Y Y X Y Y Y Y Y X X Y Y Y Y X X Y Y X X Y
+Matthew	21	9	Y Y X Y Y Y X Y Y Y Y Y X X Y Y Y Y X X Y Y X X Y
 Matthew	21	10	Y Y Y X Y Y X X Y Y Y Y Y
 Matthew	21	11	Y Y Y Y Y Y X X X X X X X Y
-Matthew	21	12	Y Y Y X X Y Y Y X X X X Y X X Y Y X X X X X X X X Y Y X Y
+Matthew	21	12	Y Y Y X X Y Y Y X X X X Y X X Y Y X X X Y Y X X X Y Y X Y
 Matthew	21	13	Y Y Y Y X X Y X Y Y Y Y Y Y X Y
 Matthew	21	14	Y Y Y X X Y X X Y Y Y Y
 Matthew	21	15	Y Y X X X X Y X Y Y Y X X X Y Y X X Y Y Y Y X X Y Y
@@ -733,7 +733,7 @@ Matthew	22	6	Y Y Y Y X X Y X X Y
 Matthew	22	7	Y Y Y Y Y Y X X Y Y X X Y Y X X Y Y
 Matthew	22	8	Y Y X X Y Y Y Y Y Y X Y Y Y Y Y
 Matthew	22	9	Y Y X X X X Y Y Y Y Y Y X X Y
-Matthew	22	10	Y Y X X Y X X Y Y Y Y Y X X X X Y Y X Y Y
+Matthew	22	10	Y Y X X Y X X Y Y Y Y Y X X X Y Y Y X Y Y
 Matthew	22	11	Y Y X Y Y Y Y Y Y Y Y Y X Y
 Matthew	22	12	Y Y Y Y Y Y Y Y Y X Y Y Y Y
 Matthew	22	13	Y X Y Y X Y Y X X X Y Y Y X X X X Y Y Y X X X X X X Y
@@ -772,7 +772,7 @@ Matthew	22	45	X Y Y Y Y Y Y X Y Y
 Matthew	22	46	Y Y Y Y Y Y Y Y Y X X X Y Y Y Y
 Matthew	23	1	Y X Y Y X X X X X Y
 Matthew	23	2	Y X X X Y Y X X X X Y
-Matthew	23	3	X Y Y Y Y Y X X Y Y Y X X Y Y Y Y X Y Y Y
+Matthew	23	3	Y Y Y Y Y Y X X Y Y Y X X Y Y Y Y X Y Y Y
 Matthew	23	4	Y Y X Y Y Y X X X X Y Y Y X X Y Y Y Y Y
 Matthew	23	5	Y Y X X Y Y X Y Y X Y Y Y X X Y Y Y X Y
 Matthew	23	6	Y X X X X X X X X X X X Y
@@ -799,11 +799,11 @@ Matthew	23	27	Y Y X X X X Y Y Y Y Y Y Y Y Y Y Y Y X X X X Y
 Matthew	23	28	Y X Y Y Y Y X Y Y Y Y Y Y X X Y
 Matthew	23	29	Y Y X X X X Y Y X X X Y Y Y X X X Y
 Matthew	23	30	Y Y Y Y X X X X X Y Y Y Y X Y X X X X Y
-Matthew	23	31	Y Y Y Y X X Y Y X Y
+Matthew	23	31	Y Y Y Y Y Y Y Y X Y
 Matthew	23	32	Y Y Y X X X X Y
 Matthew	23	33	X X Y Y Y X X X X Y
 Matthew	23	34	X Y Y Y Y X Y X X X X Y X Y X X X Y X Y Y X X X Y Y Y X X X Y
-Matthew	23	35	Y Y X Y X X Y Y X X Y X X X X X X X X X X X X X X X X X X X Y
+Matthew	23	35	Y Y X Y X X Y Y X X Y X X X X X X X X X X X Y Y Y X X X X X Y
 Matthew	23	36	Y Y Y Y X Y X X X Y
 Matthew	23	37	X X Y Y X Y Y Y Y Y X Y Y Y Y X X Y X Y Y Y X X Y X X Y Y Y Y
 Matthew	23	38	Y Y Y X X Y
@@ -882,12 +882,12 @@ Matthew	25	20	Y Y Y X X Y Y Y X X Y Y Y X Y Y Y Y X X Y Y
 Matthew	25	21	Y Y X X Y Y X X X Y X Y Y Y X Y Y Y Y X X X X X Y
 Matthew	25	22	Y X Y X X Y Y Y X Y Y Y Y X X Y Y
 Matthew	25	23	Y Y X X Y Y X X X Y X Y Y Y X Y Y Y Y X X X X X Y
-Matthew	25	24	Y Y X Y X X Y Y Y Y Y Y Y X X Y Y Y Y Y Y Y Y Y Y
+Matthew	25	24	Y Y X Y X X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Matthew	25	25	Y Y Y Y X X Y X X Y Y Y X Y
 Matthew	25	26	Y Y X X Y Y Y X X X Y Y Y Y Y Y Y Y Y Y Y Y
 Matthew	25	27	Y Y Y Y X X Y X Y Y Y Y Y Y X Y X Y
 Matthew	25	28	Y Y X Y X Y Y Y Y Y X X Y
-Matthew	25	29	X Y Y Y Y Y Y X Y Y Y Y Y Y Y X Y
+Matthew	25	29	Y Y Y Y Y Y Y X Y Y Y Y Y Y Y X Y
 Matthew	25	30	Y X X Y Y X X X X Y Y Y X X X X X X Y
 Matthew	25	31	X Y Y X X X Y X X X Y Y X X Y X Y Y Y X X X Y
 Matthew	25	32	Y Y X Y X X Y Y Y Y X Y Y X Y Y X Y X X Y
@@ -897,12 +897,12 @@ Matthew	25	35	Y X Y Y Y Y Y Y Y Y Y Y Y Y Y
 Matthew	25	36	Y Y Y Y Y Y Y Y X Y Y Y Y X Y
 Matthew	25	37	Y Y Y X Y Y X Y Y Y Y Y Y Y Y Y Y
 Matthew	25	38	X Y Y Y Y Y Y Y Y Y Y
-Matthew	25	39	X Y Y Y Y X X X Y Y X Y
+Matthew	25	39	X Y Y Y Y X X Y Y Y X Y
 Matthew	25	40	Y Y X Y Y Y Y Y Y Y Y Y X X X X X X Y Y Y
 Matthew	25	41	Y Y X X X Y Y X Y Y X X X X X Y Y X X X X X Y
 Matthew	25	42	Y X Y Y Y Y Y Y Y Y Y Y
 Matthew	25	43	Y Y Y Y Y Y Y Y Y Y Y X X X X Y Y Y Y
-Matthew	25	44	Y Y X Y Y X Y Y Y Y Y Y X X X X X X X X X Y Y Y Y
+Matthew	25	44	Y Y X Y Y X Y Y Y Y Y Y X X X X X X X X Y Y Y Y Y
 Matthew	25	45	Y Y Y Y Y Y Y Y Y Y Y X X X Y Y Y Y
 Matthew	25	46	Y Y Y X X Y Y Y Y X X Y
 Matthew	26	1	Y Y Y Y X Y X X X Y Y X X Y
@@ -936,7 +936,7 @@ Matthew	26	28	Y Y Y X X X X X Y X Y Y X X Y
 Matthew	26	29	Y Y Y X Y Y X Y X X X X X Y X X X X Y Y Y X Y Y X X X X X Y
 Matthew	26	30	Y Y Y X X X X Y
 Matthew	26	31	Y Y Y X Y X Y Y X Y X X X Y Y Y Y X Y Y Y X X X Y
-Matthew	26	32	X X Y Y Y Y Y X X Y
+Matthew	26	32	Y Y Y Y Y Y Y X X Y
 Matthew	26	33	Y Y X Y Y Y Y Y Y X Y Y Y Y
 Matthew	26	34	Y Y X Y Y Y Y Y X X X Y Y Y Y Y Y Y
 Matthew	26	35	Y Y X Y Y Y Y X Y Y X Y Y Y Y X X X Y Y
@@ -956,7 +956,7 @@ Matthew	26	48	X Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Matthew	26	49	Y Y Y X Y Y Y X Y Y Y
 Matthew	26	50	Y Y Y Y Y Y X Y Y Y Y Y X Y X X Y Y Y Y
 Matthew	26	51	X Y X X X Y Y X Y Y X X Y Y Y X X X Y Y X X Y
-Matthew	26	52	Y Y Y X Y Y X X Y X X X Y X X Y Y Y X Y Y
+Matthew	26	52	Y Y Y X Y Y X X Y X X X Y Y Y Y Y Y X Y Y
 Matthew	26	53	Y Y Y Y Y Y X X Y Y Y Y Y X X X Y
 Matthew	26	54	Y Y Y X Y Y Y Y Y
 Matthew	26	55	X X X Y Y X Y X Y Y X Y Y X X X Y Y Y X Y X X Y Y Y Y Y Y Y
@@ -994,7 +994,7 @@ Matthew	27	11	Y Y Y Y X X Y Y Y Y X Y Y Y Y X X X Y Y Y Y Y Y Y
 Matthew	27	12	Y X Y Y Y X X X X Y Y Y
 Matthew	27	13	Y Y Y X Y Y Y Y Y Y
 Matthew	27	14	Y Y Y Y X X X Y Y Y X Y Y
-Matthew	27	15	Y Y Y Y X Y Y X X X Y Y Y
+Matthew	27	15	Y Y Y Y X Y Y Y X Y Y Y Y
 Matthew	27	16	Y Y Y X Y Y Y
 Matthew	27	17	Y Y Y Y Y X Y Y Y Y Y X X X Y Y Y
 Matthew	27	18	Y X Y X Y Y Y
@@ -1012,7 +1012,7 @@ Matthew	27	29	Y Y Y X Y Y X X X Y Y Y X X X Y Y Y X Y Y Y Y Y X X Y
 Matthew	27	30	Y Y X Y Y X Y Y Y X X X Y
 Matthew	27	31	X Y Y Y Y Y X Y Y Y Y X X Y Y Y Y X Y Y
 Matthew	27	32	Y Y Y X Y Y Y Y Y Y Y X X Y
-Matthew	27	33	Y Y X Y Y Y Y Y Y Y Y
+Matthew	27	33	Y Y X Y Y Y Y Y X Y Y
 Matthew	27	34	Y Y Y Y X Y Y Y Y Y Y Y
 Matthew	27	35	Y Y Y Y X X Y Y Y
 Matthew	27	36	Y Y Y Y Y
@@ -1026,14 +1026,14 @@ Matthew	27	43	Y X X Y Y Y Y Y Y Y X Y Y Y Y
 Matthew	27	44	Y Y Y X X X Y Y X Y Y Y
 Matthew	27	45	Y Y X Y Y Y X X X Y X X Y
 Matthew	27	46	Y Y X X Y Y X Y X Y Y X Y Y Y Y Y X X X Y X Y Y Y
-Matthew	27	47	X X Y Y Y Y Y Y Y Y Y
-Matthew	27	48	Y Y Y X X X Y Y Y Y Y Y Y Y Y Y Y
+Matthew	27	47	Y Y Y Y Y Y Y Y Y Y Y
+Matthew	27	48	Y Y Y X X Y Y Y Y Y Y Y Y Y Y Y Y
 Matthew	27	49	Y Y Y Y Y Y Y Y Y Y Y
 Matthew	27	50	Y Y Y Y Y X Y Y X Y
 Matthew	27	51	X Y X X X Y Y X X X Y X Y Y X Y Y Y X Y Y
 Matthew	27	52	Y X Y Y Y X X Y Y Y Y
 Matthew	27	53	Y Y X X Y X X X Y Y X X X Y Y Y Y
-Matthew	27	54	X X X X Y X Y Y X Y Y X X X Y Y Y Y Y Y X Y Y Y
+Matthew	27	54	Y Y X X Y X Y Y X Y Y X X X Y Y Y Y Y Y X Y Y Y
 Matthew	27	55	Y Y Y X Y X Y Y Y Y X Y X X Y Y Y
 Matthew	27	56	X Y Y X X X X X X X X X X X X X X X X Y
 Matthew	27	57	Y Y Y Y X X X Y Y Y X X Y Y X Y
@@ -1103,7 +1103,7 @@ Mark	1	34	Y Y Y Y Y X Y Y X Y Y Y Y Y Y X Y Y Y Y
 Mark	1	35	Y Y X Y Y Y Y Y X X Y Y Y
 Mark	1	36	Y Y Y X X X X Y
 Mark	1	37	Y Y Y Y Y Y Y Y Y Y
-Mark	1	38	Y Y Y Y Y X Y Y X Y X Y Y X Y Y Y
+Mark	1	38	Y Y Y Y Y X Y Y Y Y X Y Y X Y Y Y
 Mark	1	39	Y Y Y X X X Y X X X Y Y X Y Y
 Mark	1	40	Y Y X Y Y Y Y Y Y Y Y X Y Y Y Y Y
 Mark	1	41	Y Y Y X X Y Y Y Y Y Y Y
@@ -1131,14 +1131,14 @@ Mark	2	17	Y Y X Y Y Y Y Y Y Y Y Y X Y Y Y Y Y Y Y Y Y
 Mark	2	18	X Y X X X X X Y X Y Y Y Y Y X Y X X X X X X X Y Y Y Y X Y Y Y
 Mark	2	19	Y Y Y X Y Y Y X X X Y Y Y X Y X Y Y Y X Y Y X Y X Y Y Y Y
 Mark	2	20	Y Y Y Y Y X Y X Y Y Y Y X X X Y
-Mark	2	21	Y X X Y Y X X Y X Y Y Y X Y Y Y X Y X Y Y X Y Y
+Mark	2	21	Y X X Y Y X X Y X Y Y Y X Y X Y X Y X Y Y X Y Y
 Mark	2	22	Y Y Y X Y X X Y X Y Y Y X Y X Y Y X Y Y Y X Y Y X Y X X Y
 Mark	2	23	Y Y Y X X Y Y X X Y Y X X Y Y Y Y Y X Y
 Mark	2	24	Y X Y Y Y Y Y Y X Y Y Y Y
 Mark	2	25	Y Y Y Y Y Y Y Y Y Y Y Y Y X X X X Y
 Mark	2	26	Y Y X X X X Y X X Y Y X X X Y Y Y Y Y Y Y Y X Y Y Y X Y X Y Y
 Mark	2	27	Y Y Y X Y X X Y Y Y Y X Y X X Y
-Mark	2	28	Y Y Y Y Y Y Y X X Y
+Mark	2	28	Y Y Y X X X Y X X Y
 Mark	3	1	Y Y Y X Y Y Y Y Y Y Y X Y
 Mark	3	2	Y Y Y Y X Y Y Y Y Y Y
 Mark	3	3	Y Y X X Y X Y Y Y Y X X Y
@@ -1166,7 +1166,7 @@ Mark	3	24	X Y Y X Y Y Y Y Y X X Y
 Mark	3	25	X Y Y X Y Y Y Y X X Y Y
 Mark	3	26	X Y X Y Y X Y Y Y Y Y Y Y Y Y
 Mark	3	27	Y Y Y Y X X X X Y Y X X Y Y Y Y Y X Y Y Y Y X X Y Y
-Mark	3	28	Y Y Y Y X X X X X X X X X X Y Y Y Y
+Mark	3	28	Y Y Y Y Y Y X X X Y X X X X Y Y Y Y
 Mark	3	29	Y X Y Y X X X X Y Y Y Y X X Y Y Y Y X Y
 Mark	3	30	Y Y X Y Y
 Mark	3	31	Y Y X X X X X X Y Y Y Y Y X Y Y Y
@@ -1229,7 +1229,7 @@ Mark	5	11	Y Y Y X X Y X X Y Y
 Mark	5	12	Y Y Y Y Y Y X X Y Y X Y Y
 Mark	5	13	Y Y Y Y Y X X X Y Y X X Y Y Y X Y X X Y X X Y X Y Y Y X X Y
 Mark	5	14	X Y Y Y Y Y Y X X X X X X Y Y Y Y Y Y Y Y
-Mark	5	15	Y Y X X Y Y Y Y Y X X X X Y Y X Y Y Y
+Mark	5	15	Y Y X X Y Y Y Y Y Y Y Y Y Y Y X Y Y Y
 Mark	5	16	Y Y Y Y Y Y Y Y Y Y X X Y
 Mark	5	17	Y Y Y Y Y X X X Y
 Mark	5	18	Y Y Y X X Y Y Y Y Y Y X Y Y
@@ -1259,7 +1259,7 @@ Mark	5	41	Y Y X X X Y Y Y Y Y Y X Y X Y Y Y Y
 Mark	5	42	Y Y Y X Y Y Y Y Y X Y Y Y Y X Y
 Mark	5	43	Y Y Y Y Y Y Y Y Y Y Y Y Y
 Mark	6	1	Y Y Y Y Y X X X Y Y Y Y X X Y
-Mark	6	2	Y Y Y Y Y X X Y Y X Y Y Y Y Y Y Y Y Y X X X X Y Y X X Y X X X Y Y
+Mark	6	2	Y Y Y Y Y X X Y Y X Y Y Y Y Y Y Y Y Y X X Y Y Y Y X X Y X X X Y Y
 Mark	6	3	Y Y Y X X X X X X X X X X X X X X Y X Y Y X X Y Y X Y Y Y X Y
 Mark	6	4	Y Y Y X Y Y Y Y Y Y Y Y X X X X X X X X X X X X X Y
 Mark	6	5	Y Y Y Y Y X Y Y Y X Y Y X Y Y
@@ -1465,7 +1465,7 @@ Mark	10	26	Y Y Y Y Y X Y Y Y Y Y
 Mark	10	27	Y Y X Y Y X Y Y Y Y X Y Y Y Y X X Y
 Mark	10	28	Y Y X Y Y Y Y Y Y Y Y Y
 Mark	10	29	Y X Y Y Y Y Y Y Y Y X X X X X X X X X X X X Y X X X X X Y
-Mark	10	30	Y Y Y Y Y Y Y Y Y X X X X X X X X X X Y X Y Y X X X Y Y X Y
+Mark	10	30	Y Y Y Y Y X X X Y X X X X X X X X X X Y X Y Y X X X Y Y X Y
 Mark	10	31	Y Y Y Y Y Y X Y Y
 Mark	10	32	Y Y X X Y Y X Y X X Y Y X Y Y Y X Y Y Y Y Y Y X Y Y Y Y Y Y Y Y
 Mark	10	33	X Y Y X Y Y X X X Y Y X X X X Y Y Y Y Y Y Y Y X Y
@@ -1502,7 +1502,7 @@ Mark	11	11	Y Y X Y X X Y Y Y Y Y Y Y X Y Y X Y X X Y
 Mark	11	12	Y X Y Y Y X Y Y
 Mark	11	13	Y Y Y X Y Y Y Y X Y Y Y X Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y
 Mark	11	14	Y Y Y Y Y X X Y X Y Y Y Y Y Y X X Y
-Mark	11	15	Y Y X Y Y Y X X Y Y Y Y Y X Y Y X X X Y X X X X X X X Y Y X Y Y
+Mark	11	15	Y Y X Y Y Y X X Y Y Y Y Y X Y Y X X Y Y X X X X X X X Y Y X Y Y
 Mark	11	16	Y Y Y Y Y Y Y X X Y
 Mark	11	17	Y Y Y Y Y Y Y Y X X Y X Y Y X X Y Y Y Y Y X Y
 Mark	11	18	Y Y X X X X Y Y Y Y Y Y Y Y Y Y Y X Y Y X X X Y
@@ -1545,7 +1545,7 @@ Mark	12	22	Y X Y Y Y Y X Y X X Y Y
 Mark	12	23	X X Y Y Y X Y Y Y Y Y Y Y Y Y
 Mark	12	24	Y Y X Y Y X Y Y Y Y X Y Y X X X Y
 Mark	12	25	X Y X Y Y Y Y Y Y Y Y X X X X Y
-Mark	12	26	X X X X Y Y Y Y X X X Y X X Y Y Y Y X Y Y Y X X X X X X X X Y
+Mark	12	26	Y Y X X Y Y Y Y X X X Y X X Y Y Y Y X Y Y Y X X X X X X X X Y
 Mark	12	27	Y Y X Y Y Y Y Y
 Mark	12	28	Y Y X X Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y
 Mark	12	29	Y X Y Y Y Y Y Y X X X Y X Y Y
@@ -1562,7 +1562,7 @@ Mark	12	39	X X X X X X X X X Y
 Mark	12	40	Y Y X X X Y Y Y Y Y Y Y X Y
 Mark	12	41	Y Y X X Y Y Y X Y Y Y X X Y Y X Y Y Y
 Mark	12	42	Y Y X X Y Y X Y Y Y Y
-Mark	12	43	Y Y X X Y Y Y Y Y Y Y X X X X Y Y X X Y Y X X Y
+Mark	12	43	Y Y X X Y Y Y Y Y Y Y X X X X Y Y Y Y Y Y X X Y
 Mark	12	44	Y Y X Y Y Y Y Y Y X X X Y Y Y Y Y X X X Y
 Mark	13	1	Y Y Y X X Y Y Y X X X Y Y Y X X X X Y
 Mark	13	2	Y X Y Y Y Y X X X Y X Y Y Y X Y Y X Y Y
@@ -1582,7 +1582,7 @@ Mark	13	15	X X X Y Y Y Y Y Y Y X X X Y
 Mark	13	16	Y X X X Y Y Y X X Y Y X X Y
 Mark	13	17	Y Y Y X Y Y X Y Y X X X Y
 Mark	13	18	Y X Y Y Y Y
-Mark	13	19	Y Y X X Y Y Y Y Y Y X X Y Y Y X Y X X X Y X Y Y
+Mark	13	19	Y Y X X Y Y Y Y Y Y X X Y Y Y X Y X X Y Y X Y Y
 Mark	13	20	X Y Y Y Y X Y Y Y Y X Y Y X X Y Y Y Y X Y
 Mark	13	21	Y Y Y Y Y Y Y Y X Y Y Y Y Y
 Mark	13	22	Y Y X X Y Y Y X X Y X Y Y Y Y X Y
@@ -1615,10 +1615,10 @@ Mark	14	11	Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Mark	14	12	Y X X X X Y Y X Y Y Y Y X X Y Y Y Y Y Y Y X Y
 Mark	14	13	Y Y X X X Y Y Y Y Y X X Y Y Y Y Y X Y Y Y Y
 Mark	14	14	Y Y Y Y Y X Y Y X Y Y Y Y X X Y Y X Y X X X Y Y
-Mark	14	15	Y Y Y Y X Y Y X Y Y Y Y
+Mark	14	15	Y Y Y Y X Y Y Y Y Y Y Y
 Mark	14	16	Y Y X Y Y Y X X Y Y Y Y Y Y Y Y X Y
 Mark	14	17	Y Y Y Y X X Y
-Mark	14	18	X Y Y X Y X Y Y Y Y Y Y X X X X X Y Y X Y
+Mark	14	18	X Y Y X Y X Y Y Y Y Y Y X X Y Y Y Y Y X Y
 Mark	14	19	Y Y Y Y Y X X Y Y Y
 Mark	14	20	Y Y Y Y X X X Y Y X Y X X Y
 Mark	14	21	Y Y Y X X Y Y Y Y X Y Y X X X Y X Y X X X Y Y Y Y Y Y Y X X Y
@@ -1647,7 +1647,7 @@ Mark	14	43	Y Y Y Y Y Y X X X X Y Y X Y X X X X Y X X X X X X X X Y
 Mark	14	44	Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Mark	14	45	Y Y Y Y Y Y X Y Y Y
 Mark	14	46	Y Y Y X Y Y Y Y Y
-Mark	14	47	X X X Y Y Y X Y Y X X X Y Y Y X X Y
+Mark	14	47	Y Y X Y Y Y X Y Y X X X Y Y Y X X Y
 Mark	14	48	Y Y X Y Y Y Y X Y Y X X X Y Y Y
 Mark	14	49	X Y Y X Y X X Y Y Y Y Y Y X Y Y X Y
 Mark	14	50	Y Y Y Y Y
@@ -1679,7 +1679,7 @@ Mark	15	3	Y Y Y X Y Y
 Mark	15	4	Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Mark	15	5	Y Y Y Y Y Y Y Y X Y
 Mark	15	6	Y Y Y Y Y X Y Y Y
-Mark	15	7	X X Y Y Y X X X Y Y X X Y Y Y
+Mark	15	7	X X Y Y Y X X Y Y Y X X Y Y Y
 Mark	15	8	Y Y X Y Y Y Y Y Y
 Mark	15	9	Y Y Y Y Y Y Y Y Y X X X Y
 Mark	15	10	Y X Y X Y Y Y X Y
@@ -1693,7 +1693,7 @@ Mark	15	17	Y Y Y Y Y Y Y Y X Y
 Mark	15	18	Y Y Y Y Y X X Y
 Mark	15	19	Y Y X X Y Y Y Y Y Y Y X Y Y Y
 Mark	15	20	X Y Y Y Y Y X Y Y Y Y X X Y Y Y Y Y Y Y
-Mark	15	21	Y Y Y X X Y Y X Y X X X X X Y Y X X Y
+Mark	15	21	Y Y Y X X Y Y X Y X X X X Y Y Y X X Y
 Mark	15	22	Y Y Y X X X Y Y X Y X Y
 Mark	15	23	Y Y Y Y Y Y Y Y Y
 Mark	15	24	Y Y Y Y Y X X Y Y Y X Y Y Y Y
@@ -1724,7 +1724,7 @@ Mark	16	2	Y X Y X X X Y Y X X Y Y X Y
 Mark	16	3	Y Y X Y Y Y Y X Y X X X X Y
 Mark	16	4	Y Y Y Y Y X Y Y Y X Y
 Mark	16	5	Y Y X X Y Y Y Y X X Y Y X Y Y Y
-Mark	16	6	Y Y Y Y Y Y X X X X Y Y Y Y Y Y Y X Y Y Y Y
+Mark	16	6	Y Y Y Y Y Y Y Y X X Y Y Y Y Y Y Y X Y Y Y Y
 Mark	16	7	Y Y Y X X X X X Y Y Y Y X X Y Y Y Y Y Y Y
 Mark	16	8	Y Y Y X X Y Y Y Y X X Y Y Y Y Y Y Y
 Mark	16	9	Y Y Y X Y Y Y X X Y X Y Y X Y
@@ -1735,11 +1735,11 @@ Mark	16	13	Y Y Y X Y Y Y Y
 Mark	16	14	Y Y Y X X Y Y Y Y X X X X Y X Y Y Y Y Y Y
 Mark	16	15	Y Y Y Y X X X Y Y X Y X X Y
 Mark	16	16	Y Y Y Y Y X Y Y Y
-Mark	16	17	Y Y Y Y Y Y X X X Y Y Y Y Y Y
+Mark	16	17	Y X Y Y Y Y X X X Y Y Y Y Y Y
 Mark	16	18	Y Y Y X Y Y X Y Y Y X Y Y Y Y Y Y
-Mark	16	19	Y Y Y X Y X Y Y Y Y X X Y Y Y X X X Y
+Mark	16	19	Y X Y X Y X Y Y Y Y X X Y Y Y X X X Y
 Mark	16	20	Y Y Y Y Y X Y Y Y X Y Y X Y Y Y
-Mark	16	99	X X Y Y X X X Y Y Y Y Y Y X X X Y X X X X Y Y X Y X X X X X X X Y
+Mark	16	99	Y Y Y Y X X X Y Y Y Y Y Y X X X Y X X X X Y Y X Y X X X X X X X Y
 Luke	1	1	Y Y Y Y Y X Y Y X Y Y
 Luke	1	2	Y Y Y Y X Y X X Y Y X Y
 Luke	1	3	Y Y Y Y Y Y Y Y Y X Y
@@ -1766,7 +1766,7 @@ Luke	1	23	Y Y Y Y X X X X Y Y X X X Y
 Luke	1	24	Y Y X X Y Y X X X Y Y Y Y X Y Y
 Luke	1	25	Y Y Y Y Y X Y Y Y Y X Y X Y
 Luke	1	26	Y Y X X X Y Y X X Y X X Y X X X Y Y Y Y
-Luke	1	27	X Y Y X X X X X X Y Y X X X Y Y
+Luke	1	27	X Y Y Y Y Y Y X X Y Y X X X Y Y
 Luke	1	28	Y Y X Y Y Y Y X Y X Y
 Luke	1	29	Y Y X X Y Y Y Y Y Y X X Y
 Luke	1	30	Y Y X Y Y Y Y Y Y Y Y X X Y
@@ -1804,7 +1804,7 @@ Luke	1	61	Y Y X Y X Y Y X X X Y Y Y X X Y
 Luke	1	62	Y Y X X Y Y Y Y Y Y Y
 Luke	1	63	Y Y Y Y Y Y Y X Y Y Y Y
 Luke	1	64	Y Y X X Y Y Y X X Y Y Y Y X Y
-Luke	1	65	Y Y X X X Y Y Y Y X X X X X Y Y X X X Y
+Luke	1	65	Y Y X Y Y Y Y Y Y X X X X X Y Y X X X Y
 Luke	1	66	Y Y X Y Y X X X Y Y Y Y X X Y Y Y Y X Y Y X Y
 Luke	1	67	Y X X X Y Y X Y Y Y Y
 Luke	1	68	Y X X X X Y Y Y Y Y Y X X Y
@@ -1846,7 +1846,7 @@ Luke	2	23	Y Y X X Y Y X Y Y Y Y X Y Y
 Luke	2	24	X Y Y Y X Y Y X X X Y X X X X X Y
 Luke	2	25	X Y Y Y X Y Y Y Y Y X X Y X X Y Y X X Y Y Y Y Y X Y
 Luke	2	26	X Y Y Y X X X X Y Y Y Y X X Y Y X X Y
-Luke	2	27	Y Y X X Y X X Y Y X Y Y X Y X X Y Y Y Y X X X X Y X Y
+Luke	2	27	Y Y X X Y X X Y Y X Y Y X Y X X Y Y Y Y X Y Y X Y X Y
 Luke	2	28	X Y Y Y X X Y Y Y X Y Y Y
 Luke	2	29	Y Y X X Y Y X X X Y X Y
 Luke	2	30	Y Y X X Y X X Y
@@ -1880,7 +1880,7 @@ Luke	3	5	X Y Y Y X X X Y Y Y Y X Y X Y Y X Y X X Y
 Luke	3	6	Y Y X Y X X X Y
 Luke	3	7	Y Y Y Y Y Y X Y X Y Y Y Y Y X Y Y Y
 Luke	3	8	Y Y X X X Y Y Y Y Y X Y Y Y X Y Y Y Y Y Y X Y X X X Y Y Y X Y
-Luke	3	9	Y Y X X Y X X X X Y Y X X Y Y Y X Y Y Y X Y Y
+Luke	3	9	Y Y X X Y X X X X Y Y Y Y Y Y Y X Y Y Y X Y Y
 Luke	3	10	Y Y Y X Y Y Y Y Y
 Luke	3	11	Y Y Y Y Y Y X Y Y Y Y Y X Y Y Y Y Y
 Luke	3	12	Y Y X Y Y Y Y X Y Y Y Y
@@ -1889,7 +1889,7 @@ Luke	3	14	Y Y Y Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y X X Y
 Luke	3	15	Y Y X Y Y Y Y X X X Y X X Y Y Y Y Y X Y
 Luke	3	16	Y Y Y X Y Y Y Y Y Y Y X X X Y Y Y Y Y Y X X X X Y Y Y Y X X X X Y
 Luke	3	17	X X Y X X X Y Y X X Y Y Y X Y X X X Y Y Y Y Y X Y
-Luke	3	18	Y Y Y X Y Y Y X Y
+Luke	3	18	Y X Y X Y Y Y X Y
 Luke	3	19	Y Y X X Y Y X Y X X X X X X X X X Y Y Y Y X Y
 Luke	3	20	Y X Y X Y Y X Y X Y
 Luke	3	21	Y Y X Y Y X X Y X Y Y Y Y Y X Y
@@ -1925,7 +1925,7 @@ Luke	4	12	Y Y Y Y X Y Y Y Y Y X X X Y
 Luke	4	13	Y Y X Y X Y Y X Y X Y
 Luke	4	14	Y Y X Y X X X X Y X X Y Y Y Y X X X Y X Y
 Luke	4	15	Y Y Y X X X Y Y X Y
-Luke	4	16	Y Y X Y Y X X Y Y X Y Y Y X X X X Y X X Y Y Y Y
+Luke	4	16	Y Y X Y Y X Y Y Y X Y Y Y X X X X Y X X Y Y Y Y
 Luke	4	17	Y Y Y X X X Y Y Y X Y Y X Y Y X Y
 Luke	4	18	X Y X Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y
 Luke	4	19	Y X X Y
@@ -2019,7 +2019,7 @@ Luke	6	23	Y X X X Y Y Y X Y X X Y Y X X Y X X Y Y Y X Y X X Y
 Luke	6	24	Y Y X X Y Y Y X X Y
 Luke	6	25	Y Y Y Y Y Y Y X Y Y Y Y Y Y Y
 Luke	6	26	X Y Y Y Y X X Y X X Y Y Y X Y X X Y
-Luke	6	27	Y X X Y Y Y X X Y Y Y Y Y Y
+Luke	6	27	Y Y Y Y Y Y X X Y Y Y Y Y Y
 Luke	6	28	Y Y Y Y Y X Y Y Y
 Luke	6	29	Y Y Y X X Y Y X X Y Y X Y Y X X Y X X Y Y Y
 Luke	6	30	Y Y Y Y Y X Y Y X Y Y Y
@@ -2032,7 +2032,7 @@ Luke	6	36	Y Y Y X X Y Y Y
 Luke	6	37	Y Y Y Y X Y Y Y Y Y Y X Y Y Y Y Y
 Luke	6	38	Y Y Y Y X Y Y Y Y Y X X X Y Y Y Y Y Y Y
 Luke	6	39	Y Y X Y Y Y Y Y Y Y Y Y X Y Y
-Luke	6	40	Y Y Y X X Y Y X Y Y X X X Y
+Luke	6	40	Y Y Y X X Y Y Y Y Y X X X Y
 Luke	6	41	Y Y Y X X X X X X X X Y Y Y X X X X X Y Y Y
 Luke	6	42	Y Y Y X X Y Y Y Y X X X X X X Y Y X X X X X Y Y Y Y Y Y X Y X X X Y Y Y Y X X X X X X X X Y Y
 Luke	6	43	Y X Y X Y Y X Y Y Y X Y Y X Y
@@ -2049,16 +2049,16 @@ Luke	7	4	Y Y Y X X Y Y Y Y Y Y Y Y Y Y Y
 Luke	7	5	Y Y X X Y Y X Y Y Y Y
 Luke	7	6	Y Y Y Y X Y Y Y Y X Y Y X X Y Y Y X Y Y Y Y Y Y Y Y Y Y Y X X X Y Y
 Luke	7	7	Y Y Y Y X Y Y Y Y Y Y Y X X Y
-Luke	7	8	Y Y Y X Y X Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y Y Y Y Y
+Luke	7	8	Y Y Y Y Y X Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y Y Y Y Y
 Luke	7	9	Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y X Y Y
 Luke	7	10	Y Y X X Y Y Y Y X Y Y
 Luke	7	11	Y Y X X Y Y X Y Y Y Y Y Y X X X X X Y
-Luke	7	12	X Y Y X X X Y X Y Y Y X X X X X Y Y Y Y Y X X X Y Y X Y
+Luke	7	12	X Y Y X X X Y X Y Y Y X X X X Y Y Y Y Y Y X X X Y Y X Y
 Luke	7	13	Y Y Y X Y Y X Y Y Y Y Y Y
 Luke	7	14	Y Y Y X Y X Y Y Y Y Y Y Y Y Y
 Luke	7	15	Y Y X Y Y Y Y Y Y Y X X Y
 Luke	7	16	Y Y Y Y Y Y X Y Y Y X Y Y X Y X Y Y X Y X X Y
-Luke	7	17	Y Y X X Y Y Y Y Y X Y X X X Y
+Luke	7	17	Y Y X X Y X X X Y X Y X X X Y
 Luke	7	18	Y Y Y X X Y X X Y Y Y X X X X Y X Y
 Luke	7	19	Y X X Y Y Y Y Y Y Y Y Y
 Luke	7	20	Y Y X Y X Y Y X X Y Y Y X Y Y Y Y Y Y Y Y Y
@@ -2131,9 +2131,9 @@ Luke	8	36	Y Y Y Y Y Y Y Y Y
 Luke	8	37	Y Y Y X X X X X X Y Y X Y Y X Y Y Y Y Y X Y Y
 Luke	8	38	Y Y Y X Y X Y Y X Y Y X Y Y Y Y Y
 Luke	8	39	Y X X X Y Y Y Y Y Y X Y Y Y X X X Y Y Y Y Y X Y
-Luke	8	40	X X Y Y X Y Y Y X Y X Y Y Y Y
+Luke	8	40	Y Y Y Y X Y Y Y X Y X Y Y Y Y
 Luke	8	41	X Y Y Y Y Y Y Y Y X X Y Y Y Y X X X Y Y Y Y X X X Y
-Luke	8	42	Y X Y Y Y X X Y Y Y Y X X Y Y Y X Y Y Y
+Luke	8	42	Y X Y Y Y X X Y Y Y Y Y Y Y Y Y X Y Y Y
 Luke	8	43	X Y Y X X Y X X Y Y Y Y X Y Y
 Luke	8	44	Y Y Y X X X X Y Y Y Y X X X X Y
 Luke	8	45	Y Y X Y Y Y Y Y Y Y Y Y X Y Y X Y Y Y Y Y
@@ -2154,7 +2154,7 @@ Luke	9	3	Y Y X Y Y Y X X Y Y Y Y Y Y Y Y Y Y X X Y Y
 Luke	9	4	Y X Y Y Y Y Y Y Y Y Y
 Luke	9	5	Y Y Y Y Y Y Y X X X Y X Y X X X Y Y X X X Y
 Luke	9	6	Y Y Y X X Y X X Y Y
-Luke	9	7	Y Y X X Y Y Y X Y Y X Y Y X Y Y Y Y X Y
+Luke	9	7	Y Y X X Y Y Y Y Y Y X Y Y X Y Y Y Y X Y
 Luke	9	8	X Y X Y Y Y Y X Y X X X Y Y
 Luke	9	9	Y Y Y Y Y Y Y Y Y Y X Y Y Y Y Y Y Y
 Luke	9	10	Y Y X Y Y Y Y Y Y Y Y Y X Y X Y Y Y
@@ -2193,7 +2193,7 @@ Luke	9	42	Y Y Y Y Y Y X Y Y Y Y Y X Y X X X Y Y Y X Y Y Y Y X X Y
 Luke	9	43	Y Y Y X X X X Y Y Y Y X Y Y Y Y X X X Y
 Luke	9	44	Y Y X X X Y X X Y Y Y X X Y Y Y X X Y
 Luke	9	45	Y Y Y X X Y X X Y X Y Y Y Y Y Y Y Y Y X X X Y
-Luke	9	46	Y Y X X X Y Y Y Y Y Y
+Luke	9	46	Y Y Y X Y Y Y Y Y Y Y
 Luke	9	47	Y Y Y Y X X X X Y Y Y Y Y X Y
 Luke	9	48	Y Y Y Y Y Y X X Y X X X Y Y Y Y Y Y Y Y Y Y Y Y X Y Y X X Y Y Y Y Y
 Luke	9	49	Y Y X Y Y Y Y Y X X X Y Y Y Y Y Y Y Y Y X Y
@@ -2214,12 +2214,12 @@ Luke	10	1	Y Y Y Y X Y X Y Y Y Y X Y X X Y X X X X Y Y Y Y Y
 Luke	10	2	Y Y X Y Y Y Y Y Y Y Y Y Y Y X X X Y Y Y Y X X X Y
 Luke	10	3	Y Y Y Y Y Y X X Y
 Luke	10	4	Y Y Y Y Y Y Y Y Y X X Y Y
-Luke	10	5	X Y Y Y Y Y Y Y Y X X Y
+Luke	10	5	X Y X Y Y Y Y Y Y X X Y
 Luke	10	6	X Y Y Y X Y Y X Y X X Y X Y Y X Y Y
 Luke	10	7	X Y Y X Y Y X X Y X X Y Y Y X Y X X Y Y Y X X X Y
 Luke	10	8	Y X Y Y Y Y Y Y Y Y Y Y Y
 Luke	10	9	Y Y X X X Y Y Y Y Y X Y X X X Y
-Luke	10	10	X Y Y Y Y Y Y Y Y Y Y X X X Y Y
+Luke	10	10	X Y X Y Y Y Y Y Y Y Y X X X Y Y
 Luke	10	11	X X X Y Y Y X X X Y X X Y Y Y Y Y Y Y Y X X X Y
 Luke	10	12	Y Y Y Y X X X Y Y Y Y X X Y
 Luke	10	13	Y Y Y Y Y X X Y X X X Y Y X X Y Y X Y Y Y X X X Y Y Y
@@ -2245,14 +2245,14 @@ Luke	10	32	Y Y X Y X X Y Y Y Y Y
 Luke	10	33	Y Y Y Y Y X Y Y Y Y
 Luke	10	34	Y Y Y X X Y Y X X Y Y Y Y X X X Y Y Y X Y Y Y Y
 Luke	10	35	Y X X Y Y X Y Y X Y Y Y Y Y Y Y X Y Y Y X Y Y Y Y Y
-Luke	10	36	X X X Y X X X X Y Y X X Y
+Luke	10	36	X X X Y Y Y Y Y Y Y X X Y
 Luke	10	37	Y Y Y Y Y X Y X Y Y Y Y X Y Y Y Y Y Y
-Luke	10	38	X X Y Y Y Y Y X X Y X X Y Y Y Y Y X X Y
+Luke	10	38	Y Y Y Y Y Y Y X X Y Y Y Y Y Y Y Y X X Y
 Luke	10	39	Y Y Y Y Y Y Y Y Y X X X X Y Y X X Y
 Luke	10	40	Y Y Y Y X X Y Y Y Y Y Y Y Y Y X X Y X Y Y Y Y Y Y Y Y Y
 Luke	10	41	Y Y Y Y X Y X X X X Y X Y
 Luke	10	42	Y Y Y Y Y Y Y Y X X Y Y Y Y Y Y
-Luke	11	1	Y Y X X Y Y X X Y X Y Y Y X X X Y X Y Y Y Y Y Y X Y Y X X Y
+Luke	11	1	Y Y X X Y Y X X Y Y Y Y Y X X X Y X Y Y Y Y Y Y X Y Y X X Y
 Luke	11	2	Y Y Y Y Y Y Y Y X X Y Y X X Y
 Luke	11	3	X X X X Y Y Y X X Y
 Luke	11	4	Y Y Y X X Y Y Y Y Y Y Y Y Y Y Y Y X Y
@@ -2261,7 +2261,7 @@ Luke	11	6	Y X Y Y X Y X Y Y Y Y Y Y Y
 Luke	11	7	Y Y Y Y Y Y Y Y Y X Y Y Y X X Y X Y X X Y Y Y Y Y Y Y
 Luke	11	8	Y Y Y Y Y Y Y Y X Y Y X Y Y Y X X Y Y Y Y Y Y
 Luke	11	9	Y Y Y Y Y Y Y Y Y Y Y Y Y Y
-Luke	11	10	X X Y Y Y X Y Y Y X Y Y Y
+Luke	11	10	Y Y Y Y Y X Y Y Y X Y Y Y
 Luke	11	11	Y Y X X X Y Y X Y Y Y X Y Y Y Y
 Luke	11	12	Y Y Y Y Y Y Y
 Luke	11	13	X Y Y Y Y Y X Y Y X X Y X Y X X X X Y Y X Y Y Y Y
@@ -2288,7 +2288,7 @@ Luke	11	33	Y Y Y X Y Y Y X X Y Y X X Y X Y Y X Y Y
 Luke	11	34	X X X Y Y X X Y Y X X Y Y Y X X X X Y Y Y X Y Y Y X X X Y Y
 Luke	11	35	Y X Y X X X X Y Y Y
 Luke	11	36	X Y X X X Y Y Y Y X X Y Y X Y X Y X Y X Y Y Y
-Luke	11	37	X X Y Y Y Y Y Y Y X Y Y Y Y
+Luke	11	37	Y Y Y Y Y Y Y Y Y X Y Y Y Y
 Luke	11	38	Y Y Y Y Y Y Y Y Y X X Y
 Luke	11	39	Y Y X Y X Y Y X X Y X X X X X X Y Y Y Y X Y Y X X Y
 Luke	11	40	X X Y Y X Y X X Y Y
@@ -2338,7 +2338,7 @@ Luke	12	29	X Y Y Y Y Y Y Y Y Y Y Y
 Luke	12	30	Y Y Y X X X Y Y Y Y X Y Y Y Y Y
 Luke	12	31	Y Y X X Y Y Y Y Y
 Luke	12	32	Y Y X X X Y Y X X Y Y Y X Y
-Luke	12	33	Y Y Y X Y Y Y Y Y Y Y Y X X X X Y Y Y Y Y Y Y Y
+Luke	12	33	Y Y Y Y Y Y Y Y Y Y Y Y X X X X Y Y Y Y Y Y Y Y
 Luke	12	34	Y Y Y X X Y Y X X X Y Y
 Luke	12	35	Y X X Y Y Y X Y Y
 Luke	12	36	Y Y Y Y Y X X Y Y Y X X Y Y Y Y Y Y Y Y
@@ -2352,7 +2352,7 @@ Luke	12	43	Y X X Y Y Y X X Y Y Y Y
 Luke	12	44	Y Y Y Y X X Y Y Y Y Y
 Luke	12	45	X Y Y X X Y X X X Y Y X X Y Y Y Y Y X X X X Y X X X X X Y
 Luke	12	46	Y X X X X Y X Y Y Y Y X X Y Y Y Y Y Y Y Y X X Y X X Y Y
-Luke	12	47	X X X X Y Y X X X X Y Y Y X X Y X X X Y Y Y
+Luke	12	47	Y Y X X Y Y X X X X Y Y Y X X Y X X X Y Y Y
 Luke	12	48	X Y Y Y Y Y X Y Y Y X Y Y Y Y Y Y X Y Y Y Y Y Y Y Y
 Luke	12	49	Y Y Y X X Y Y Y Y Y Y Y
 Luke	12	50	Y Y Y Y Y Y Y Y Y Y
@@ -2486,7 +2486,7 @@ Luke	16	16	X X X X Y X Y X Y X X X Y Y Y Y X Y Y
 Luke	16	17	Y Y Y X X X X Y Y Y X X X Y Y
 Luke	16	18	X Y Y X X Y Y Y Y Y X Y Y X Y Y Y
 Luke	16	19	Y Y Y Y Y Y Y X X Y Y X Y Y
-Luke	16	20	X X Y Y Y Y X X X Y Y
+Luke	16	20	Y Y Y Y Y Y X X X Y Y
 Luke	16	21	Y Y Y X Y Y X X X X Y Y X X Y Y Y X X Y
 Luke	16	22	Y Y Y X Y Y Y Y X X Y X X X Y Y Y X X Y Y Y
 Luke	16	23	Y X X Y Y X X Y Y X Y Y Y X Y Y X X X X Y
@@ -2504,7 +2504,7 @@ Luke	17	3	Y Y Y Y X X Y Y Y X Y Y Y Y
 Luke	17	4	X Y Y X Y Y X Y Y Y Y X Y Y Y Y Y
 Luke	17	5	Y Y X Y X Y Y Y Y
 Luke	17	6	Y Y X Y Y Y X X X Y Y Y X X Y Y Y Y X X Y Y Y Y Y
-Luke	17	7	X X X Y X Y Y Y Y Y Y X X Y Y Y Y Y Y
+Luke	17	7	X X X Y Y Y Y Y Y Y Y X X Y Y Y Y Y Y
 Luke	17	8	X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y X X Y Y
 Luke	17	9	Y Y Y X Y Y Y Y Y
 Luke	17	10	Y X Y Y Y X Y Y Y Y Y X Y Y Y Y Y Y
@@ -2538,7 +2538,7 @@ Luke	18	1	Y Y Y Y X Y Y Y Y Y Y Y Y
 Luke	18	2	Y X Y Y X X Y X Y Y Y Y Y Y Y
 Luke	18	3	Y Y Y X X X Y Y Y X Y Y Y Y X X X Y
 Luke	18	4	Y Y Y X Y X Y Y Y X Y Y X X Y Y Y Y Y Y
-Luke	18	5	X X Y Y Y Y X X Y Y Y Y Y X Y Y Y Y
+Luke	18	5	Y Y Y Y Y Y X X Y Y Y Y Y X Y Y Y Y
 Luke	18	6	Y Y X Y Y Y X X X Y Y
 Luke	18	7	Y Y Y X Y Y X X X X X Y Y Y X X Y Y Y X Y
 Luke	18	8	Y Y Y Y X X Y X Y Y X X X Y Y Y Y X Y X X Y
@@ -2598,11 +2598,11 @@ Luke	19	18	Y Y X Y Y X X Y Y Y X Y
 Luke	19	19	Y Y X Y X Y Y Y X Y
 Luke	19	20	Y X Y Y Y Y Y X X Y Y Y Y X Y
 Luke	19	21	Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y
-Luke	19	22	Y Y X X X Y Y Y X Y Y Y Y X X Y Y Y Y Y Y Y Y Y Y
+Luke	19	22	Y Y X X X Y Y Y X Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y
 Luke	19	23	Y X Y Y Y X X Y X Y Y Y X Y Y Y Y
 Luke	19	24	X Y Y Y Y X Y X Y Y Y Y X X Y Y
 Luke	19	25	Y Y Y Y Y X Y
-Luke	19	26	Y Y Y X Y Y Y X X Y Y Y Y Y Y Y
+Luke	19	26	Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y
 Luke	19	27	Y X X X X Y Y Y Y Y X Y Y Y Y Y Y X Y
 Luke	19	28	Y Y Y Y Y Y X Y
 Luke	19	29	Y Y Y Y X X X Y X X X Y Y Y Y X X Y
@@ -2641,7 +2641,7 @@ Luke	20	13	Y Y X X X Y Y Y Y X X X X Y Y Y Y
 Luke	20	14	Y Y Y X Y Y X Y Y Y Y X Y Y Y Y Y Y X Y
 Luke	20	15	Y Y Y X X Y Y Y Y Y Y X X X Y
 Luke	20	16	Y Y Y X X Y Y Y X Y Y Y Y Y Y Y
-Luke	20	17	Y Y Y Y Y Y Y Y Y Y X Y Y Y Y Y Y Y X X Y
+Luke	20	17	Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y
 Luke	20	18	X Y Y X X X Y Y X Y X Y Y Y Y
 Luke	20	19	Y Y X X X X Y Y X Y X Y X X X Y Y Y X Y Y X Y X Y Y X X Y
 Luke	20	20	Y Y Y Y Y Y Y Y Y Y X Y Y Y Y X X X X X X Y
@@ -2729,11 +2729,11 @@ Luke	22	16	Y Y Y Y Y X Y Y Y Y Y Y X X X X Y
 Luke	22	17	Y Y Y Y Y Y Y Y Y X Y
 Luke	22	18	Y Y Y X Y Y X X Y X X X X Y Y Y X X X Y Y
 Luke	22	19	Y Y Y Y Y Y Y Y Y Y Y X X X Y X Y Y Y Y X X X Y
-Luke	22	20	Y X Y Y X Y Y Y X X X X X X X X X X Y X Y Y
+Luke	22	20	Y X Y Y X Y Y Y X X Y X X X X X X Y Y X Y Y
 Luke	22	21	X Y X X Y Y Y X Y X X Y
 Luke	22	22	Y X Y Y X Y X Y Y Y Y Y X X Y X Y Y
 Luke	22	23	Y Y Y Y X Y Y Y Y Y X Y Y Y Y Y
-Luke	22	24	Y Y X X X X Y X Y Y Y Y
+Luke	22	24	Y Y X Y X Y Y X Y Y Y Y
 Luke	22	25	Y Y Y Y X X X Y Y Y X Y Y Y Y Y
 Luke	22	26	Y Y Y Y Y X X X Y Y X X Y X Y Y X Y Y
 Luke	22	27	Y Y Y Y Y X Y Y X Y Y Y Y X X Y Y X Y Y
@@ -2746,7 +2746,7 @@ Luke	22	33	Y Y Y Y Y X Y Y Y X X X X X Y Y
 Luke	22	34	Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Luke	22	35	Y Y Y Y Y Y X X X X X Y Y Y Y Y Y Y Y
 Luke	22	36	Y Y Y Y Y Y Y Y Y Y X Y X Y Y Y Y X X Y Y Y Y
-Luke	22	37	Y Y Y Y X Y Y X X X X X Y X Y Y Y Y X X Y Y Y
+Luke	22	37	Y Y Y Y X Y Y Y Y X Y X Y X Y Y Y Y X X Y Y Y
 Luke	22	38	Y Y Y X Y Y Y Y Y Y Y Y Y Y
 Luke	22	39	Y Y Y X X Y X X X X Y Y Y Y X X Y
 Luke	22	40	Y Y X X Y Y Y Y Y Y X Y
@@ -2761,7 +2761,7 @@ Luke	22	48	Y Y Y Y Y Y X X X Y Y
 Luke	22	49	Y Y X X Y Y Y Y X Y Y X Y
 Luke	22	50	Y Y X X X Y X X X Y Y Y X X X X Y
 Luke	22	51	Y Y X Y Y Y X Y Y Y X Y Y Y
-Luke	22	52	Y Y Y X Y Y X Y X X X X X X X Y X Y Y X X X Y
+Luke	22	52	Y Y Y X Y Y X Y X X X X X X Y Y X Y Y X X X Y
 Luke	22	53	X Y Y Y X Y X X Y Y Y X Y X Y Y Y Y X X X X X X X Y
 Luke	22	54	Y Y Y Y Y Y X X X X Y Y Y Y Y Y
 Luke	22	55	Y Y Y X X X Y Y Y Y X Y X Y
@@ -2798,7 +2798,7 @@ Luke	23	14	Y X Y Y Y X X Y Y Y X Y X Y Y X Y Y Y Y X X X Y Y Y Y X Y
 Luke	23	15	Y Y Y Y Y Y X Y X Y X X Y X Y Y
 Luke	23	16	Y Y Y Y
 Luke	23	18	Y Y Y Y Y Y Y Y Y X Y
-Luke	23	19	Y Y X X Y Y X X Y X X Y X X Y
+Luke	23	19	Y Y X X Y Y X X Y X Y Y X X Y
 Luke	23	20	Y Y X Y Y Y Y Y X Y
 Luke	23	21	Y Y Y Y Y Y Y
 Luke	23	22	Y Y Y Y X Y Y Y Y Y Y X X Y Y X Y Y Y Y Y
@@ -2818,9 +2818,9 @@ Luke	23	35	Y Y X Y Y Y Y X X Y Y Y Y Y Y Y Y Y X X X X X Y
 Luke	23	36	Y Y Y X X Y Y Y Y Y
 Luke	23	37	Y Y Y Y Y X X X Y Y Y
 Luke	23	38	Y Y X Y X Y X X X Y Y
-Luke	23	39	X X Y Y Y Y Y Y Y Y X Y Y X X Y
+Luke	23	39	Y Y Y Y Y Y Y Y Y Y X Y Y X X Y
 Luke	23	40	Y Y X Y Y Y Y Y Y Y X Y Y X X X Y Y
-Luke	23	41	Y Y Y Y X Y Y Y Y Y Y X Y Y
+Luke	23	41	Y Y Y Y Y Y Y Y Y Y Y X Y Y
 Luke	23	42	Y Y Y Y Y Y Y X X X Y
 Luke	23	43	Y Y Y Y Y Y Y X Y Y X X Y
 Luke	23	44	Y Y Y X X Y Y Y Y X X X Y X X Y
@@ -2828,7 +2828,7 @@ Luke	23	45	X Y Y Y Y X X X Y Y
 Luke	23	46	Y Y X Y X Y Y Y X X Y Y X X Y Y Y Y Y
 Luke	23	47	Y Y X Y Y Y Y X Y Y Y X X Y Y Y
 Luke	23	48	Y X Y Y Y X X X Y Y Y Y Y X Y Y
-Luke	23	49	Y Y X X X X X X X X Y Y Y X X Y Y Y
+Luke	23	49	Y Y X X X Y X Y X X Y Y Y X X Y Y Y
 Luke	23	50	X X Y Y Y Y Y X X X Y
 Luke	23	51	Y Y X Y X X X X X Y X X X X Y Y Y X X X Y
 Luke	23	52	Y Y X Y Y X X X Y
@@ -2945,10 +2945,10 @@ John	2	2	Y Y X X X X X X Y X X Y
 John	2	3	Y Y Y Y X X X Y X Y Y Y Y
 John	2	4	Y Y Y X Y Y X X Y Y Y Y X X Y
 John	2	5	Y X X Y X Y Y X Y Y Y Y
-John	2	6	X Y Y X X X X X X X X Y Y X X X X Y
+John	2	6	X Y Y X X X X X X X Y Y Y X X X X Y
 John	2	7	Y Y X Y Y X Y Y Y Y Y X Y
 John	2	8	Y Y Y Y Y Y Y X Y Y Y Y
-John	2	9	X Y Y X Y X Y Y Y Y Y Y Y Y X X X X Y Y X Y Y X Y X Y
+John	2	9	X Y Y X Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y Y X Y X Y
 John	2	10	Y Y Y X Y Y X X Y Y X Y Y X Y Y Y X X Y X Y
 John	2	11	Y Y X X Y X Y X X X Y Y Y X X Y Y Y X Y X X Y
 John	2	12	X Y Y X Y X X X X X X X X X X X Y Y Y Y X X Y
@@ -2984,7 +2984,7 @@ John	3	16	Y Y Y X Y X Y Y X X X Y Y Y X Y Y X Y Y Y Y Y X Y
 John	3	17	X Y Y X Y X Y X X Y Y Y X Y X Y Y X Y X Y
 John	3	18	Y Y X Y Y Y Y Y Y Y Y Y Y Y X X X X X X X Y
 John	3	19	Y Y Y X Y Y X Y Y X X Y Y Y X Y Y X Y Y X Y Y Y Y Y X Y
-John	3	20	X X Y Y Y Y X Y Y Y Y X X Y Y Y Y X X Y
+John	3	20	Y Y Y Y Y Y X Y Y Y Y X X Y Y Y Y X X Y
 John	3	21	X Y Y X Y Y X X Y Y Y X X Y Y X Y X Y
 John	3	22	X Y Y X X X X X Y X X X Y Y Y Y X Y Y Y
 John	3	23	X Y X Y Y X Y X X Y Y Y Y Y Y Y Y Y Y
@@ -2993,7 +2993,7 @@ John	3	25	Y Y Y X X X Y X Y X Y
 John	3	26	Y Y X X Y Y Y Y Y Y Y X Y X X Y Y Y Y Y Y Y Y Y Y X Y
 John	3	27	Y Y Y Y Y Y Y Y Y Y Y X Y Y X X Y
 John	3	28	X Y Y Y Y Y Y Y Y X Y X X X Y X Y
-John	3	29	Y Y X Y Y Y X X X X X Y Y Y Y Y Y Y X X X X Y Y Y X X X Y Y
+John	3	29	Y Y X Y Y Y Y Y X X X Y Y Y Y Y Y Y X X X X Y Y Y X X X Y Y
 John	3	30	Y Y Y Y Y Y
 John	3	31	Y Y Y X Y Y Y Y X X Y X X Y Y Y X X Y Y Y X X Y Y X Y Y
 John	3	32	Y X X Y Y Y Y X X Y Y Y
@@ -3009,7 +3009,7 @@ John	4	5	Y Y X X X Y Y Y X X Y Y Y Y X X X Y
 John	4	6	Y Y Y X X Y Y Y Y Y X X Y Y Y X X Y Y Y X Y
 John	4	7	Y X X X Y Y Y Y Y X Y Y Y Y
 John	4	8	Y Y X Y Y X X Y Y Y Y
-John	4	9	Y Y Y X X X Y Y Y Y Y X X X X Y Y Y Y Y Y Y Y
+John	4	9	Y Y Y X X X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y
 John	4	10	Y Y Y Y Y Y Y X X X X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 John	4	11	Y Y Y Y Y Y Y X Y Y Y Y Y Y X X Y Y
 John	4	12	Y Y Y Y X X X Y Y Y Y X Y Y Y X Y Y Y X X X X X X Y
@@ -3025,8 +3025,8 @@ John	4	21	Y Y X Y Y Y X Y Y Y Y X X X X X X X Y Y X Y
 John	4	22	Y Y Y Y Y Y Y Y Y Y X Y X X Y Y
 John	4	23	Y Y Y Y Y Y Y X X Y Y X Y X X X Y Y Y X Y Y Y Y Y Y
 John	4	24	Y X Y X Y Y X X X Y Y Y
-John	4	25	Y Y X Y Y Y X X Y Y Y Y Y Y Y Y Y
-John	4	26	Y Y X Y X X Y Y Y
+John	4	25	Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y
+John	4	26	Y Y X Y Y Y Y Y Y
 John	4	27	Y X Y Y X X Y Y Y Y X Y Y Y Y Y Y Y Y Y Y X Y
 John	4	28	Y Y X X Y X Y Y Y X X Y Y Y X Y
 John	4	29	Y Y Y Y Y Y Y Y Y Y Y Y X Y
@@ -3036,16 +3036,16 @@ John	4	32	Y Y Y Y Y Y Y Y Y Y Y Y
 John	4	33	Y Y X Y X Y Y Y Y Y Y
 John	4	34	Y Y X Y X Y Y Y Y X X Y Y Y Y Y X X Y
 John	4	35	Y Y Y Y Y Y Y Y X Y Y Y Y Y Y X X Y Y Y X Y Y Y Y X Y Y
-John	4	36	Y Y Y Y Y Y Y X X Y Y Y Y X X X Y Y
+John	4	36	Y Y Y Y Y Y Y X X Y Y Y Y Y Y X Y Y
 John	4	37	Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y
 John	4	38	Y Y Y Y Y Y Y Y Y Y Y Y X X X Y Y
-John	4	39	Y Y X X Y Y Y Y Y X Y X X X X Y Y Y Y Y X X Y
+John	4	39	Y Y X X Y Y Y X Y X Y X X X X Y Y Y Y Y Y Y Y
 John	4	40	X Y Y X Y X Y Y Y Y X Y Y Y Y X Y
 John	4	41	Y X Y Y X X X Y
 John	4	42	Y Y Y Y Y Y X X X Y Y Y Y Y Y Y Y Y Y Y X X X Y
 John	4	43	Y Y X X Y Y Y X X Y
 John	4	44	Y Y Y Y Y Y X X X Y Y Y Y
-John	4	45	X Y Y X X Y Y Y X Y X Y Y Y X Y X X Y X Y Y Y X X Y
+John	4	45	X Y Y X X Y Y Y X Y Y Y Y Y X Y X X Y X Y Y Y X X Y
 John	4	46	Y Y Y X X X X Y Y Y X Y Y Y Y X Y X X Y Y X Y
 John	4	47	Y Y Y Y Y X X X X X Y Y X Y Y Y Y Y Y Y X X Y Y Y Y
 John	4	48	Y Y X Y X Y Y Y X X Y Y X Y Y
@@ -3074,7 +3074,7 @@ John	5	16	Y X Y Y X Y X Y Y Y Y X Y
 John	5	17	Y Y Y Y X X Y X Y Y Y Y
 John	5	18	X Y Y Y Y Y X Y Y X Y Y Y X Y Y X X Y Y X Y Y Y Y X Y
 John	5	19	Y Y X Y Y Y Y X Y Y Y Y Y X Y Y X Y Y Y Y Y Y X Y Y Y X Y Y Y Y X X Y Y Y
-John	5	20	Y Y Y Y X Y Y X X Y Y Y Y Y X Y Y Y Y Y Y Y
+John	5	20	Y Y Y Y X Y Y Y Y Y Y Y Y Y X Y Y Y Y Y Y Y
 John	5	21	X Y X Y Y X Y Y Y Y X X Y Y Y Y
 John	5	22	X Y X Y Y Y Y X X Y Y X Y
 John	5	23	Y Y Y X Y Y Y X Y Y Y Y X Y Y Y X X Y Y Y
@@ -3090,7 +3090,7 @@ John	5	32	Y Y Y Y X Y Y Y Y Y Y X Y Y Y X Y
 John	5	33	Y Y X Y Y Y X Y
 John	5	34	Y Y Y X Y X Y Y Y Y Y Y Y Y
 John	5	35	Y Y X X Y Y Y Y Y Y Y Y X Y X X X Y
-John	5	36	Y Y Y X X X X Y X X Y Y Y Y X Y Y Y Y X X Y Y Y Y X Y Y X Y Y Y
+John	5	36	Y Y Y X X X X Y Y Y Y Y Y Y X Y Y Y Y X X Y Y Y Y X Y Y X Y Y Y
 John	5	37	X Y Y Y Y Y Y X Y Y X Y Y Y Y X Y Y
 John	5	38	Y X X Y Y Y X Y Y Y Y Y Y Y Y Y Y
 John	5	39	Y X Y Y Y Y X Y X Y Y Y Y Y Y Y X Y
@@ -3103,7 +3103,7 @@ John	5	45	Y Y Y Y Y Y X X Y Y Y Y Y Y X Y Y Y
 John	5	46	X Y Y Y Y Y Y Y Y Y Y Y
 John	5	47	X Y X X Y Y Y Y X X Y Y
 John	6	1	X Y Y X Y X X X X X X Y
-John	6	2	Y Y Y X Y Y Y X Y Y Y X X Y
+John	6	2	Y Y Y X Y Y Y X Y Y Y X Y Y
 John	6	3	Y Y X X Y Y Y Y Y X X X Y
 John	6	4	Y Y Y X X X X X Y
 John	6	5	Y Y X Y X Y Y Y Y X Y Y X Y Y X Y Y Y Y Y Y Y
@@ -3113,10 +3113,10 @@ John	6	8	Y Y X X X X X X X X X Y
 John	6	9	Y Y Y Y Y X X X X X Y Y Y Y Y X Y
 John	6	10	Y X Y Y X Y Y Y Y X Y X X Y Y Y X Y X Y X Y
 John	6	11	Y Y X Y X Y Y Y Y Y Y Y X X X Y Y Y
-John	6	12	X Y Y Y X X Y Y Y Y X Y Y Y Y
+John	6	12	X Y Y Y X X Y Y Y Y Y Y Y Y Y
 John	6	13	Y X Y Y X Y Y X X X X X Y Y Y Y Y
 John	6	14	Y Y Y Y Y Y Y Y Y Y Y Y X X Y Y X X Y
-John	6	15	Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y
+John	6	15	Y Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y X Y
 John	6	16	X Y Y Y Y X X Y X X Y
 John	6	17	Y Y X Y Y X X Y X Y Y Y Y Y Y Y Y X Y X Y
 John	6	18	Y Y Y X Y Y Y
@@ -3152,7 +3152,7 @@ John	6	47	X Y Y Y Y Y Y X Y
 John	6	48	Y Y X X X Y
 John	6	49	X X Y Y X X Y X Y Y Y
 John	6	50	Y Y X X Y X X Y Y Y Y X Y Y Y Y Y
-John	6	51	Y Y X X Y Y Y X X Y Y Y Y Y X X X Y Y X X Y X X X Y Y Y Y X X Y Y X X X X Y
+John	6	51	Y Y X X Y Y Y X X Y Y Y Y Y X X X Y Y X X Y X X Y Y Y Y Y X X Y Y X X X X Y
 John	6	52	Y Y X Y X Y Y Y Y Y Y Y X Y Y
 John	6	53	Y Y Y X Y X Y Y Y X Y Y X X X X X Y Y Y X X Y Y Y Y X Y
 John	6	54	Y Y X X Y Y Y X X Y Y X Y Y Y Y X X Y
@@ -3210,7 +3210,7 @@ John	7	34	Y Y Y Y Y Y Y Y Y Y Y Y Y
 John	7	35	Y Y X Y X Y Y Y Y Y Y Y Y Y Y Y X X X X Y Y Y Y Y X Y
 John	7	36	Y Y X X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 John	7	37	Y Y X X X X X X Y Y X Y Y Y Y Y Y Y Y X Y Y Y
-John	7	38	Y Y X Y Y Y X Y X X X X X X Y Y
+John	7	38	Y Y X Y Y Y X Y Y X X X Y Y Y Y
 John	7	39	Y Y Y X X Y Y Y Y Y Y X Y Y Y Y Y Y Y Y Y
 John	7	40	X X Y Y Y X X Y Y Y Y Y X Y
 John	7	41	Y Y Y Y X Y Y Y Y X Y X X Y X Y Y
@@ -3222,7 +3222,7 @@ John	7	46	Y X Y Y Y Y Y Y Y Y X Y
 John	7	47	Y Y Y X Y Y X Y Y
 John	7	48	Y X X X Y Y X Y Y X X Y
 John	7	49	Y X X X Y Y Y X Y Y Y
-John	7	50	Y X X X Y Y X Y Y Y Y X Y
+John	7	50	Y Y X Y Y Y X Y Y Y Y X Y
 John	7	51	Y X X Y Y X Y Y Y Y Y X Y Y Y Y Y
 John	7	52	Y Y Y Y Y X Y X X Y Y Y Y Y Y X X Y Y Y Y
 John	7	53	Y Y Y X X X Y
@@ -3256,7 +3256,7 @@ John	8	27	Y Y Y X Y Y Y
 John	8	28	Y Y X Y Y Y X X X Y Y Y Y Y Y Y X Y Y Y X Y Y Y X Y Y Y
 John	8	29	X Y Y Y X Y Y Y Y Y Y Y Y X X Y Y Y
 John	8	30	Y Y Y Y Y X Y
-John	8	31	Y Y X Y X Y Y Y X Y Y Y X X X X Y Y X Y Y
+John	8	31	Y Y X Y X Y Y Y Y Y Y Y X X X X Y Y X Y Y
 John	8	32	Y Y X Y Y X Y Y Y
 John	8	33	Y X Y X Y Y Y Y Y Y Y Y Y Y Y Y
 John	8	34	Y Y X Y X Y Y Y Y X Y Y X Y Y Y X Y
@@ -3265,7 +3265,7 @@ John	8	36	X Y X Y Y Y Y Y Y
 John	8	37	Y Y X Y Y Y Y Y Y Y X X X Y Y Y X Y
 John	8	38	Y Y Y X X Y Y X Y Y Y Y X X Y Y
 John	8	39	Y Y Y Y X X Y Y Y Y Y X Y Y X X Y Y X X X Y Y
-John	8	40	Y Y Y X X Y Y X Y Y Y Y Y X X Y Y Y Y Y
+John	8	40	Y Y Y Y Y Y Y X Y Y Y Y Y X X Y Y Y Y Y
 John	8	41	Y Y X X X X Y Y Y Y X Y Y Y X Y Y X Y
 John	8	42	Y Y X Y Y X Y X Y Y Y Y Y Y Y X X Y Y Y Y X Y X Y Y Y Y Y Y
 John	8	43	X Y X X X Y Y Y Y Y Y Y X X X Y
@@ -3292,15 +3292,15 @@ John	9	4	Y Y Y X X Y Y Y Y Y Y Y Y Y Y Y Y
 John	9	5	Y X X Y Y Y Y X Y
 John	9	6	Y Y Y Y Y Y Y X X Y Y Y X X Y X X Y
 John	9	7	Y Y Y Y Y X X X X Y Y Y Y Y X Y Y Y Y Y
-John	9	8	X X X X Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y
+John	9	8	Y Y X X Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y
 John	9	9	Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 John	9	10	Y Y Y Y Y Y X X Y
 John	9	11	Y Y X X Y Y Y Y Y Y Y X X Y Y Y Y Y Y X X Y Y Y Y X Y Y Y
 John	9	12	Y Y Y Y Y Y Y Y Y
-John	9	13	Y Y Y Y Y X X Y
+John	9	13	Y Y X X Y X X Y
 John	9	14	Y Y Y Y X Y X Y Y X Y Y Y X X Y
 John	9	15	Y Y Y Y X X Y Y Y Y Y Y Y Y Y X X X Y Y Y Y Y
-John	9	16	Y Y X X X Y Y Y Y Y Y X Y Y X Y Y Y Y Y Y Y X Y X Y Y Y Y Y X Y
+John	9	16	Y Y X X X Y Y Y Y X Y X Y Y X Y Y Y Y Y Y Y X Y X Y Y Y Y Y X Y
 John	9	17	Y Y X Y Y Y Y Y X Y Y Y X X Y Y Y Y Y Y Y
 John	9	18	Y Y Y X Y X Y Y Y Y Y Y Y Y Y X X X Y Y
 John	9	19	Y Y Y Y Y Y X X Y Y Y Y Y Y Y Y Y Y Y
@@ -3324,7 +3324,7 @@ John	9	36	Y Y Y Y Y Y Y X Y Y X Y
 John	9	37	Y Y X Y Y Y Y X Y Y X Y Y Y
 John	9	38	Y Y Y Y X Y Y Y
 John	9	39	Y Y X Y X Y Y X X X Y Y X Y Y Y Y X Y Y Y Y
-John	9	40	Y X X X X Y X Y Y Y Y Y Y X Y Y Y
+John	9	40	Y X X Y Y Y X Y Y Y Y Y Y X Y Y Y
 John	9	41	Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y Y
 John	10	1	X Y Y Y X Y Y X X Y X X X X Y Y Y Y Y Y Y Y Y
 John	10	2	X Y Y X X Y Y Y X Y
@@ -3365,8 +3365,8 @@ John	10	36	Y X Y Y Y Y X X Y Y Y Y Y Y Y X X Y Y
 John	10	37	Y Y Y X X X X Y Y Y Y
 John	10	38	X Y Y Y Y Y Y X Y Y Y Y Y Y Y X Y X Y Y X X Y
 John	10	39	Y Y Y Y Y Y Y X X X Y
-John	10	40	Y Y Y X X Y X X Y Y Y Y X Y X Y Y Y
-John	10	41	Y Y Y X Y Y Y Y Y Y Y Y Y X Y Y Y Y X Y Y Y
+John	10	40	Y Y Y X X Y X X Y Y Y Y X Y Y Y Y Y
+John	10	41	Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y Y Y
 John	10	42	Y Y Y X Y Y
 John	11	1	Y Y Y Y X X X X X X X X X X X Y
 John	11	2	Y Y Y Y Y X Y Y Y Y X X Y X X Y X X X Y Y
@@ -3398,7 +3398,7 @@ John	11	27	Y Y X Y Y Y Y Y Y X X X X X X Y X X Y Y
 John	11	28	Y Y Y Y Y Y X X X Y Y Y X Y Y Y Y Y
 John	11	29	Y X Y Y Y Y Y Y X Y
 John	11	30	X Y Y X Y X X Y Y Y Y X X Y Y Y Y X Y
-John	11	31	X X X Y Y X Y X X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y X X Y Y Y Y
+John	11	31	Y Y X Y Y X Y X X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y X X Y Y Y Y
 John	11	32	Y Y Y Y Y Y Y Y Y Y Y X X X Y Y Y X Y Y Y Y Y Y Y X Y
 John	11	33	X X Y Y Y Y Y Y Y Y Y Y Y X Y Y Y Y
 John	11	34	Y Y Y Y Y Y Y Y Y Y Y
@@ -3406,13 +3406,13 @@ John	11	35	Y X Y
 John	11	36	Y Y X Y Y Y Y Y
 John	11	37	Y Y X Y Y Y Y X Y Y X X X Y Y Y X Y Y Y
 John	11	38	Y Y Y Y X Y Y X X Y Y Y Y Y Y Y X Y
-John	11	39	Y X Y Y X Y Y Y X X Y Y X Y Y Y Y Y Y
+John	11	39	Y X Y Y X Y Y Y X X Y Y Y Y Y Y Y Y Y
 John	11	40	Y Y X Y Y Y Y X Y Y Y X X X Y
 John	11	41	Y Y X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y
 John	11	42	Y Y Y Y Y Y Y Y X X X Y Y Y Y Y Y Y Y Y
 John	11	43	Y Y Y X Y Y Y Y Y
 John	11	44	Y Y Y Y X X X X Y Y Y X X Y Y Y Y Y X Y Y Y Y Y Y Y
-John	11	45	X X X X X Y Y X X Y Y Y Y Y Y X Y
+John	11	45	Y Y X X X Y Y X X Y Y Y Y Y Y X Y
 John	11	46	Y Y X Y Y X X Y Y Y Y Y Y Y
 John	11	47	Y Y X X X X Y Y Y Y Y Y Y X X Y Y Y Y
 John	11	48	Y Y Y Y Y Y X Y Y Y X Y Y Y X X X X X X Y
@@ -3426,16 +3426,16 @@ John	11	55	Y Y Y X X X Y Y Y Y X Y X X Y X X Y Y Y Y
 John	11	56	Y Y X Y Y Y X Y X X Y Y Y Y Y Y X Y Y X X Y
 John	11	57	Y Y X X X X Y Y X Y Y Y Y Y Y Y Y Y
 John	12	1	Y Y Y X X X X Y Y X Y Y Y Y Y Y X Y Y
-John	12	2	Y Y Y Y Y Y X Y Y Y Y Y X X X Y Y X Y
+John	12	2	Y Y Y Y Y Y X Y Y Y Y Y Y Y X Y Y X Y
 John	12	3	Y Y Y Y X X X X Y Y X X X Y Y Y X X Y X X Y Y Y Y Y X X X X Y
 John	12	4	Y Y X X X X X X X Y Y Y Y
 John	12	5	X Y X X Y Y Y X Y Y Y Y
 John	12	6	Y Y Y X Y X X Y Y Y X Y Y Y Y X Y Y Y Y Y
 John	12	7	Y Y X Y Y Y Y X X X X X Y Y Y
 John	12	8	X Y Y Y Y X Y Y Y Y Y Y
-John	12	9	Y Y X X X X X Y Y Y Y Y Y Y X X Y Y X Y Y X X Y Y Y X Y
+John	12	9	Y Y X X X X X Y Y Y Y Y Y Y X X Y Y X Y Y X Y Y Y Y X Y
 John	12	10	Y Y X Y Y X X Y Y
-John	12	11	Y Y Y Y Y X Y Y Y X X Y
+John	12	11	Y Y X Y Y X Y Y Y X X Y
 John	12	12	X Y X X X Y Y X X Y Y Y Y Y X Y
 John	12	13	Y X X X Y Y Y X X Y Y Y Y Y Y Y X X Y X X X X Y
 John	12	14	Y Y X Y Y Y X Y X X Y
@@ -3453,7 +3453,7 @@ John	12	25	Y Y X X Y Y Y X Y Y X X Y X X X Y X X Y Y Y
 John	12	26	Y Y Y Y Y Y Y Y Y Y Y X X X X Y Y Y Y Y Y Y Y X Y
 John	12	27	Y X X Y Y Y Y Y Y Y Y X X X Y Y X Y Y X X X Y
 John	12	28	Y Y X X Y Y Y Y X X Y Y Y Y Y Y
-John	12	29	X X X Y Y Y Y Y Y Y Y Y Y Y Y
+John	12	29	Y Y X Y Y Y Y Y Y Y Y Y Y Y Y
 John	12	30	Y Y Y Y Y X Y X X Y Y Y X Y
 John	12	31	Y Y Y X X Y Y X X X X Y Y Y
 John	12	32	Y Y Y X X Y Y Y X Y
@@ -3488,7 +3488,7 @@ John	13	10	Y Y Y Y Y Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y
 John	13	11	Y X Y Y Y X Y Y Y Y Y Y Y
 John	13	12	X Y Y X X Y Y Y X X Y Y Y Y Y Y Y Y Y Y
 John	13	13	Y Y Y X X X X X Y Y Y Y Y
-John	13	14	X Y Y Y Y Y Y X X X X Y X Y Y Y Y X Y
+John	13	14	X Y Y Y X X Y X X X X Y X Y Y Y Y X Y
 John	13	15	Y Y Y Y X Y Y Y Y X Y Y
 John	13	16	X Y Y Y Y Y Y Y X X Y Y Y Y Y Y Y
 John	13	17	Y Y Y Y Y Y Y Y
@@ -3502,7 +3502,7 @@ John	13	24	Y Y Y X Y Y Y Y Y Y Y X Y Y
 John	13	25	Y Y Y X X X X Y Y Y Y Y Y
 John	13	26	Y Y X Y Y Y Y Y Y X Y Y Y Y Y Y X Y Y Y Y X X Y
 John	13	27	Y X X Y Y Y X Y X Y Y Y Y Y Y Y Y Y
-John	13	28	Y Y X X Y Y X Y Y Y
+John	13	28	Y Y Y Y Y Y X Y Y Y
 John	13	29	Y Y Y Y X Y Y Y Y Y Y Y Y X Y Y X X Y Y X Y Y Y Y
 John	13	30	Y Y X Y Y Y Y Y Y Y
 John	13	31	X Y Y Y Y Y Y X X X Y Y X Y Y X Y
@@ -3588,7 +3588,7 @@ John	16	14	Y Y Y Y X X Y Y Y Y Y
 John	16	15	Y Y Y X Y Y Y X Y Y Y X X Y Y Y Y Y
 John	16	16	Y Y Y Y Y Y Y Y Y Y Y
 John	16	17	Y Y X X X Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y Y X X Y
-John	16	18	Y Y X X Y Y Y X Y Y Y Y Y
+John	16	18	Y Y Y Y Y Y Y X Y Y Y Y Y
 John	16	19	Y Y Y Y Y Y Y Y Y X Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 John	16	20	X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y X Y Y
 John	16	21	X Y Y Y Y Y Y Y X X Y X Y Y X Y Y Y X Y X X Y Y Y Y X X Y
@@ -3607,8 +3607,8 @@ John	16	33	Y Y Y Y X Y Y Y X X Y Y Y Y Y Y Y X Y
 John	17	1	Y Y Y Y Y X X Y X X Y Y Y Y X Y Y X X Y Y X Y Y Y
 John	17	2	Y Y Y Y X Y X Y Y Y Y Y Y X Y
 John	17	3	Y Y Y X X Y Y Y X X X X X Y Y Y X Y
-John	17	4	Y Y Y X X Y X X Y Y Y Y Y Y
-John	17	5	Y Y Y Y Y Y X Y X Y Y Y X X X X Y X Y
+John	17	4	Y Y Y X X Y X Y Y Y Y Y Y Y
+John	17	5	Y Y Y Y Y Y X Y X Y Y Y X Y X Y Y X Y
 John	17	6	Y X X Y X Y Y Y Y X X Y Y Y Y Y Y Y X X Y Y
 John	17	7	Y Y Y Y Y Y Y X Y Y
 John	17	8	Y X Y Y Y Y Y Y Y Y Y Y Y Y Y X Y Y Y Y Y Y Y Y
@@ -3655,7 +3655,7 @@ John	18	22	Y Y Y Y Y Y X Y Y Y X Y Y Y Y X Y
 John	18	23	Y Y Y Y Y Y Y X X Y X Y Y Y Y Y
 John	18	24	Y Y Y X Y Y X X X Y
 John	18	25	X Y X Y X X Y Y Y Y Y X Y X X X Y Y Y Y Y Y Y Y
-John	18	26	Y X X X X X Y Y Y X X X X Y Y Y Y Y X X Y X Y
+John	18	26	Y X X X X X Y Y Y Y Y Y X Y Y Y Y Y X X Y X Y
 John	18	27	Y Y Y Y Y Y Y Y
 John	18	28	Y Y X Y X X Y X X Y Y Y Y Y Y Y Y X X Y Y Y Y Y Y X Y
 John	18	29	Y Y X Y Y X Y Y Y X Y Y X X Y
@@ -3680,7 +3680,7 @@ John	19	7	Y Y X Y Y Y Y Y X X Y Y Y Y X Y Y Y
 John	19	8	X Y Y X Y X X Y Y Y
 John	19	9	Y Y X X Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y
 John	19	10	Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
-John	19	11	Y Y Y Y Y Y Y Y Y Y X Y Y Y X Y Y Y Y Y X Y Y
+John	19	11	Y Y Y Y Y X Y Y Y Y X Y Y Y X Y Y Y Y Y X Y Y
 John	19	12	X Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y X Y Y Y Y Y X Y
 John	19	13	Y Y Y Y X X Y Y Y X Y Y Y X Y X Y Y Y Y Y Y
 John	19	14	Y Y X X Y Y Y X Y Y Y X Y Y X X Y
@@ -3689,11 +3689,11 @@ John	19	16	Y Y Y Y Y Y Y Y Y X Y
 John	19	17	Y Y Y X Y Y X Y Y X Y Y Y Y Y
 John	19	18	Y Y Y Y X Y X Y X X Y Y Y X Y
 John	19	19	Y Y X Y X Y Y Y X X Y X X X X X X X X X Y
-John	19	20	Y Y X Y Y Y X Y Y Y Y Y Y X Y Y Y X Y X X Y X X Y
+John	19	20	Y Y X Y Y Y X Y Y Y Y X Y X Y Y Y X Y X X Y X X Y
 John	19	21	Y Y X Y X X X Y Y Y X X X X X Y Y Y Y Y X Y
 John	19	22	Y X Y Y Y Y
 John	19	23	Y Y Y Y Y X Y Y X X Y Y Y X Y X Y Y Y X Y Y Y X Y Y X X Y Y X Y
-John	19	24	Y Y X Y Y Y Y Y Y X Y Y Y Y X Y Y Y X X Y Y Y X X X Y Y Y Y Y Y Y Y Y
+John	19	24	Y Y X Y Y Y Y Y Y X Y Y Y Y X Y Y Y X X Y Y Y X X X Y Y Y Y X Y Y Y Y
 John	19	25	Y Y X X X X Y X X X X X X X X X X X X X X X X Y
 John	19	26	Y Y Y X X X X Y Y Y Y Y X Y Y Y X X Y
 John	19	27	Y Y X Y Y X X Y Y X X X Y Y X Y Y X X Y
@@ -3701,7 +3701,7 @@ John	19	28	X Y Y X Y Y Y Y Y Y Y X Y Y Y
 John	19	29	Y Y X Y Y Y X X Y Y Y Y X X Y
 John	19	30	X Y Y X Y X Y Y Y Y Y X Y Y X Y
 John	19	31	Y Y Y Y Y Y Y Y Y X X Y X Y X X Y Y Y Y X X X X Y Y X Y Y Y X X Y Y Y
-John	19	32	Y Y X Y Y X X X X X X X X X Y Y Y
+John	19	32	Y Y X Y Y Y Y Y Y X X X X X Y Y Y
 John	19	33	Y Y X Y Y Y Y Y Y Y Y Y X X Y
 John	19	34	Y X X Y Y X X Y Y Y Y Y X X Y
 John	19	35	X Y Y Y Y Y Y Y X Y Y Y Y Y Y Y Y X Y Y
@@ -3735,13 +3735,13 @@ John	20	20	Y Y Y Y X X X X X Y Y Y Y X Y Y X Y
 John	20	21	Y Y Y X Y Y Y Y Y Y Y X Y Y Y Y
 John	20	22	Y Y Y Y Y Y Y Y X Y
 John	20	23	Y Y Y X Y Y Y Y Y Y Y
-John	20	24	X X X X X X Y Y Y Y Y X Y Y Y Y
+John	20	24	Y Y X X X X Y Y Y Y Y X Y Y Y Y
 John	20	25	Y Y Y X X Y Y X Y Y Y Y Y Y Y Y X X X Y X X X Y Y Y X X Y X X X X Y Y Y X X Y X X X Y X Y Y
 John	20	26	Y X X Y Y Y Y X X Y Y Y X Y Y X Y X Y Y Y Y X X Y Y Y Y Y
 John	20	27	Y Y X Y Y X X Y Y Y Y X X Y Y Y X X Y Y Y X X X Y X Y Y Y Y Y
 John	20	28	Y Y Y Y Y X X X X X X Y
 John	20	29	Y Y X Y Y Y Y Y Y Y Y Y Y Y
-John	20	30	Y Y Y X X Y Y X Y X X Y Y Y X Y X X X Y
+John	20	30	Y X Y X X Y Y X Y X X Y Y Y X Y X X X Y
 John	20	31	Y Y Y Y Y Y Y Y X X X X X Y X Y Y Y Y X X X Y
 John	21	1	X Y Y Y Y Y X Y X X X X Y Y Y Y
 John	21	2	Y Y X X X X Y Y Y X X X X X X X X X X X X X X X X X Y
@@ -3769,7 +3769,7 @@ John	21	23	Y Y X X Y X X Y Y X X Y Y Y Y Y Y Y X Y Y Y Y X Y Y Y Y Y Y Y X Y
 John	21	24	Y Y X X Y Y X Y X Y Y Y Y Y Y Y X X Y Y
 John	21	25	Y Y X X Y Y Y X Y Y Y Y X Y Y Y Y X Y Y Y Y Y
 Acts	1	1	Y Y X Y Y X X X Y Y Y X Y X X X Y
-Acts	1	2	Y X Y Y X X X X Y Y Y Y
+Acts	1	2	Y X Y Y X Y X X Y Y Y Y
 Acts	1	3	Y Y Y Y Y X Y Y Y X X Y X X Y Y Y Y Y X X X X X Y
 Acts	1	4	Y Y Y Y X Y Y Y Y Y X X X Y Y Y Y
 Acts	1	5	Y Y Y Y Y Y Y X Y Y Y X X X X Y
@@ -3783,7 +3783,7 @@ Acts	1	12	Y Y X Y X X Y Y Y Y Y X Y Y Y Y
 Acts	1	13	X Y Y X X Y Y Y X Y X X X X X X X X X X X X X X X X X X X X X X X Y
 Acts	1	14	X Y X Y Y X Y X X X X X X X X X X X X Y
 Acts	1	15	Y X X X Y Y Y X X X Y Y Y Y X X X X Y X X Y
-Acts	1	16	X Y Y Y X Y Y Y X X X Y X X Y X X X X X X X Y
+Acts	1	16	X Y Y Y X Y Y Y X X X Y X X Y X X Y Y Y Y Y Y
 Acts	1	17	X X Y X Y Y Y X X X X Y
 Acts	1	18	Y X Y Y Y X X X Y Y Y Y Y Y Y Y X X X Y
 Acts	1	19	Y Y Y X Y Y Y Y Y X X Y X X X Y Y Y Y X Y
@@ -3800,7 +3800,7 @@ Acts	2	3	Y Y Y Y Y Y Y Y Y X X X Y
 Acts	2	4	Y Y Y X Y Y Y Y X Y Y X Y Y Y Y
 Acts	2	5	X Y X Y Y X X X X X X X X X Y
 Acts	2	6	Y Y X X Y Y X Y Y Y Y Y X Y X X Y Y Y
-Acts	2	7	Y X Y Y Y X Y X X X Y Y Y
+Acts	2	7	Y X Y Y Y X Y X Y Y Y Y Y
 Acts	2	8	Y Y Y Y Y X X X Y X Y Y
 Acts	2	9	X X X X X X Y Y X X X X X X X X X Y
 Acts	2	10	X X X X X X X X X X X X X X Y Y Y
@@ -3829,7 +3829,7 @@ Acts	2	32	X X Y Y X Y Y X Y Y Y
 Acts	2	33	X Y Y X Y Y Y Y X X X X Y Y X X Y Y Y Y Y X X X Y
 Acts	2	34	Y Y Y Y X X Y Y Y Y Y Y X X Y Y X X Y
 Acts	2	35	X Y Y X X Y X X X Y
-Acts	2	36	Y Y Y X X Y Y X Y Y X Y X X X X X Y Y Y Y
+Acts	2	36	Y Y Y X X Y Y X Y Y X Y Y X Y X X Y Y Y Y
 Acts	2	37	Y Y Y X Y Y Y X X X X X X Y Y Y X Y
 Acts	2	38	Y Y X Y Y Y Y X Y X X X X Y X X X X Y Y Y X X X X Y
 Acts	2	39	Y Y Y X Y Y X X X X X X X Y Y Y Y X X X Y
@@ -3837,7 +3837,7 @@ Acts	2	40	Y Y X Y Y Y Y Y Y Y X X X X X Y
 Acts	2	41	X X Y Y X X Y Y Y Y X X X Y X X Y
 Acts	2	42	X X Y X X X X X X X X X X X X X Y
 Acts	2	43	Y Y X Y Y Y Y X X Y X X Y Y
-Acts	2	44	X X Y Y X X Y Y Y Y
+Acts	2	44	Y Y Y Y X X Y Y Y Y
 Acts	2	45	Y X X X X Y Y Y Y Y Y X Y Y Y Y
 Acts	2	46	X Y Y Y Y X X Y Y Y X Y Y Y Y X X X X Y
 Acts	2	47	Y X Y Y Y Y X X X Y Y Y Y Y Y Y X Y X X Y
@@ -3864,13 +3864,13 @@ Acts	3	20	X Y Y X Y X X X Y Y Y Y Y Y X Y
 Acts	3	21	Y Y Y Y Y X X X Y Y Y X Y X X X X X X X Y
 Acts	3	22	Y Y Y Y Y Y Y X X Y X X X Y Y Y Y Y X Y Y Y Y X Y
 Acts	3	23	Y Y X Y Y Y Y Y X X Y Y X X Y
-Acts	3	24	X X X X X X X X X Y Y Y Y Y X X Y
+Acts	3	24	X Y Y X X X X X X Y Y Y Y Y X X Y
 Acts	3	25	Y Y X X X X X X Y Y X Y Y X X X Y Y X Y Y X X X Y Y X X X X Y
 Acts	3	26	Y Y Y X Y X X Y Y Y Y Y X Y Y Y X X X Y
 Acts	4	1	Y Y Y X X Y Y Y X X X X X X X X X Y
 Acts	4	2	Y X Y Y Y X Y Y Y X X Y X X X X Y
 Acts	4	3	Y Y Y X Y Y Y X Y X X Y Y Y Y Y
-Acts	4	4	X X Y Y X Y Y Y Y X X Y X X Y
+Acts	4	4	Y Y Y Y X Y Y Y Y X X Y X X Y
 Acts	4	5	Y Y X X Y Y X X X X X X X X Y X Y
 Acts	4	6	Y X X X X X X X X X Y Y Y X X Y
 Acts	4	7	Y Y Y X X Y Y X X X X X X Y Y Y Y
@@ -3880,7 +3880,7 @@ Acts	4	10	Y Y X X X X X X Y Y X X X X X X Y Y Y Y Y X Y Y X Y X Y Y Y X Y Y
 Acts	4	11	Y Y X X Y Y X X X Y Y Y X X Y
 Acts	4	12	Y Y Y X X Y X Y Y X Y Y Y X X Y Y Y X Y X Y Y Y Y
 Acts	4	13	Y Y X X X X X Y Y Y Y X Y Y Y Y Y Y Y Y Y X X Y Y
-Acts	4	14	X X X X X X X Y Y Y Y Y
+Acts	4	14	Y Y Y Y X Y Y Y Y Y Y Y
 Acts	4	15	Y Y Y X X Y Y Y X Y
 Acts	4	16	Y Y Y X X Y X X Y X Y Y X Y X Y Y Y Y Y Y Y Y
 Acts	4	17	X Y Y X Y Y X X Y Y Y Y Y X X X Y X Y
@@ -3898,13 +3898,13 @@ Acts	4	28	Y Y X X X X X Y Y Y
 Acts	4	29	Y X Y Y Y X X X Y Y Y X X Y X X Y Y X X Y
 Acts	4	30	X Y X Y Y Y X Y Y X X Y Y X X X X X X X Y
 Acts	4	31	Y Y Y Y X Y X Y X X Y Y Y X X Y Y Y X X X Y X Y
-Acts	4	32	X X X Y Y Y X X Y Y X Y Y X Y Y Y Y Y Y Y Y Y Y Y
-Acts	4	33	Y X Y Y X Y Y Y X X X X Y Y Y Y Y X X Y
+Acts	4	32	Y Y X Y Y Y X X Y Y X Y Y X Y Y Y Y Y Y Y Y Y Y Y
+Acts	4	33	Y X Y Y X Y X Y X X X X Y Y Y Y Y X X Y
 Acts	4	34	Y Y X Y Y X Y Y Y X X X Y Y Y Y X X Y Y
 Acts	4	35	Y Y X X X X Y Y Y Y X Y Y Y Y
 Acts	4	36	X X Y Y Y X X Y Y X Y X Y X X X Y
 Acts	4	37	Y Y Y Y Y X Y Y Y X X X X Y
-Acts	5	1	X X Y Y Y X X X X Y Y Y
+Acts	5	1	Y Y Y Y Y X X X X Y Y Y
 Acts	5	2	Y Y X X Y Y X X Y Y Y X Y X X X X Y Y
 Acts	5	3	Y Y X Y Y X Y Y X Y X X Y Y Y X X X Y Y Y X X X X Y
 Acts	5	4	Y Y Y Y Y Y X X X Y Y Y Y Y X X X Y X X Y Y Y Y Y X Y
@@ -3925,7 +3925,7 @@ Acts	5	18	Y Y X Y X X Y Y Y Y X X Y
 Acts	5	19	Y Y Y X Y Y X X X Y Y Y Y Y
 Acts	5	20	Y Y Y Y X X Y X Y X X X X X Y
 Acts	5	21	Y Y Y X X Y X X Y Y Y Y Y X X X X X Y Y X X X X X X X X Y Y Y X X Y Y Y
-Acts	5	22	X Y Y Y Y Y Y X X Y Y Y Y
+Acts	5	22	Y Y Y Y Y Y Y X X Y Y Y Y
 Acts	5	23	Y Y X Y Y Y X X Y Y X Y Y X X Y Y Y Y Y Y
 Acts	5	24	X Y Y X X Y X X X X X X X Y Y X Y Y Y Y Y
 Acts	5	25	Y Y Y Y Y X Y X Y Y Y X X Y Y X X Y X Y Y X Y
@@ -3986,14 +3986,14 @@ Acts	7	22	Y Y Y X X Y Y Y Y X X X X Y
 Acts	7	23	X Y Y Y X Y Y X X X Y Y X X X X X Y
 Acts	7	24	Y Y Y Y Y Y Y Y Y Y Y X Y
 Acts	7	25	Y Y Y X Y Y X Y X X Y Y Y Y Y Y Y Y
-Acts	7	26	X Y Y Y Y Y Y Y Y Y X Y Y Y Y Y X Y Y Y
+Acts	7	26	Y Y Y Y Y Y Y Y Y Y X Y Y Y Y Y X Y Y Y
 Acts	7	27	X Y Y X Y Y Y Y Y Y Y X X X X Y
 Acts	7	28	Y Y Y Y Y X Y Y Y X Y
 Acts	7	29	Y Y Y X X X Y Y Y Y X X Y Y Y X Y
 Acts	7	30	Y Y X Y Y Y X X X X X Y Y X X X Y
 Acts	7	31	Y Y Y Y Y X Y Y Y Y Y Y X Y
 Acts	7	32	Y X X X X X X X X X X X Y Y Y Y Y Y Y Y
-Acts	7	33	Y Y Y X Y Y X X X X Y X X Y X Y Y X Y Y
+Acts	7	33	Y Y Y X Y Y X X X X Y Y Y Y X Y Y X Y Y
 Acts	7	34	Y Y X X X X X X X Y Y X X Y Y Y Y Y Y Y Y Y Y Y X Y
 Acts	7	35	X X Y Y Y Y Y Y Y X X Y Y X Y X X X Y Y X X X Y Y Y X X Y
 Acts	7	36	Y Y Y Y X X Y X X X X X X X X X X Y X Y
@@ -4026,10 +4026,10 @@ Acts	8	2	Y Y X Y X Y Y Y X Y X Y
 Acts	8	3	Y Y Y X Y X X Y Y Y X X X Y Y X Y
 Acts	8	4	X X Y Y Y Y X Y
 Acts	8	5	Y Y Y X X X X Y Y Y X Y
-Acts	8	6	Y Y X Y Y Y X X Y Y X Y Y Y Y Y X X X Y
-Acts	8	7	X X Y Y X Y Y X Y Y X Y Y X Y Y
+Acts	8	6	Y Y X Y Y Y X X Y Y X Y Y Y Y Y X Y Y Y
+Acts	8	7	X X Y Y X Y Y X Y Y Y Y Y X Y Y
 Acts	8	8	Y Y X Y X X X Y
-Acts	8	9	X X Y Y Y Y X X Y Y Y Y X X X Y Y Y Y Y Y
+Acts	8	9	Y Y Y Y Y Y X X Y Y Y Y X X X Y Y Y Y Y Y
 Acts	8	10	Y Y X X X X Y Y Y Y X X X X Y Y Y
 Acts	8	11	Y Y Y X Y X Y X Y Y Y
 Acts	8	12	X Y Y X Y Y X X X X X X X X X Y Y X X X Y
@@ -4044,7 +4044,7 @@ Acts	8	20	Y Y Y X Y X X Y X Y Y X Y Y X X X Y Y X Y Y
 Acts	8	21	Y Y Y X X Y X X X Y Y Y X Y Y Y Y X X Y
 Acts	8	22	Y Y X X X X Y Y Y X Y X Y Y Y X X X X Y
 Acts	8	23	Y Y X X X X Y Y Y Y
-Acts	8	24	Y Y X Y Y Y Y X Y X X Y Y X X X Y Y Y
+Acts	8	24	Y Y X Y Y Y Y X Y X X Y Y Y Y X Y Y Y
 Acts	8	25	Y X X X X Y X X X Y Y X Y Y Y X X Y Y
 Acts	8	26	Y Y Y Y X Y Y Y Y Y X Y X X X Y Y X X X Y Y Y Y
 Acts	8	27	Y Y Y X X X X X X X X Y Y Y X X X X Y Y Y Y X Y
@@ -4052,7 +4052,7 @@ Acts	8	28	X X X Y Y X X X Y Y Y X X Y
 Acts	8	29	Y Y X Y X Y Y Y Y X X Y
 Acts	8	30	Y Y X Y Y Y Y X X Y Y Y X Y Y Y Y
 Acts	8	31	Y Y Y Y X Y Y Y Y Y Y Y Y Y X Y Y Y X Y
-Acts	8	32	X X X X Y Y Y Y Y Y Y X Y Y X Y Y X Y Y Y Y Y Y Y X X Y
+Acts	8	32	Y Y X X Y Y Y Y Y Y Y X Y Y X Y Y X Y Y Y Y Y Y Y X X Y
 Acts	8	33	X X Y X X Y Y X X Y Y Y Y Y X X Y X X Y
 Acts	8	34	Y Y X Y X Y Y Y Y X Y X Y Y Y X X X X X Y
 Acts	8	35	Y Y X Y X X Y Y Y X X X Y Y Y X Y
@@ -4061,22 +4061,22 @@ Acts	8	38	Y Y Y X Y Y Y Y X X Y X X X X X Y Y Y Y
 Acts	8	39	X Y Y X X Y X Y Y X Y Y Y Y Y Y X Y Y Y X X Y Y
 Acts	8	40	Y Y Y X Y Y Y Y X X Y X Y Y Y X Y
 Acts	9	1	Y Y Y Y Y X X Y X X X X Y Y X Y
-Acts	9	2	Y X Y X X X X X Y X Y X Y X Y Y X X X Y Y Y X Y
-Acts	9	3	X X Y Y Y Y Y X Y Y Y Y Y Y X X Y
+Acts	9	2	Y X Y X X X X X Y X Y Y Y X Y Y X X X Y Y Y X Y
+Acts	9	3	Y Y Y Y Y Y Y X Y Y Y Y Y Y X X Y
 Acts	9	4	Y Y X X Y Y Y Y Y X Y Y Y Y
 Acts	9	5	Y Y Y Y Y Y Y Y Y Y Y Y Y
 Acts	9	6	Y Y Y Y X X Y Y Y Y Y Y Y Y Y
-Acts	9	7	X X X Y Y Y Y Y Y Y X Y Y Y Y
+Acts	9	7	Y Y X Y Y Y Y Y Y Y X Y Y Y Y
 Acts	9	8	Y Y Y X X Y Y Y X X Y Y Y Y Y Y Y X Y
 Acts	9	9	X Y X Y Y X Y Y X X Y
-Acts	9	10	Y Y X X X Y Y Y Y Y X Y X Y X Y Y Y Y Y Y Y Y
-Acts	9	11	Y Y Y X Y Y Y X X X Y Y Y Y Y X X Y Y Y X X Y Y
+Acts	9	10	Y Y X Y X Y Y Y Y Y X Y X Y X Y Y Y Y Y Y Y Y
+Acts	9	11	Y Y Y X Y Y Y X X X Y Y Y Y Y X X Y Y Y Y X Y Y
 Acts	9	12	Y Y Y Y Y Y Y Y Y Y Y Y
 Acts	9	13	Y Y Y Y Y X Y X X X Y X Y X X Y Y X Y
 Acts	9	14	Y Y Y X X X Y Y X Y Y X X Y
 Acts	9	15	Y Y X Y X Y Y Y X Y Y Y Y Y Y X X Y X X X X X X X Y
 Acts	9	16	Y Y Y Y Y Y Y X X X Y Y
-Acts	9	17	Y Y Y Y Y X X Y Y Y X Y X Y Y X Y X X X X X Y Y Y X X X X Y Y Y Y Y X Y
+Acts	9	17	Y Y Y Y Y X X Y Y Y X Y X Y Y X Y X Y Y Y X Y Y Y X X Y Y Y Y Y Y Y X Y
 Acts	9	18	Y Y Y X X X Y Y Y Y X Y Y Y
 Acts	9	19	Y Y Y Y Y Y X X X X Y X Y
 Acts	9	20	Y Y X X Y Y X Y Y Y Y X X X Y
@@ -4090,12 +4090,12 @@ Acts	9	27	Y Y Y Y Y X X Y Y Y Y Y X X Y Y X Y X Y Y Y Y Y X Y Y X X X Y
 Acts	9	28	X Y X Y X X Y X Y Y X X X X Y
 Acts	9	29	X X X Y X X Y Y Y Y Y Y
 Acts	9	30	Y Y X Y Y Y X Y Y Y Y X Y
-Acts	9	31	Y Y Y Y X X X X X X X Y Y Y Y Y Y X X X X X X X X X Y Y
+Acts	9	31	Y X Y Y X X X X X X X Y Y Y Y Y Y X X X X X X X X X Y Y
 Acts	9	32	Y Y Y Y X Y Y X X X X Y Y Y
 Acts	9	33	Y Y Y X Y Y Y X X Y Y X Y Y Y Y
 Acts	9	34	Y Y Y X Y Y Y Y X Y Y Y Y Y Y Y Y
 Acts	9	35	Y Y Y X Y Y X X X Y Y Y X X Y
-Acts	9	36	X Y Y X X Y Y Y Y Y Y Y Y Y Y X X X Y Y Y
+Acts	9	36	X Y Y Y Y Y Y Y Y Y Y Y Y Y Y X X X Y Y Y
 Acts	9	37	Y Y X X X Y Y Y Y Y Y Y X Y
 Acts	9	38	Y Y Y Y X Y X Y Y Y Y Y X Y Y X Y X Y Y Y Y Y X Y
 Acts	9	39	Y Y Y Y Y Y Y Y X X Y Y Y Y X X Y Y Y Y X X Y Y Y X Y Y X Y
@@ -4130,7 +4130,7 @@ Acts	10	24	Y Y Y Y X X Y Y Y Y X Y Y Y X X X X X X Y
 Acts	10	25	X Y Y Y Y X Y Y Y X Y Y X X Y Y
 Acts	10	26	Y Y Y Y Y Y Y X X Y Y Y
 Acts	10	27	Y Y Y Y Y Y Y Y
-Acts	10	28	Y Y X Y Y Y Y Y Y X Y X X Y Y Y X Y Y Y Y Y Y Y Y
+Acts	10	28	Y Y X Y Y Y Y Y Y X Y X X Y Y Y X Y Y Y X X Y Y Y
 Acts	10	29	Y Y Y Y Y Y Y X Y Y Y
 Acts	10	30	Y X Y Y X X X X X X Y Y X Y Y X X X Y X Y Y Y X Y X X Y
 Acts	10	31	Y Y Y Y X X Y Y X X Y Y X X Y
@@ -4138,12 +4138,12 @@ Acts	10	32	Y Y X Y Y Y Y Y Y Y Y Y X X X Y X Y
 Acts	10	33	Y Y Y X Y Y Y Y Y Y Y Y X Y X X Y Y Y X Y Y Y X X Y
 Acts	10	34	Y Y Y X Y Y X Y Y X Y Y Y X Y
 Acts	10	35	Y X X Y Y Y Y Y Y Y Y Y Y
-Acts	10	36	X Y Y Y X X Y Y Y X X X X X X Y
+Acts	10	36	X Y Y Y X X Y Y Y X X Y Y Y X Y
 Acts	10	37	Y Y Y Y Y X X X Y Y X X Y X X Y Y Y Y
 Acts	10	38	X X X X Y Y Y X Y X X X Y Y Y Y Y Y X Y Y X X Y Y X Y Y X Y
 Acts	10	39	Y Y X Y Y Y X X X X X X X Y Y Y Y Y X Y
 Acts	10	40	Y X Y Y X X X Y Y Y Y Y Y
-Acts	10	41	X X X X X X Y Y X X Y Y Y X X Y Y X X X X X Y
+Acts	10	41	X X X X X X Y Y X X Y Y Y X X Y Y X Y Y Y X Y
 Acts	10	42	Y Y Y Y X Y Y Y Y Y Y Y Y X X Y Y Y X Y
 Acts	10	43	Y X X Y Y X Y Y X X X Y X Y Y X Y
 Acts	10	44	Y Y X Y X X Y Y X X X Y X X Y Y X Y
@@ -4165,14 +4165,14 @@ Acts	11	11	X Y Y X Y Y X X Y X Y Y Y X Y X Y
 Acts	11	12	Y Y X Y Y Y Y Y Y Y Y X Y X X X X Y Y Y X X X X Y
 Acts	11	13	Y Y Y Y Y X Y X X X Y Y Y Y Y X Y Y Y X Y Y Y
 Acts	11	14	Y Y Y X Y X Y Y X X X X X Y
-Acts	11	15	X X Y Y Y Y Y X X X Y X Y Y X X Y X Y
+Acts	11	15	Y Y Y Y Y Y Y X X X Y X Y Y X X Y X Y
 Acts	11	16	Y Y X X X Y Y Y Y Y Y Y Y Y Y X X Y
 Acts	11	17	X Y X X Y Y Y X Y Y X Y Y X X X X Y Y Y Y Y Y X Y
 Acts	11	18	Y Y Y Y Y Y X Y Y Y X X Y X Y X X X Y Y
 Acts	11	19	X X Y Y X X X Y Y X Y Y X X X X X Y Y Y X Y Y Y Y Y
 Acts	11	20	Y Y X X Y X X X Y Y Y X Y Y X X X Y Y X X Y
-Acts	11	21	Y Y X Y X Y X X X Y Y Y X X Y
-Acts	11	22	Y Y X Y Y Y Y Y Y Y Y Y Y X Y Y Y Y X Y
+Acts	11	21	Y Y X Y X Y Y Y X Y Y Y X X Y
+Acts	11	22	Y Y X Y X X X X X Y Y X Y X Y Y Y Y X Y
 Acts	11	23	Y Y Y Y X X X X Y Y Y Y Y X X X Y Y X Y
 Acts	11	24	Y Y X X X X X X X Y Y Y X Y X Y
 Acts	11	25	Y Y X Y Y Y
@@ -4185,7 +4185,7 @@ Acts	12	1	X Y Y X Y Y X X Y X Y Y X X X X Y
 Acts	12	2	Y Y X X X Y Y
 Acts	12	3	Y X Y Y Y X Y Y Y X Y Y Y X X Y
 Acts	12	4	Y Y Y Y X Y Y X X Y Y Y Y X X Y Y Y X Y
-Acts	12	5	Y Y Y Y Y X X Y Y Y Y Y Y X X Y X X Y X Y
+Acts	12	5	Y X Y Y Y X X Y Y Y Y Y Y X X Y X X Y X Y
 Acts	12	6	X Y Y Y Y X Y X X Y Y X Y Y X X Y Y X Y Y Y X X Y Y X Y
 Acts	12	7	X Y X Y Y Y Y Y X X Y Y Y X X X Y Y Y Y Y X Y Y Y X X Y X X Y
 Acts	12	8	Y Y X Y X Y Y Y Y X X Y Y Y Y Y Y Y Y X X Y Y Y Y
@@ -4193,7 +4193,7 @@ Acts	12	9	Y Y Y X Y Y Y Y Y Y Y X X Y Y Y Y Y
 Acts	12	10	Y Y X X X Y Y X X X X X Y Y X X Y Y Y Y Y Y Y Y X Y Y Y Y X Y X Y
 Acts	12	11	Y X Y X Y Y Y Y Y Y Y Y X Y X X Y Y Y Y X X X X X X X X X X Y
 Acts	12	12	Y Y Y X X X X X X X X Y Y Y Y Y Y X X Y
-Acts	12	13	Y Y Y X X X Y Y X Y Y Y
+Acts	12	13	Y Y Y X X X Y Y Y Y Y Y
 Acts	12	14	Y Y X X X Y X X Y Y Y X Y Y Y Y Y X Y X X Y
 Acts	12	15	Y Y X Y Y Y Y Y Y Y Y Y Y Y X Y Y Y
 Acts	12	16	Y Y Y Y Y Y Y Y Y Y Y
@@ -4220,7 +4220,7 @@ Acts	13	11	Y Y Y X Y X Y Y Y Y Y Y X Y X Y Y Y Y X Y X X Y Y Y Y Y
 Acts	13	12	Y Y X Y Y Y Y Y X X X X Y
 Acts	13	13	Y Y X X Y X X Y Y X X X Y Y Y Y X Y Y X Y
 Acts	13	14	Y Y Y X X Y Y X X X Y Y Y X X Y X X X Y Y
-Acts	13	15	Y Y X X X X X X Y Y X Y X Y Y X X Y Y Y Y Y X X X X Y Y
+Acts	13	15	Y Y X X X X X X Y Y X Y X Y Y X X Y Y Y X Y X X X X Y Y
 Acts	13	16	Y Y Y Y Y X Y Y X X X Y Y X Y Y
 Acts	13	17	X X X X X Y Y X X Y Y X Y Y X X X X X Y Y X X Y Y Y X Y
 Acts	13	18	Y X X Y Y Y X X Y
@@ -4228,11 +4228,11 @@ Acts	13	19	Y Y X X X X Y Y X X Y
 Acts	13	20	X X X X Y Y X Y Y Y X X Y
 Acts	13	21	Y Y Y Y Y Y X Y X X X X X X X Y X Y
 Acts	13	22	Y Y Y Y X Y Y X Y Y Y Y Y Y X X X X X X X X Y Y Y X X X Y
-Acts	13	23	Y Y Y X X Y X Y Y X Y X Y
+Acts	13	23	Y X Y X X Y X Y Y X Y X Y
 Acts	13	24	Y Y X X X X Y X Y X X X Y
 Acts	13	25	X Y Y Y X Y Y Y Y Y Y Y Y Y X Y Y X Y Y Y Y Y X X X Y Y
 Acts	13	26	X X X X X X X X Y Y X Y Y X X X X Y Y
-Acts	13	27	X Y Y X Y X X X Y Y Y Y X X X X Y X X Y Y Y Y
+Acts	13	27	Y Y Y X Y X X X Y Y Y Y X X X X Y X X Y Y Y Y
 Acts	13	28	Y X X Y Y Y Y Y Y
 Acts	13	29	X Y Y X Y X Y Y Y X X Y Y X Y
 Acts	13	30	Y Y Y Y Y X Y
@@ -4248,19 +4248,19 @@ Acts	13	39	X Y X Y Y Y
 Acts	13	40	Y X Y Y Y Y X X Y
 Acts	13	41	Y X X Y Y Y Y Y Y Y Y X X X Y Y Y X Y Y Y Y Y Y
 Acts	13	42	Y Y Y Y X X X Y Y Y X X Y
-Acts	13	43	Y Y X Y Y X X X X Y Y X X X X X Y Y Y Y Y Y Y X X X Y
-Acts	13	44	X Y Y Y X X X Y Y Y X X X Y
+Acts	13	43	Y Y X Y Y X X X X Y Y Y X X X X Y Y Y Y Y Y Y X X X Y
+Acts	13	44	Y Y Y Y X X X Y Y Y X X X Y
 Acts	13	45	Y Y X Y X Y Y Y Y Y Y X Y Y Y
 Acts	13	46	Y Y X X X X Y Y Y Y Y Y Y X X X Y Y Y Y Y Y Y Y Y X X Y Y Y X X Y
 Acts	13	47	Y Y Y Y X Y Y Y X X Y Y Y Y X Y X X X Y
 Acts	13	48	Y Y X Y Y Y Y X X X Y Y Y Y X Y X X Y
 Acts	13	49	Y Y X X X Y X X X Y
-Acts	13	50	Y Y Y Y Y Y X X X X X X X X Y Y Y X X X X Y Y Y Y X X X Y
+Acts	13	50	Y Y Y Y Y Y X X X X X X X Y Y Y Y X X X X Y Y Y Y X X X Y
 Acts	13	51	Y Y Y X X X Y X Y Y X Y
 Acts	13	52	Y Y Y Y X X X Y
 Acts	14	1	Y Y X Y X X Y Y Y X X X X Y Y Y Y Y Y X X X X X Y
-Acts	14	2	X Y Y X X X Y X X X Y X X Y
-Acts	14	3	Y Y Y Y Y Y X X X Y Y X X X X X Y Y X X Y Y X X X Y
+Acts	14	2	Y Y Y Y X X Y X X X Y X X Y
+Acts	14	3	Y X Y Y Y Y X X X Y Y X X X X X Y Y X X Y Y X X X Y
 Acts	14	4	Y Y X X X Y Y Y Y Y X X Y Y Y X X Y
 Acts	14	5	X Y Y X X X X X X X X X Y X X Y Y
 Acts	14	6	Y Y X X X X X X X X X X Y
@@ -4270,7 +4270,7 @@ Acts	14	9	Y Y X Y Y Y Y Y Y Y Y Y Y Y Y
 Acts	14	10	Y X Y Y X X X Y Y Y Y Y Y
 Acts	14	11	Y Y Y Y Y Y Y Y X X Y Y Y X Y Y Y Y X Y
 Acts	14	12	Y Y X Y Y Y Y Y Y Y Y Y Y Y X Y
-Acts	14	13	X X X X X Y Y X X Y X X Y X X Y Y X X Y Y Y
+Acts	14	13	Y Y X X X Y Y X X Y X X Y X X Y Y X X Y Y Y
 Acts	14	14	Y Y X X X X Y Y X X Y Y X X Y Y
 Acts	14	15	Y Y Y Y Y Y X Y Y Y X Y Y Y X X X Y Y X Y Y Y Y X X X X X X X X X X X X Y
 Acts	14	16	Y X Y Y Y Y X X Y Y X X Y
@@ -4283,7 +4283,7 @@ Acts	14	22	Y X X X Y Y Y X Y X Y X X Y Y Y Y X X X X Y
 Acts	14	23	Y Y Y X Y Y Y X Y Y Y X Y X Y Y
 Acts	14	24	Y Y X Y Y X X Y
 Acts	14	25	Y Y X Y X Y Y X Y
-Acts	14	26	Y Y X Y Y X Y X X X Y X X X X Y
+Acts	14	26	Y Y X Y Y X Y X X X Y X X Y Y Y
 Acts	14	27	Y X Y Y X Y Y Y Y X Y X Y X Y Y X Y X Y
 Acts	14	28	Y Y X X Y X X Y
 Acts	15	1	Y Y Y X X Y Y X Y X Y Y Y X X X Y Y Y Y
@@ -4298,7 +4298,7 @@ Acts	15	9	Y Y Y X X X X Y X Y Y X X Y
 Acts	15	10	Y Y Y Y X Y Y Y X X X X Y Y X X X X X Y Y Y
 Acts	15	11	Y X X X X X Y Y Y Y X Y Y
 Acts	15	12	Y Y X X Y Y Y X X Y Y Y Y X Y X X Y X X Y X Y
-Acts	15	13	X X Y Y Y Y Y Y X Y Y Y
+Acts	15	13	Y Y Y Y Y Y Y Y X Y Y Y
 Acts	15	14	Y Y Y Y X Y Y Y X Y Y X X Y
 Acts	15	15	Y Y Y X X X Y Y Y
 Acts	15	16	X Y Y Y Y X X X Y Y Y Y Y Y Y Y Y Y
@@ -4330,7 +4330,7 @@ Acts	16	1	Y Y X X X X X Y X X X Y Y Y Y Y X X X X X X Y
 Acts	16	2	Y Y X X X X X X Y
 Acts	16	3	Y Y X Y X Y Y Y Y Y Y X X X Y Y X X X Y Y Y Y Y Y X X Y Y
 Acts	16	4	X Y Y X Y Y Y Y X X Y Y X X X X X X X Y
-Acts	16	5	Y Y Y Y Y X Y Y Y X Y X Y
+Acts	16	5	Y X Y Y Y X Y Y Y X Y X Y
 Acts	16	6	Y Y X X X X Y Y X X X Y Y X Y X X Y
 Acts	16	7	Y Y X X Y Y X X Y Y Y Y Y Y X X Y
 Acts	16	8	Y Y X Y Y X Y
@@ -4339,7 +4339,7 @@ Acts	16	10	X Y X Y Y Y Y Y X Y Y Y Y Y X Y Y Y
 Acts	16	11	Y Y X Y Y X Y X Y Y X X Y
 Acts	16	12	Y X Y Y Y X X X X X Y X Y X X X Y Y X Y
 Acts	16	13	Y Y X X Y Y X X Y X Y Y Y Y Y Y Y Y Y Y Y
-Acts	16	14	Y X Y Y Y X X Y Y X Y Y Y Y Y Y X Y Y Y Y X Y
+Acts	16	14	Y X Y Y Y X X Y Y X Y Y Y X Y Y X Y Y Y Y X Y
 Acts	16	15	X Y Y Y X X Y Y Y Y Y Y Y X Y Y Y X X X Y Y Y Y Y
 Acts	16	16	Y Y Y Y X X Y X Y Y X Y Y Y Y X Y Y X X Y Y
 Acts	16	17	Y Y X X X Y Y Y X X Y X X X X Y Y Y Y Y X Y
@@ -4367,7 +4367,7 @@ Acts	16	38	Y Y X Y X Y X X Y Y Y Y Y Y Y
 Acts	16	39	Y Y Y Y Y Y Y Y X X Y
 Acts	16	40	Y Y X X Y Y X X Y Y Y Y X Y Y Y
 Acts	17	1	Y Y X X X X Y Y X Y Y Y X X Y
-Acts	17	2	X X Y Y X Y Y X Y Y X X Y Y Y X X Y
+Acts	17	2	Y Y Y Y X Y Y X Y Y X X Y Y Y X X Y
 Acts	17	3	X X X Y X Y Y Y Y Y X Y X Y Y Y X X X Y Y Y Y Y
 Acts	17	4	Y X X Y Y Y Y X X X X Y X Y Y X X X X X X X X Y
 Acts	17	5	Y Y X Y Y Y X X X X Y Y Y Y X Y Y Y X X Y Y Y Y X X Y
@@ -4377,7 +4377,7 @@ Acts	17	8	Y Y X X X X Y Y Y
 Acts	17	9	Y Y X Y X X X X X Y Y Y
 Acts	17	10	Y Y Y Y X Y Y X X X X X Y X Y Y Y X X X X Y Y
 Acts	17	11	Y Y Y Y X X Y Y Y X Y X X Y X X Y Y X Y Y Y Y Y
-Acts	17	12	Y Y Y X Y Y Y X X X X X X X X Y
+Acts	17	12	Y X Y X Y Y Y X X X X X X X X Y
 Acts	17	13	X Y Y X X X X Y Y X X X Y Y X X Y X X X Y Y Y X X Y X Y
 Acts	17	14	Y Y Y X Y Y X Y Y X X X Y Y Y X X X X X Y Y
 Acts	17	15	X Y Y X Y Y X Y Y Y X X X X X X Y Y X Y Y X Y Y
@@ -4385,8 +4385,8 @@ Acts	17	16	Y Y X Y Y Y X Y Y X X Y X Y Y Y Y X Y
 Acts	17	17	Y X Y X X Y X X X Y Y Y X X Y X X Y X Y Y
 Acts	17	18	Y Y X X X X X Y Y Y Y Y Y Y Y Y X X Y Y Y Y X Y Y Y Y Y X X X X Y Y
 Acts	17	19	Y Y Y X X X Y Y Y Y Y Y X X X Y X Y Y Y
-Acts	17	20	Y X Y Y X X X Y Y Y Y Y Y Y Y
-Acts	17	21	X X X X Y Y Y X X Y Y Y Y Y Y Y X Y
+Acts	17	20	Y Y Y Y X X X Y Y Y Y Y Y Y Y
+Acts	17	21	Y Y X X Y Y Y X X Y Y Y Y Y Y Y X Y
 Acts	17	22	Y Y Y X X X X Y Y X Y X Y X Y Y Y
 Acts	17	23	Y X Y Y X X Y Y X Y X Y Y X Y Y Y Y Y Y Y Y Y
 Acts	17	24	X X Y Y X X X X X X Y Y X X Y Y Y Y X X Y Y
@@ -4395,13 +4395,13 @@ Acts	17	26	Y Y X Y X X Y Y X X X X Y Y Y X X X X X X Y
 Acts	17	27	Y X Y X X Y Y Y Y Y Y Y X Y X X X Y Y
 Acts	17	28	X Y X X X X X X Y X X X X X Y Y Y Y X Y Y
 Acts	17	29	Y Y Y X Y Y Y Y X X X X X X X X X Y X Y Y Y
-Acts	17	30	Y Y Y X X Y Y X Y X Y Y X Y X Y Y
+Acts	17	30	Y X Y X X Y Y X Y X Y Y X Y X Y Y
 Acts	17	31	Y Y Y X Y Y Y X Y X Y X Y Y Y Y Y Y Y Y X Y
 Acts	17	32	Y Y X Y Y Y Y Y Y Y Y Y X Y X Y
 Acts	17	33	Y X Y Y X X Y
 Acts	17	34	Y Y Y Y Y Y X Y X X X X X Y Y Y X X X Y
 Acts	18	1	X Y Y X X Y Y X Y
-Acts	18	2	Y Y X Y Y Y Y X Y Y Y X X Y X X X Y X X X X X X X X X X Y Y Y
+Acts	18	2	Y Y X Y Y Y Y X Y Y Y X X Y X X X Y X Y Y Y Y X X Y X X Y Y Y
 Acts	18	3	Y X Y Y Y Y X Y Y Y Y Y Y X Y
 Acts	18	4	Y Y X X Y X X Y Y X X X Y
 Acts	18	5	X Y Y X X Y X X X X X Y Y X Y X Y Y X Y Y X Y Y
@@ -4423,7 +4423,7 @@ Acts	18	20	Y Y Y X X Y Y Y Y
 Acts	18	21	Y Y Y Y Y Y X Y X Y Y Y X X Y
 Acts	18	22	Y Y X Y Y Y Y X Y Y X Y
 Acts	18	23	Y Y X Y Y Y Y X X X X Y Y X X Y
-Acts	18	24	X X Y Y Y Y X Y X X X X Y Y Y X X Y
+Acts	18	24	Y Y Y Y Y Y X Y X Y Y X Y Y Y X X Y
 Acts	18	25	Y X Y X X X Y Y Y X Y X X Y Y X X X Y Y Y X X Y
 Acts	18	26	Y Y Y Y X X Y Y Y Y X X Y Y Y Y Y Y Y X X X Y
 Acts	18	27	Y Y Y Y X X Y Y X Y Y X Y Y Y Y Y Y Y Y Y X X Y
@@ -4438,27 +4438,27 @@ Acts	19	7	Y Y X X Y X Y
 Acts	19	8	Y Y X X Y Y X X Y X X Y X X X X Y
 Acts	19	9	X Y Y X X Y Y X Y X X Y Y X Y Y X Y X Y Y X X X Y
 Acts	19	10	Y Y Y X X Y Y X Y Y X Y Y X X X Y X X X Y
-Acts	19	11	X X X Y Y X Y Y X X X Y
+Acts	19	11	Y Y X Y Y X Y Y X X X Y
 Acts	19	12	Y X X Y Y Y X X X Y X X Y Y Y X Y X Y Y Y X X Y Y
 Acts	19	13	Y Y X X Y Y X Y Y X Y Y X X X Y X X X X Y Y Y Y X Y Y Y Y
 Acts	19	14	X Y X X X X X Y Y Y
 Acts	19	15	Y Y X X X Y Y Y X Y Y Y X Y Y Y Y Y Y
 Acts	19	16	Y Y X Y X Y X Y Y X X X Y Y Y Y X Y Y X Y Y Y X X X Y
 Acts	19	17	Y Y Y Y X X X X X Y Y X Y Y Y Y X X Y Y Y X X X X Y
-Acts	19	18	X X Y Y Y X X Y X X Y
-Acts	19	19	X X Y X Y Y Y X Y Y X Y Y Y X X Y Y Y X X Y
+Acts	19	18	Y Y Y Y Y X X Y X X Y
+Acts	19	19	Y Y Y X Y Y Y X Y Y X Y Y Y X X Y Y Y X X Y
 Acts	19	20	Y X Y X X X Y X X Y
 Acts	19	21	X Y Y Y Y X Y X X Y Y X X X Y Y X Y Y Y X Y Y Y Y Y Y X Y Y
 Acts	19	22	Y Y X X Y X Y Y Y X X Y Y Y Y X X Y
 Acts	19	23	Y Y X X X Y X X X X X Y
-Acts	19	24	Y X Y Y Y Y X X Y Y X Y X X Y
+Acts	19	24	Y Y Y Y Y Y X X Y Y X Y X X Y
 Acts	19	25	Y Y X X X X X Y Y Y Y Y X X X Y X X Y Y
 Acts	19	26	X X X X Y X X X X X X X Y X X Y Y Y X Y Y Y Y Y Y Y X Y Y
 Acts	19	27	Y Y Y Y Y Y X Y X Y Y Y X X X X X X Y X Y Y Y Y Y Y X X Y Y X X X X X Y Y
 Acts	19	28	Y X Y Y Y Y Y Y Y X X Y
 Acts	19	29	Y Y X Y X Y Y Y Y X X Y Y X X X X X Y
 Acts	19	30	Y Y Y Y X X Y Y Y Y X Y
-Acts	19	31	X X X X Y Y Y Y Y X Y Y Y Y Y X X Y
+Acts	19	31	Y Y X X Y Y Y Y Y X Y Y Y Y Y X X Y
 Acts	19	32	Y X Y X Y Y X Y X Y X Y X Y Y Y X Y Y
 Acts	19	33	Y Y X Y Y Y Y Y X Y Y Y Y Y X Y Y Y X Y
 Acts	19	34	Y X Y Y Y Y Y Y X Y X X X Y Y Y X X Y
@@ -4468,7 +4468,7 @@ Acts	19	37	Y Y X X X X X Y Y X X Y
 Acts	19	38	X X Y X X X X X Y Y X Y Y Y Y Y Y Y Y Y
 Acts	19	39	X Y Y Y Y X X X Y Y
 Acts	19	40	Y Y Y Y Y X X Y X Y Y X Y Y Y Y Y X X X Y Y Y Y Y X Y
-Acts	20	1	X X Y Y X Y Y X Y X Y Y Y Y Y Y X Y
+Acts	20	1	Y Y Y Y X Y Y X Y X Y Y Y Y Y Y X Y
 Acts	20	2	Y Y X X Y Y Y Y X Y Y X X Y
 Acts	20	3	Y Y X Y Y Y Y X X Y Y Y X X Y Y X Y Y X Y
 Acts	20	4	Y Y Y X X X X X X X X X X X X X X X X X Y
@@ -4478,7 +4478,7 @@ Acts	20	7	Y Y X X X Y Y Y Y Y X Y Y Y Y Y X Y Y Y X Y X Y
 Acts	20	8	Y Y X Y X X Y Y X Y
 Acts	20	9	Y Y X Y Y Y X X Y Y X Y Y X Y X Y Y X X Y Y X X Y Y Y Y Y
 Acts	20	10	Y Y X Y Y Y Y Y Y Y Y Y Y X Y X Y Y
-Acts	20	11	Y X Y Y X Y Y Y X Y Y Y X Y Y Y
+Acts	20	11	Y Y Y Y X Y Y Y X Y Y Y X Y Y Y
 Acts	20	12	Y Y X Y Y Y Y X Y
 Acts	20	13	Y Y Y X X Y Y X X Y Y Y Y X Y Y X X Y Y Y Y
 Acts	20	14	X Y Y Y X X Y Y Y Y X Y
@@ -4487,7 +4487,7 @@ Acts	20	16	Y Y X Y Y X Y Y Y Y Y Y X X Y Y X Y Y Y Y X X X Y Y X Y
 Acts	20	17	Y Y X Y Y X Y Y X X X Y
 Acts	20	18	X Y Y X Y Y Y Y Y X X Y X Y Y X X Y Y X Y X X Y Y
 Acts	20	19	Y X Y X X X X X X X Y Y Y X X X X Y
-Acts	20	20	Y X X Y Y X Y Y Y Y Y Y X X X Y
+Acts	20	20	Y Y Y Y Y X Y Y Y Y Y Y X X X Y
 Acts	20	21	Y X X X Y X X X X X X X X X X Y
 Acts	20	22	Y Y Y Y Y X Y Y X Y Y X Y Y Y Y Y
 Acts	20	23	X Y X X X Y X Y Y Y Y Y X X Y Y Y
@@ -4499,7 +4499,7 @@ Acts	20	28	Y X X X X Y X Y Y X X X Y Y Y Y X X X Y Y Y X X X X Y
 Acts	20	29	Y Y Y Y X X X Y X Y X Y Y Y X Y
 Acts	20	30	Y X X Y Y Y Y Y Y Y X Y X Y
 Acts	20	31	Y Y Y Y Y X X Y Y Y X Y Y X Y
-Acts	20	32	Y X Y Y Y X X X X X X X X Y Y Y Y Y X Y X X X Y
+Acts	20	32	Y X Y Y Y X X X X X X X X Y Y Y Y Y X Y X Y Y Y
 Acts	20	33	X X X X X Y Y
 Acts	20	34	Y Y Y X X X X Y Y X Y Y X X Y
 Acts	20	35	Y Y Y Y Y Y Y Y Y Y Y Y X X X X Y Y Y Y Y Y Y Y Y Y
@@ -4525,12 +4525,12 @@ Acts	21	16	Y Y X X X X Y X Y Y X Y Y X X X X Y
 Acts	21	17	Y Y Y X Y Y Y Y X Y
 Acts	21	18	X Y Y Y X Y X Y X Y Y Y Y X Y
 Acts	21	19	Y Y Y Y X Y Y Y Y X Y X X Y X X X Y
-Acts	21	20	Y Y Y Y X Y Y Y Y Y Y X X X X X X Y Y Y Y X X Y Y
+Acts	21	20	Y Y Y Y X Y Y Y Y Y Y X Y Y X X Y Y Y Y Y X X Y Y
 Acts	21	21	Y Y X Y Y Y Y X Y X X X X X Y Y Y Y Y X Y Y X Y Y
 Acts	21	22	Y Y Y Y Y Y Y
 Acts	21	23	Y Y Y Y Y Y Y Y X Y Y Y X Y
 Acts	21	24	Y Y Y X Y Y Y X Y Y Y X Y Y Y Y Y Y Y X Y Y Y Y Y X Y Y X Y
-Acts	21	25	X X Y Y Y Y Y Y Y Y X X X X X X X X Y
+Acts	21	25	Y Y Y Y Y Y Y Y Y Y X X X X X X X X Y
 Acts	21	26	Y X Y Y X Y Y Y Y X Y Y Y X X Y Y X X X X X Y X Y Y X X X Y X Y
 Acts	21	27	X Y Y X X Y Y X X X X Y Y Y X X Y Y X X Y Y Y X Y X Y
 Acts	21	28	Y X Y Y Y Y X X Y X X X X X X X X X Y Y Y Y Y Y X Y Y X X Y Y Y X X X Y
@@ -4554,13 +4554,13 @@ Acts	22	5	Y X X Y Y Y Y X X Y X Y X Y Y X X Y X Y Y Y X Y Y Y Y X Y Y Y
 Acts	22	6	Y Y Y Y Y Y X Y X Y Y X X Y Y X Y X Y
 Acts	22	7	Y Y X X Y Y Y Y Y Y X Y Y Y Y
 Acts	22	8	Y Y Y Y Y Y Y Y X Y Y Y X X Y Y Y Y
-Acts	22	9	X Y X Y Y Y Y Y Y X X X X X Y Y Y
+Acts	22	9	X Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Acts	22	10	Y Y Y Y Y Y Y Y Y X Y Y Y X Y Y Y Y X Y Y Y Y Y
 Acts	22	11	X Y Y Y X X X X X Y Y X Y Y Y Y X Y
-Acts	22	12	X X X X X X X Y Y X X X X Y
+Acts	22	12	Y Y X X X X X Y Y X X Y Y Y
 Acts	22	13	Y X Y Y Y Y Y X Y Y Y X X Y Y X Y
 Acts	22	14	Y Y Y X X X X Y Y Y Y X X Y Y Y X Y Y Y X X X X Y
-Acts	22	15	Y Y X X X X Y Y X X Y
+Acts	22	15	Y Y Y Y X X Y Y X X Y
 Acts	22	16	Y Y Y Y Y Y Y Y X X Y Y X X Y
 Acts	22	17	Y Y Y Y X Y Y Y Y X X Y Y Y X Y
 Acts	22	18	Y Y Y Y Y Y Y Y X Y X Y Y Y Y X X X Y
@@ -4586,7 +4586,7 @@ Acts	23	7	Y Y Y Y Y X X X X Y Y Y X Y
 Acts	23	8	Y Y Y Y Y X X X X Y Y Y Y X Y
 Acts	23	9	Y Y X Y Y Y X X X X X X Y Y Y X Y Y X X X Y X Y Y Y Y Y Y
 Acts	23	10	Y Y Y Y Y X Y Y Y X Y X Y Y X Y Y Y Y X X Y Y Y X X Y
-Acts	23	11	X Y Y Y Y Y X Y Y Y X Y Y X X Y X Y Y Y Y X X Y Y
+Acts	23	11	Y Y Y Y Y Y X Y Y Y X Y Y X X Y X Y Y Y Y X X Y Y
 Acts	23	12	Y Y Y Y Y X Y Y Y Y X X X Y Y Y Y X Y
 Acts	23	13	Y Y X Y Y X X Y Y
 Acts	23	14	Y Y X X X X Y Y Y Y Y Y Y Y Y Y X Y
@@ -4597,8 +4597,8 @@ Acts	23	18	Y X Y Y Y Y X X Y Y Y X X Y Y Y Y X X Y Y X Y Y Y Y Y
 Acts	23	19	Y Y X X Y X Y Y Y X Y Y Y Y Y Y Y Y
 Acts	23	20	Y X Y X Y Y Y Y Y Y Y X Y Y X X Y Y Y Y Y Y X Y
 Acts	23	21	Y Y Y Y Y Y Y Y X X X X Y Y Y Y X X X Y Y Y Y Y Y Y Y Y Y X X X Y
-Acts	23	22	Y Y Y Y Y X Y Y Y Y Y Y Y X Y
-Acts	23	23	Y Y X X X Y Y Y X Y Y Y Y Y X X X X X Y X X X X Y
+Acts	23	22	Y X Y Y Y X Y Y Y Y Y Y Y X Y
+Acts	23	23	Y Y X X X Y Y Y X Y Y Y X Y X X X X X Y X X X X Y
 Acts	23	24	Y Y Y Y Y X Y Y X X X Y
 Acts	23	25	Y Y Y X X Y
 Acts	23	26	X Y X X X Y Y
@@ -4606,10 +4606,10 @@ Acts	23	27	X X Y Y X X Y Y Y Y X Y Y X X Y Y Y Y Y Y
 Acts	23	28	Y Y Y X Y X Y Y Y Y X X X Y
 Acts	23	29	Y Y Y X X X X Y Y Y X X X Y Y Y
 Acts	23	30	Y Y Y Y X X Y Y Y Y X Y Y X X Y Y X Y X Y
-Acts	23	31	Y Y Y Y X Y Y Y Y X Y Y X Y X X Y
+Acts	23	31	Y X Y Y X Y Y Y Y X Y Y X Y X X Y
 Acts	23	32	Y Y Y Y X Y Y X Y Y X X Y
 Acts	23	33	Y Y X X Y Y Y X Y X Y Y X X Y Y
-Acts	23	34	Y X Y Y X X Y Y Y Y Y X Y
+Acts	23	34	Y Y Y Y X X Y Y Y Y Y X Y
 Acts	23	35	Y Y Y Y X X X Y Y Y X X X X Y Y Y
 Acts	24	1	Y Y X Y Y X X Y X X X X X X Y Y Y X Y X X Y
 Acts	24	2	Y Y Y Y Y X Y Y X Y Y X Y Y Y Y X X Y X X X Y
@@ -4621,7 +4621,7 @@ Acts	24	8	X Y Y Y Y X X Y Y Y Y Y Y
 Acts	24	9	Y Y X X Y Y Y Y Y
 Acts	24	10	Y Y X Y Y Y X Y Y X X Y Y Y Y X X Y Y Y X X Y Y
 Acts	24	11	Y Y Y Y Y Y Y Y X Y Y Y Y Y X Y
-Acts	24	12	Y X X X Y Y Y Y Y Y Y Y Y Y X X X X X X X Y
+Acts	24	12	Y X X X Y Y Y X Y Y Y Y Y Y X X X X X X X Y
 Acts	24	13	Y Y Y Y Y Y Y Y Y
 Acts	24	14	Y Y Y Y Y X X Y Y Y Y Y Y X X Y Y X X X X X X Y X X Y Y
 Acts	24	15	Y Y X X Y Y X X Y Y Y Y Y X X X Y
@@ -4636,12 +4636,12 @@ Acts	24	23	Y X Y Y Y Y Y Y Y Y Y X X Y Y Y
 Acts	24	24	Y Y X Y Y X Y X X X X Y Y Y Y X Y Y Y Y X X X X X Y
 Acts	24	25	Y Y Y X X X X X X X Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y
 Acts	24	26	Y Y Y Y Y Y Y X X Y Y Y Y Y Y Y Y
-Acts	24	27	Y Y Y Y Y Y Y X Y Y Y Y Y X Y X Y Y X Y Y
+Acts	24	27	Y Y Y Y Y X Y X Y Y Y Y Y X Y X Y Y X Y Y
 Acts	25	1	Y Y Y X Y X X Y Y X Y X Y
 Acts	25	2	Y Y Y X X X X X X Y X X Y Y Y Y
 Acts	25	3	Y Y X Y Y Y Y X Y Y Y Y Y X X Y
-Acts	25	4	Y Y Y Y Y Y X Y X Y Y Y Y X Y Y
-Acts	25	5	Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y
+Acts	25	4	Y X Y Y Y Y X Y X Y Y Y Y X Y Y
+Acts	25	5	Y Y X Y Y Y Y Y Y Y X X Y Y Y Y
 Acts	25	6	Y Y X Y X X X X X Y Y X Y X Y Y X X Y Y X Y Y
 Acts	25	7	Y Y Y Y Y Y X Y Y Y X X X Y Y Y Y Y Y
 Acts	25	8	X Y Y Y X X X X X X X X X X X X Y Y Y
@@ -4654,7 +4654,7 @@ Acts	25	14	X Y X Y Y Y X Y X Y Y X X X Y Y X Y Y Y X Y Y
 Acts	25	15	X Y Y Y X Y Y X X X X X X Y Y X Y Y
 Acts	25	16	X Y Y Y Y Y Y Y Y X Y X X Y Y X Y Y X Y Y Y Y Y X X Y
 Acts	25	17	Y Y Y X Y Y X Y Y X X Y Y Y X Y
-Acts	25	18	X Y Y X Y X X Y Y Y Y Y
+Acts	25	18	X Y Y X Y X Y Y Y Y Y Y
 Acts	25	19	Y Y Y X X X Y Y X Y Y X X Y Y Y Y X Y Y
 Acts	25	20	Y Y Y X X X Y Y Y Y Y X Y Y Y X Y
 Acts	25	21	Y Y Y Y Y Y X X X X Y Y Y Y Y Y Y Y X Y
@@ -4667,7 +4667,7 @@ Acts	25	27	Y Y Y Y Y Y Y X X X X Y Y
 Acts	26	1	Y Y X X Y Y Y Y X Y Y Y X Y Y X Y Y
 Acts	26	2	X Y Y Y X Y X Y Y Y Y X Y Y Y Y
 Acts	26	3	Y Y Y Y X X X X X X X Y Y Y Y Y Y
-Acts	26	4	X X X X X X X Y X Y Y X X X X X X Y Y X Y
+Acts	26	4	Y X Y X X X X Y X Y Y X X X X X X Y Y X Y
 Acts	26	5	Y Y Y Y Y Y Y X X X X X X Y Y Y
 Acts	26	6	Y Y X X Y X X X Y Y Y X X Y Y Y
 Acts	26	7	X Y X X Y X Y X X Y Y Y Y X X Y Y X Y Y
@@ -4676,7 +4676,7 @@ Acts	26	9	Y X Y Y Y X X X X X Y Y X Y Y
 Acts	26	10	Y Y Y X Y Y Y Y X Y Y X Y Y X X X X Y Y Y Y Y Y Y
 Acts	26	11	Y X X X Y Y Y Y Y Y Y Y Y Y Y X X X X X Y
 Acts	26	12	X Y Y X X Y X X X X X X Y
-Acts	26	13	X Y X X Y Y Y Y X X X X Y Y X X X Y X Y Y
+Acts	26	13	X Y X X Y Y Y Y X X X X Y Y Y Y X Y X Y Y
 Acts	26	14	Y Y Y Y X X Y Y Y Y X Y X X Y X Y Y Y Y Y Y X Y Y
 Acts	26	15	Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Acts	26	16	Y Y Y Y X X X Y X Y Y Y Y Y Y X X Y Y Y Y Y Y Y Y Y
@@ -4685,7 +4685,7 @@ Acts	26	18	Y X Y Y Y X X X X X X X X X X X Y Y Y Y X X X X X Y Y X X X Y
 Acts	26	19	X X X Y Y Y X X Y
 Acts	26	20	Y X X X X X X X X X X X X X X X Y Y Y Y Y X X Y X X X Y Y
 Acts	26	21	X Y Y Y Y X X Y Y Y
-Acts	26	22	Y Y Y X X X Y X X X Y Y Y X X X Y Y X Y Y X X Y Y Y Y X Y
+Acts	26	22	Y Y Y X X X Y X X X Y Y Y X X X Y Y Y Y Y X X Y Y Y Y X Y
 Acts	26	23	Y Y X Y Y Y X X Y Y Y Y X X X X X Y
 Acts	26	24	Y Y Y Y X Y X X Y Y Y Y X Y Y Y X Y Y
 Acts	26	25	Y Y Y Y Y Y X X Y X X X Y Y
@@ -4707,11 +4707,11 @@ Acts	27	8	Y Y Y Y Y X X Y Y X Y X Y Y X Y
 Acts	27	9	Y Y Y Y Y Y Y Y X Y X Y X X Y Y Y Y X Y
 Acts	27	10	Y Y Y Y Y X X X X X X X X X X X X X X X X Y Y Y X Y
 Acts	27	11	Y Y Y X X X X Y Y Y X Y X Y Y
-Acts	27	12	Y Y X Y Y X Y X Y Y Y Y Y X Y Y Y X X X X X Y Y X X X X Y
+Acts	27	12	Y Y X Y Y X Y X Y Y Y Y Y X Y Y Y X Y Y X X Y Y X X X X Y
 Acts	27	13	Y Y Y Y X Y Y Y Y Y X Y
 Acts	27	14	X X Y Y Y X Y X X Y Y Y
 Acts	27	15	Y Y X Y Y Y Y Y X Y Y Y
-Acts	27	16	X X X Y Y Y Y Y Y Y X Y
+Acts	27	16	Y Y Y Y Y Y Y Y Y Y X Y
 Acts	27	17	Y Y Y Y Y X Y Y X Y X X Y Y Y X Y Y Y
 Acts	27	18	Y Y Y Y X Y Y Y
 Acts	27	19	Y X Y Y X X X Y Y
@@ -4728,13 +4728,13 @@ Acts	27	29	Y X Y Y X X Y Y X Y Y X Y Y Y Y
 Acts	27	30	Y Y Y Y Y X X Y Y Y X Y X X Y Y Y X Y Y Y Y
 Acts	27	31	Y X Y X X X X Y Y Y Y Y X X Y Y Y Y Y
 Acts	27	32	Y Y X Y X X X Y Y Y Y Y
-Acts	27	33	X Y Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y
+Acts	27	33	Y Y Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y
 Acts	27	34	Y Y Y Y Y Y Y X X X Y Y Y Y X Y X X Y Y
 Acts	27	35	Y Y Y Y Y Y Y X Y X Y Y Y Y Y
 Acts	27	36	Y Y Y Y X Y Y Y
 Acts	27	37	Y Y X X X X X Y X X Y
 Acts	27	38	Y Y Y Y X Y Y X Y X X Y
-Acts	27	39	X Y Y Y X Y Y Y X X X Y Y Y X Y Y Y Y Y X Y
+Acts	27	39	X Y Y Y X Y Y Y Y Y Y Y Y Y X Y Y Y Y Y X Y
 Acts	27	40	Y X Y Y Y X X Y Y Y X X X Y Y Y X Y Y Y Y X X Y
 Acts	27	41	Y Y X X Y Y X Y Y Y Y Y Y Y Y Y Y Y Y X X Y
 Acts	27	42	Y Y X Y Y Y X Y Y Y Y Y Y
@@ -4761,7 +4761,7 @@ Acts	28	18	Y Y Y Y Y X Y X X Y Y X Y
 Acts	28	19	Y Y X Y Y Y Y X Y X X Y Y Y Y
 Acts	28	20	X Y Y X Y Y Y Y Y Y Y Y X X X Y X X Y Y
 Acts	28	21	Y Y X Y Y Y Y X X Y Y X X Y Y Y X X Y X X Y X X X Y
-Acts	28	22	Y Y X Y Y Y Y Y Y Y X X Y Y Y Y Y Y Y
+Acts	28	22	Y Y X Y Y Y Y Y X Y X X Y Y Y Y Y Y Y
 Acts	28	23	Y Y Y Y Y X Y X X Y Y Y Y Y X X X Y Y Y Y X X Y X X X X X X X Y X X X Y
 Acts	28	24	Y Y Y Y Y Y Y Y Y
 Acts	28	25	Y Y Y X Y Y Y X Y X Y Y Y X X X Y Y X X X Y X X X Y
@@ -4789,13 +4789,13 @@ Romans	1	16	Y Y Y X Y Y Y Y Y X Y X Y Y X X X X Y
 Romans	1	17	Y Y Y X Y Y X X X Y Y Y Y Y Y X Y Y
 Romans	1	18	Y Y X Y X Y X X X X X X Y X Y X Y Y
 Romans	1	19	Y X X X Y Y Y X Y X Y Y Y Y
-Romans	1	20	Y Y X Y Y Y Y Y Y Y Y X X X X X X Y X Y Y Y Y
+Romans	1	20	Y Y X Y X X Y X Y Y Y X X X X X X Y X Y Y Y Y
 Romans	1	21	Y Y X Y Y X Y X X X Y Y X X X Y Y Y X X X Y
 Romans	1	22	Y Y Y Y
 Romans	1	23	Y Y X X X X Y X X X X X X X X X X Y
 Romans	1	24	Y Y Y X Y X X X X X Y X Y Y Y X X Y X Y
 Romans	1	25	Y Y X X X Y X X Y X X X Y X Y X Y Y Y Y Y X X Y Y
-Romans	1	26	X Y Y Y X Y X X Y Y Y Y X Y Y X X Y X X X Y
+Romans	1	26	X Y Y Y X Y X X Y Y X Y X Y Y X X Y X X X Y
 Romans	1	27	Y Y X X Y Y X X X X Y Y X X X Y X Y Y X Y X Y Y Y X Y Y Y X X Y X Y Y
 Romans	1	28	X Y Y Y X Y Y X Y Y Y X Y X X Y Y Y Y Y
 Romans	1	29	Y X X X X Y Y X X X X Y Y
@@ -4872,14 +4872,14 @@ Romans	4	7	Y Y Y X Y Y Y Y X Y
 Romans	4	8	Y Y Y X Y Y Y Y
 Romans	4	9	X Y Y Y X X X X X X X Y Y Y Y X Y X Y X Y
 Romans	4	10	Y Y Y X Y Y X X Y Y X Y Y X Y
-Romans	4	11	Y Y Y X X X X X X X X X Y X Y Y Y X X Y Y X Y X X X X X Y
+Romans	4	11	Y Y Y X X X X X X X X X Y X Y Y Y X X Y Y X Y X Y Y Y X Y
 Romans	4	12	Y X Y Y Y X Y Y X X Y Y X X X X X X X X X Y
-Romans	4	13	X Y X Y X X X X X X X X Y Y Y Y Y Y X X Y
+Romans	4	13	X Y X Y X Y X X X X X Y Y Y Y Y Y Y X X Y
 Romans	4	14	X Y X X Y Y Y X Y Y Y X Y
 Romans	4	15	Y Y Y Y Y Y Y Y Y Y Y Y
 Romans	4	16	X Y X Y Y X Y X Y Y Y X Y X X X X X X X X X X X X X X Y Y Y X X Y
-Romans	4	17	Y Y Y X X Y Y Y Y Y Y X Y Y X Y Y Y Y Y Y X Y
-Romans	4	18	Y X Y X Y Y X Y Y Y X X Y X X X X X X X Y
+Romans	4	17	Y Y Y X X Y Y Y Y Y Y X Y Y X Y Y Y Y Y Y Y Y
+Romans	4	18	Y X Y X Y Y X Y Y Y X X Y X Y Y Y Y X X Y
 Romans	4	19	Y Y Y X Y Y X X Y Y Y Y Y Y X X X X Y
 Romans	4	20	Y Y X X X Y Y Y X Y Y Y X Y Y Y X Y
 Romans	4	21	Y Y Y Y Y Y Y Y Y
@@ -4900,9 +4900,9 @@ Romans	5	10	X Y Y Y Y X Y X X X X X Y X Y Y Y X X X Y
 Romans	5	11	Y Y X Y Y Y X X Y X X X X X Y X Y Y X Y Y
 Romans	5	12	X Y Y X X Y X Y X X Y Y Y X X Y X Y X Y X X Y X Y Y Y Y Y Y
 Romans	5	13	Y Y Y Y Y X Y Y Y Y Y Y Y Y
-Romans	5	14	Y Y X Y X X X Y X X Y Y Y X X X X X X X X X X Y
+Romans	5	14	Y Y X Y X X X Y X X Y Y Y X X X X X Y Y Y X Y Y
 Romans	5	15	X X Y X Y Y X X Y X Y X X X Y X Y Y X Y X X X X X X X X X X X X X X Y X X Y Y
-Romans	5	16	Y Y X X Y Y X Y Y Y Y Y X Y X Y Y Y Y X X Y X Y
+Romans	5	16	Y Y X X Y Y X Y Y X Y Y X Y X Y Y Y Y X X Y X Y
 Romans	5	17	X Y X X X Y X Y Y X X Y X Y Y X X X X X X X X Y Y X Y Y X X X X Y
 Romans	5	18	X X Y X X Y X X Y X Y Y X X X Y X X Y X X Y
 Romans	5	19	X Y X X X X X Y Y Y X Y Y X X X X X Y Y Y X Y
@@ -4934,10 +4934,10 @@ Romans	6	23	Y Y X X Y Y Y Y X X Y X Y X X X X X Y
 Romans	7	1	Y Y Y Y Y Y Y Y X Y Y X Y Y X Y Y
 Romans	7	2	Y Y X Y Y Y Y Y Y X Y Y X Y Y X X X X Y
 Romans	7	3	X Y Y X Y Y Y Y Y X Y X Y Y X Y Y Y X X Y Y Y Y Y Y Y X Y
-Romans	7	4	X X Y X Y Y X Y X X X X Y X Y Y Y X X X X Y Y Y X Y
+Romans	7	4	X X Y X Y Y X Y X X X X Y X Y Y Y X Y X Y Y Y Y X Y
 Romans	7	5	X Y Y X X Y X X X X X X X Y Y X X X Y X Y Y X Y
 Romans	7	6	Y Y Y X X Y Y Y Y Y Y Y Y X X X X X X Y
-Romans	7	7	Y Y Y X Y Y Y Y Y X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y X Y Y Y Y
+Romans	7	7	Y Y Y X Y Y Y Y Y X Y Y Y Y Y X Y Y X Y Y Y Y Y Y X Y Y Y Y
 Romans	7	8	Y Y Y X Y X X Y Y X Y X Y Y Y Y Y Y
 Romans	7	9	Y Y Y X Y Y Y Y X Y X Y Y
 Romans	7	10	Y Y Y Y Y Y X X X X X Y X Y
@@ -4949,7 +4949,7 @@ Romans	7	15	Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y
 Romans	7	16	X Y Y Y Y Y Y Y X Y Y Y
 Romans	7	17	X X Y Y Y Y Y Y Y X Y Y
 Romans	7	18	Y X Y Y Y X Y Y Y X X X Y Y X Y Y Y Y X Y Y X Y Y
-Romans	7	19	X Y Y Y Y X Y Y Y Y Y Y Y
+Romans	7	19	X Y Y Y Y Y Y Y Y Y Y Y Y
 Romans	7	20	X Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y Y
 Romans	7	21	Y Y X Y Y Y Y Y X Y Y Y X Y Y
 Romans	7	22	Y Y X X X Y X X X Y
@@ -4979,7 +4979,7 @@ Romans	8	20	Y Y Y X Y Y X X X X Y Y X Y
 Romans	8	21	Y X X X Y Y X X X X Y X X X X X X X X Y
 Romans	8	22	Y X Y X X Y X X Y X X Y
 Romans	8	23	Y Y X Y X Y X X X Y Y X X Y X Y Y Y Y X X X X Y
-Romans	8	24	Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y
+Romans	8	24	Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Romans	8	25	X Y Y Y Y Y X Y Y
 Romans	8	26	Y Y X X Y Y X X Y X Y Y Y Y Y Y Y Y X X Y Y X Y
 Romans	8	27	X Y Y X Y Y Y X X X Y Y X Y Y X Y
@@ -5014,13 +5014,13 @@ Romans	9	16	X Y X Y Y X Y Y X Y Y Y
 Romans	9	17	Y Y X Y X Y Y X X Y Y Y Y Y X Y X X Y X Y Y X X Y X X X Y
 Romans	9	18	X Y Y Y Y Y Y Y Y
 Romans	9	19	Y Y Y Y Y Y Y Y X Y Y Y
-Romans	9	20	X X Y X X X Y Y X Y Y Y X Y Y Y Y Y Y Y
-Romans	9	21	X Y Y Y Y Y X Y X X X Y Y Y Y X Y Y Y Y X Y
+Romans	9	20	X X Y Y Y Y Y Y X Y Y Y X Y Y Y Y Y Y Y
+Romans	9	21	X Y Y Y X Y X Y X X X Y Y Y Y X Y Y Y Y X Y
 Romans	9	22	X Y Y X Y Y X Y Y Y X X Y Y X X Y X Y Y X Y
 Romans	9	23	X Y Y X X X X Y X X Y Y Y X Y
 Romans	9	24	Y Y Y Y X X X X X X X Y
 Romans	9	25	Y X X X Y Y Y X X X Y X Y X Y Y Y Y
-Romans	9	26	Y Y X X Y Y Y Y Y X Y Y Y Y X X Y
+Romans	9	26	Y Y X X Y Y Y Y Y X Y Y Y Y X Y Y
 Romans	9	27	Y Y Y X X Y Y Y X X X X Y X X X X Y X Y Y
 Romans	9	28	Y X X X Y Y Y X X Y
 Romans	9	29	X Y Y Y Y Y X Y Y Y Y X Y Y Y Y X Y Y Y
@@ -5040,7 +5040,7 @@ Romans	10	9	X Y Y X X X Y X Y Y Y X X X Y Y X Y Y Y X Y Y
 Romans	10	10	Y Y Y X Y Y Y Y X Y
 Romans	10	11	Y Y X Y X Y Y X Y Y Y
 Romans	10	12	Y Y Y X X X X Y Y Y X Y Y Y X X Y Y Y
-Romans	10	13	X Y Y Y Y X X Y Y
+Romans	10	13	Y Y Y Y Y X X Y Y
 Romans	10	14	Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 Romans	10	15	Y Y Y Y Y Y Y Y Y Y X X Y Y Y
 Romans	10	16	Y Y Y Y X Y Y Y Y Y Y Y X X Y
@@ -5070,7 +5070,7 @@ Romans	11	18	Y Y X Y X Y Y Y Y X Y Y Y X Y Y
 Romans	11	19	Y Y Y Y Y Y Y
 Romans	11	20	Y X Y Y Y Y X Y Y Y Y Y Y Y
 Romans	11	21	X Y X Y X X X Y Y Y Y Y Y
-Romans	11	22	Y Y X X X Y X X Y Y Y Y Y Y X Y Y Y X Y Y X Y Y
+Romans	11	22	Y Y X X X Y Y Y Y Y Y Y Y Y X Y Y Y X Y Y X Y Y
 Romans	11	23	Y X Y Y Y X Y Y Y Y Y X Y Y Y Y
 Romans	11	24	X Y Y X X X Y Y Y Y X Y Y X Y X Y X X X Y Y X X Y
 Romans	11	25	Y Y Y Y Y Y X X Y Y Y Y X Y Y Y Y X Y X Y Y Y Y X X X Y Y
@@ -5087,10 +5087,10 @@ Romans	11	35	Y Y Y Y Y Y Y
 Romans	11	36	Y X X X X X X X Y X Y Y X Y X X Y Y
 Romans	12	1	Y Y Y Y X X X X Y Y X X Y Y Y X X X Y X X X Y
 Romans	12	2	X Y Y X X Y Y Y X X X Y X Y Y Y Y X X X X X X X X X Y
-Romans	12	3	Y Y X X X Y Y Y X Y Y X Y Y Y X X X Y Y Y X X Y Y Y X Y Y X Y
+Romans	12	3	Y Y X X X Y Y Y X Y Y X Y Y Y Y Y Y Y Y Y X Y Y Y Y X Y Y X Y
 Romans	12	4	X Y X X Y X Y Y Y Y X Y Y X Y Y Y
 Romans	12	5	Y X Y X Y Y X Y Y Y X Y X Y
-Romans	12	6	Y Y Y Y Y Y Y Y Y Y Y Y X X X X Y
+Romans	12	6	Y Y Y X X X Y Y Y Y Y Y X X X X Y
 Romans	12	7	Y Y X X Y X Y Y X X Y
 Romans	12	8	X Y Y X X Y Y Y X Y Y Y X Y Y Y X Y
 Romans	12	9	X Y Y Y X Y Y X Y
@@ -5132,7 +5132,7 @@ Romans	14	9	X Y Y Y X X X Y X X Y Y Y
 Romans	14	10	Y Y Y Y X X Y Y X Y Y Y X X Y Y Y Y X X X Y
 Romans	14	11	Y Y Y Y Y Y Y Y Y X Y Y X Y Y X Y
 Romans	14	12	X Y X Y X Y Y Y X Y
-Romans	14	13	Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y
+Romans	14	13	Y Y Y Y Y Y Y Y Y Y Y Y X Y X Y
 Romans	14	14	X X Y X X Y Y Y Y X Y X X Y Y Y Y Y Y Y
 Romans	14	15	X Y X Y X X Y Y Y X Y Y Y X X Y Y Y X Y Y Y
 Romans	14	16	Y Y Y X X Y
@@ -5142,7 +5142,7 @@ Romans	14	19	X Y X X Y Y X X X X X X Y
 Romans	14	20	Y X Y Y X X X Y Y Y Y Y Y X X Y X Y Y
 Romans	14	21	Y Y Y Y Y Y Y Y Y X Y X X Y Y
 Romans	14	22	Y Y Y Y X Y Y X X Y Y Y Y Y Y Y Y Y
-Romans	14	23	X Y Y Y Y Y Y Y X Y X Y Y Y X Y Y Y
+Romans	14	23	X Y Y Y Y Y Y Y X Y Y Y Y Y X Y Y Y
 Romans	15	1	Y Y X X Y X X X Y Y Y Y Y Y
 Romans	15	2	X Y X Y Y X X Y X Y
 Romans	15	3	Y Y X Y Y Y Y X Y Y X X Y Y Y Y X Y
@@ -5173,7 +5173,7 @@ Romans	15	27	Y X Y Y Y Y X Y X X Y Y X Y Y Y X X Y Y Y
 Romans	15	28	Y Y Y Y Y Y X X Y Y X Y X Y
 Romans	15	29	Y X Y Y X Y X X X Y Y
 Romans	15	30	Y Y Y Y X X X X X X X X X X X Y Y Y X X Y X Y X X Y
-Romans	15	31	Y Y X Y Y X X X Y X X X X X Y Y X Y Y
+Romans	15	31	Y Y X Y Y X X Y Y X X X X X Y Y X Y Y
 Romans	15	32	Y X Y Y X Y X X Y Y Y
 Romans	15	33	Y Y X X Y X X Y Y
 Romans	16	1	Y Y Y X X X Y Y X X X X X Y
@@ -5218,8 +5218,8 @@ I_Corinthians	1	13	Y X Y Y Y Y X Y Y X X X Y Y
 I_Corinthians	1	14	Y Y X Y Y Y Y X X Y
 I_Corinthians	1	15	Y Y Y Y Y X X X Y Y
 I_Corinthians	1	16	Y Y X X X Y Y Y Y Y X Y Y
-I_Corinthians	1	17	X X X X Y Y Y Y Y X X Y Y Y Y X X X Y
-I_Corinthians	1	18	X Y Y X X Y X Y Y Y Y X Y Y Y X Y Y
+I_Corinthians	1	17	Y Y Y Y Y Y Y Y Y X X Y Y Y Y X X X Y
+I_Corinthians	1	18	X Y Y X X Y X Y Y Y Y Y Y Y Y X Y Y
 I_Corinthians	1	19	Y Y Y X X X Y Y X X X Y Y
 I_Corinthians	1	20	Y Y Y Y Y X X X Y Y Y X Y X X X Y
 I_Corinthians	1	21	X Y X X X X Y Y Y X Y X X Y X Y Y X Y X X X X Y Y Y Y
@@ -5229,16 +5229,16 @@ I_Corinthians	1	24	Y Y X X X X X Y X X X X X Y
 I_Corinthians	1	25	Y X X X Y Y X Y Y Y X X X Y Y X Y
 I_Corinthians	1	26	Y Y X X Y X Y Y Y Y X Y Y Y Y Y Y Y
 I_Corinthians	1	27	Y X X X Y Y X Y Y Y X Y Y X X X Y Y X Y Y Y X Y
-I_Corinthians	1	28	Y X X X X X Y Y X X X Y Y Y X Y Y Y
+I_Corinthians	1	28	Y X X X X X Y Y Y X Y Y Y Y X Y Y Y
 I_Corinthians	1	29	Y Y Y X Y X X Y
-I_Corinthians	1	30	X Y Y Y Y X X Y Y Y Y Y Y Y X X X X X Y
+I_Corinthians	1	30	X Y Y Y Y X X Y Y Y Y Y X Y X X X X X Y
 I_Corinthians	1	31	X Y Y Y Y X Y Y
 I_Corinthians	2	1	Y Y X Y Y Y Y X X X X Y Y Y X X X Y
 I_Corinthians	2	2	Y Y Y Y Y X Y Y Y X X X Y Y
 I_Corinthians	2	3	Y X X X X X X X X Y Y X Y
 I_Corinthians	2	4	Y X X X X X X Y X X X X X X X X X X Y
 I_Corinthians	2	5	Y X X Y Y Y X X X X X X Y
-I_Corinthians	2	6	Y Y Y X X Y X X X X X X X X X X X X Y Y
+I_Corinthians	2	6	Y Y Y X X Y Y Y Y X X X X X X X X X Y Y
 I_Corinthians	2	7	Y Y X X X X Y Y Y Y X Y X X Y X X Y
 I_Corinthians	2	8	Y X X X X X Y Y X Y Y Y Y X X X Y Y
 I_Corinthians	2	9	X Y Y Y Y Y Y Y Y Y Y Y X X Y Y Y Y Y X Y Y Y Y
@@ -5249,20 +5249,20 @@ I_Corinthians	2	13	Y Y Y X X X X X X X X X Y Y Y Y
 I_Corinthians	2	14	Y Y Y Y Y X X X X Y Y Y Y Y Y Y Y Y Y Y Y
 I_Corinthians	2	15	Y Y Y Y Y Y Y Y X Y Y
 I_Corinthians	2	16	Y Y Y X Y Y Y Y Y Y X Y Y
-I_Corinthians	3	1	Y Y X Y Y Y X Y Y X X X X X Y
+I_Corinthians	3	1	Y Y Y Y Y Y X Y Y X X X X X Y
 I_Corinthians	3	2	Y Y Y Y Y Y Y Y Y Y Y Y Y
 I_Corinthians	3	3	Y Y Y Y X Y X Y X X Y Y Y Y Y X Y Y
 I_Corinthians	3	4	X Y Y Y Y Y Y Y Y Y Y Y Y Y Y
 I_Corinthians	3	5	Y Y Y Y Y Y Y Y Y X Y Y X Y Y X Y Y
 I_Corinthians	3	6	Y Y Y Y Y X Y Y
 I_Corinthians	3	7	X X Y Y Y Y X Y Y Y Y Y Y
-I_Corinthians	3	8	Y Y X X Y Y Y Y Y Y X X Y Y X X X Y
+I_Corinthians	3	8	Y Y Y X Y Y Y Y Y Y X X Y Y X X X Y
 I_Corinthians	3	9	Y Y Y Y X X X Y Y
 I_Corinthians	3	10	X X X X X Y Y Y X X Y Y Y Y Y Y Y Y Y Y Y
 I_Corinthians	3	11	Y Y Y Y Y Y X Y Y Y Y X Y
 I_Corinthians	3	12	X Y Y Y X X Y X X X X X X Y
 I_Corinthians	3	13	X X Y Y Y Y Y Y Y Y X Y Y Y X X Y Y Y X Y Y Y
-I_Corinthians	3	14	Y X X X Y Y Y Y Y
+I_Corinthians	3	14	Y X X Y Y Y Y Y Y
 I_Corinthians	3	15	Y X X Y Y Y Y Y Y Y X Y X Y
 I_Corinthians	3	16	Y Y Y X Y Y Y X X X Y X Y Y
 I_Corinthians	3	17	Y Y X X X Y Y Y Y X Y Y Y X X Y Y Y Y Y Y
@@ -5295,7 +5295,7 @@ I_Corinthians	4	20	X Y X Y X X X Y Y X Y
 I_Corinthians	4	21	Y Y X Y Y X Y Y X X X X Y
 I_Corinthians	5	1	Y Y X Y X X X Y Y Y X X Y Y Y Y X Y Y
 I_Corinthians	5	2	Y Y X X Y Y Y Y Y Y X X Y Y X X Y Y
-I_Corinthians	5	3	Y X Y Y X Y Y Y X Y Y Y Y Y Y Y Y Y
+I_Corinthians	5	3	Y Y Y Y X Y Y Y X Y Y Y Y Y Y Y Y Y
 I_Corinthians	5	4	X X X X X Y Y X X X X Y X X X X X X Y
 I_Corinthians	5	5	Y X Y X Y X X X Y Y X Y Y X X X X Y
 I_Corinthians	5	6	Y Y X X Y Y Y Y X Y X X Y Y
@@ -5309,7 +5309,7 @@ I_Corinthians	5	13	Y Y Y X Y Y Y X Y X X Y
 I_Corinthians	6	1	Y X Y Y Y X X Y Y X X Y Y Y X X Y
 I_Corinthians	6	2	Y Y Y Y X Y X Y Y X Y X Y Y X Y Y Y X Y
 I_Corinthians	6	3	Y Y Y Y Y Y Y
-I_Corinthians	6	4	Y Y Y Y Y Y Y Y X X Y Y Y
+I_Corinthians	6	4	Y X Y Y Y Y Y Y X X Y Y Y
 I_Corinthians	6	5	X Y Y Y Y Y Y X Y X Y Y Y Y X X X X Y
 I_Corinthians	6	6	Y Y X Y Y Y Y X Y
 I_Corinthians	6	7	Y X Y Y Y Y Y Y Y Y X Y X Y Y Y Y X Y Y Y Y
@@ -5326,7 +5326,7 @@ I_Corinthians	6	17	X Y Y X Y X Y Y
 I_Corinthians	6	18	Y X Y X Y Y Y Y Y X X Y Y X Y Y X X X Y Y
 I_Corinthians	6	19	Y Y Y Y X X Y X X X X X Y Y Y Y X Y Y Y Y Y
 I_Corinthians	6	20	Y Y Y Y Y X Y X X X Y
-I_Corinthians	7	1	X Y Y Y Y Y Y Y Y
+I_Corinthians	7	1	Y Y Y Y Y Y Y Y Y
 I_Corinthians	7	2	Y Y X Y Y X X Y Y Y Y X X Y Y
 I_Corinthians	7	3	X Y X Y X Y Y Y Y X X Y X Y
 I_Corinthians	7	4	X Y X X Y Y Y Y X Y X Y X X Y X X Y Y Y Y X Y
@@ -5347,11 +5347,11 @@ I_Corinthians	7	18	Y Y Y Y Y X Y Y Y Y Y
 I_Corinthians	7	19	X Y Y Y Y X Y Y Y Y X X Y
 I_Corinthians	7	20	Y X X Y Y Y X Y Y
 I_Corinthians	7	21	Y Y Y Y Y X Y Y Y Y Y Y Y
-I_Corinthians	7	22	X Y X Y Y Y X Y Y Y X Y Y Y Y Y
+I_Corinthians	7	22	Y Y X Y Y Y X Y Y Y X Y Y Y Y Y
 I_Corinthians	7	23	Y Y Y Y X Y
 I_Corinthians	7	24	Y X Y Y Y X Y Y X Y
 I_Corinthians	7	25	Y Y X Y X Y Y Y Y Y Y Y Y X Y Y Y
-I_Corinthians	7	26	Y Y Y Y Y X Y Y X Y Y Y Y Y Y
+I_Corinthians	7	26	Y Y Y Y Y X Y Y Y Y Y Y Y Y Y
 I_Corinthians	7	27	Y Y Y Y Y Y X Y Y Y Y
 I_Corinthians	7	28	X Y Y Y Y Y X Y Y X Y Y Y Y Y X Y Y X Y Y Y Y Y
 I_Corinthians	7	29	Y Y Y Y X Y X Y X Y Y X Y Y Y Y Y Y Y
@@ -5376,7 +5376,7 @@ I_Corinthians	8	7	Y Y X Y X Y Y Y X Y X Y X Y Y Y Y Y X X Y Y Y Y
 I_Corinthians	8	8	Y Y Y Y Y X Y X Y Y Y Y X Y Y Y
 I_Corinthians	8	9	Y X X Y X X X Y Y Y X Y
 I_Corinthians	8	10	X Y Y Y X Y Y Y X Y Y Y X X Y Y Y Y X Y X Y Y
-I_Corinthians	8	11	Y Y Y Y X X X X X Y X Y Y Y
+I_Corinthians	8	11	Y Y Y Y X X X Y X Y X Y Y Y
 I_Corinthians	8	12	Y Y Y X X Y Y Y X X Y Y X Y Y
 I_Corinthians	8	13	X Y Y Y X X Y X Y Y Y X X Y Y Y X X Y Y
 I_Corinthians	9	1	Y Y Y Y Y Y Y X X X Y Y Y X X Y Y Y X Y
@@ -5403,7 +5403,7 @@ I_Corinthians	9	21	X Y X Y Y Y X Y Y X Y Y Y X Y
 I_Corinthians	9	22	Y X Y Y Y X Y Y X Y Y Y Y Y Y Y
 I_Corinthians	9	23	Y Y Y X X Y Y X Y Y
 I_Corinthians	9	24	Y Y X Y X Y Y Y Y Y Y Y Y X Y Y Y Y Y
-I_Corinthians	9	25	X X Y Y Y Y Y X X Y X Y Y Y Y Y
+I_Corinthians	9	25	Y Y Y Y Y Y Y X X Y X Y Y Y Y Y
 I_Corinthians	9	26	Y Y Y Y Y Y Y Y Y Y Y Y Y
 I_Corinthians	9	27	Y Y X X Y Y Y X Y Y Y Y Y Y
 I_Corinthians	10	1	Y Y Y Y Y X Y X X X Y X X Y Y Y Y X X Y Y
@@ -5418,7 +5418,7 @@ I_Corinthians	10	9	Y Y X Y Y X Y Y Y X X Y Y
 I_Corinthians	10	10	Y Y Y X Y Y Y Y X X Y
 I_Corinthians	10	11	Y Y Y Y Y Y Y X X Y X Y X X X Y Y
 I_Corinthians	10	12	X Y Y Y Y Y Y
-I_Corinthians	10	13	Y Y Y Y Y Y Y Y Y X Y Y Y Y Y Y X X Y Y Y X X Y X X Y Y Y Y
+I_Corinthians	10	13	Y Y Y Y Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y Y X X Y X X Y Y Y Y
 I_Corinthians	10	14	X X Y Y X X Y
 I_Corinthians	10	15	Y Y Y Y Y Y Y
 I_Corinthians	10	16	X X X Y Y Y Y Y Y X X X Y X Y Y Y Y X X X X Y Y
@@ -5478,7 +5478,7 @@ I_Corinthians	12	2	Y X Y Y Y X X X X Y X Y Y Y
 I_Corinthians	12	3	Y Y Y Y Y X X Y Y Y Y Y Y Y Y Y Y Y Y Y X X Y
 I_Corinthians	12	4	Y Y Y Y Y Y X Y
 I_Corinthians	12	5	Y X Y Y Y X X Y
-I_Corinthians	12	6	Y X Y Y X X X X Y Y X Y X Y
+I_Corinthians	12	6	Y X Y Y Y Y X X Y Y X Y X Y
 I_Corinthians	12	7	Y Y Y X X X Y X Y Y
 I_Corinthians	12	8	Y X Y X X Y Y X Y Y Y X Y X X X Y
 I_Corinthians	12	9	Y Y X X X Y Y Y X Y X X X Y
@@ -5506,7 +5506,7 @@ I_Corinthians	12	30	Y Y Y Y Y Y Y Y Y Y Y Y
 I_Corinthians	12	31	Y Y X X X Y Y X X Y Y Y Y
 I_Corinthians	13	1	Y X X X Y Y X X Y Y Y Y Y Y Y Y X Y Y
 I_Corinthians	13	2	X Y Y Y Y Y X X X X X X Y X Y Y X X Y Y Y Y Y Y Y Y Y Y
-I_Corinthians	13	3	X Y Y X Y Y X X Y Y X X Y Y Y Y Y Y Y Y Y
+I_Corinthians	13	3	X Y Y X Y Y Y X Y Y X X Y Y Y Y Y Y Y Y Y
 I_Corinthians	13	4	X Y Y Y X Y Y Y X Y Y Y Y Y
 I_Corinthians	13	5	Y Y Y Y X Y Y Y Y Y X Y
 I_Corinthians	13	6	Y Y X X Y Y Y X Y
@@ -5524,7 +5524,7 @@ I_Corinthians	14	4	Y Y Y Y Y X Y Y Y Y
 I_Corinthians	14	5	Y Y X Y Y Y Y X Y Y Y X Y Y X Y Y Y Y Y Y Y Y X Y Y Y
 I_Corinthians	14	6	Y X X Y Y X Y Y Y Y Y Y Y Y Y Y X X X X X X X X X X Y
 I_Corinthians	14	7	X X Y Y Y X X X Y Y Y X Y Y Y Y Y Y Y X Y Y
-I_Corinthians	14	8	Y Y Y Y Y Y Y Y Y X Y
+I_Corinthians	14	8	Y X Y Y Y Y Y Y Y X Y
 I_Corinthians	14	9	Y X Y X X Y Y Y X Y Y Y Y Y Y X Y X Y Y
 I_Corinthians	14	10	Y Y Y X Y Y X Y Y Y Y
 I_Corinthians	14	11	X Y Y Y X X X Y Y Y Y Y X Y Y X Y Y
@@ -5546,7 +5546,7 @@ I_Corinthians	14	26	Y Y Y X Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y Y
 I_Corinthians	14	27	Y Y Y Y X X X X X X X X Y Y Y Y
 I_Corinthians	14	28	X Y Y Y Y Y X Y Y Y Y X X Y
 I_Corinthians	14	29	Y Y X X Y Y Y X Y Y
-I_Corinthians	14	30	X Y X Y Y X Y Y
+I_Corinthians	14	30	X Y Y Y Y X Y Y
 I_Corinthians	14	31	Y Y X Y Y Y Y Y Y Y Y Y
 I_Corinthians	14	32	Y X Y Y Y
 I_Corinthians	14	33	X Y Y Y X Y Y Y Y X X X X X Y
@@ -5576,7 +5576,7 @@ I_Corinthians	15	16	X Y Y Y Y Y Y Y
 I_Corinthians	15	17	X Y Y Y Y Y X X Y Y Y X X X Y
 I_Corinthians	15	18	Y X Y Y X Y Y
 I_Corinthians	15	19	Y X X X Y X Y X Y Y Y X Y Y
-I_Corinthians	15	20	Y Y X X X X X Y Y
+I_Corinthians	15	20	Y Y Y Y X Y X Y Y
 I_Corinthians	15	21	X Y X Y Y X X Y X Y
 I_Corinthians	15	22	X Y X X Y Y Y Y X X X Y Y Y
 I_Corinthians	15	23	Y Y X X X Y Y Y Y X X Y X X X Y
@@ -5587,7 +5587,7 @@ I_Corinthians	15	27	Y Y Y X X X Y X Y Y Y Y Y Y Y X Y Y Y X Y
 I_Corinthians	15	28	X Y Y Y X Y Y X X X Y Y Y Y Y X Y Y Y X Y Y X Y
 I_Corinthians	15	29	Y Y Y Y Y X X Y Y Y Y Y Y Y Y Y X Y
 I_Corinthians	15	30	Y X Y Y X Y
-I_Corinthians	15	31	X Y Y X X X X Y Y Y X X X X X Y
+I_Corinthians	15	31	X Y Y X X X Y Y Y Y X X X X X Y
 I_Corinthians	15	32	Y X Y Y X Y Y Y X Y Y Y Y Y Y Y Y Y Y Y
 I_Corinthians	15	33	Y Y Y X Y X Y
 I_Corinthians	15	34	Y Y Y Y Y Y Y Y Y Y X Y Y Y
@@ -5613,7 +5613,7 @@ I_Corinthians	15	53	Y Y X X Y Y Y Y X X Y Y Y
 I_Corinthians	15	54	X Y X X Y Y Y Y X X Y Y Y Y Y X X Y Y Y X Y X Y
 I_Corinthians	15	55	Y Y Y X Y Y Y Y X Y
 I_Corinthians	15	56	Y Y X X Y X Y Y Y X X Y X Y
-I_Corinthians	15	57	X X X X Y Y Y X Y X X X X X Y
+I_Corinthians	15	57	Y Y Y Y Y Y Y X Y X X X X X Y
 I_Corinthians	15	58	X X X Y Y Y Y Y X X X X Y Y Y Y X X Y Y Y Y X Y
 I_Corinthians	16	1	Y Y X X X X X Y Y Y X X X Y Y X Y Y
 I_Corinthians	16	2	X X Y X Y X Y Y Y Y X Y Y Y Y Y Y Y Y Y
@@ -5642,22 +5642,22 @@ I_Corinthians	16	24	X X Y X X Y X X Y
 II_Corinthians	1	1	X X X X X X X X X X Y X X X X Y Y X Y X X X X Y Y X X X Y
 II_Corinthians	1	2	Y Y X Y X X X X X X X Y
 II_Corinthians	1	3	Y X X X X X X X X X X X X X X X X Y
-II_Corinthians	1	4	Y Y Y X X X X Y X Y Y Y Y X X X Y X X X X X X X X Y
+II_Corinthians	1	4	Y Y Y X X X X Y X Y Y Y Y X X X Y X X Y Y Y Y X X Y
 II_Corinthians	1	5	X Y Y X X X Y X Y Y X X Y Y X X X Y
-II_Corinthians	1	6	X Y Y X X X X X Y Y Y X X X X Y Y X X X X X X X X Y
+II_Corinthians	1	6	X Y Y X X X X X Y Y Y X X X X Y Y X X X X Y Y X Y Y
 II_Corinthians	1	7	Y X X Y Y X Y Y X Y Y Y X Y Y X X Y
 II_Corinthians	1	8	Y Y Y Y Y Y X X X X Y Y X X Y Y X Y X Y Y Y Y Y X Y Y
 II_Corinthians	1	9	Y Y X Y X X X Y Y X X X Y X Y X X X X Y Y X Y
 II_Corinthians	1	10	Y X X Y Y Y Y Y X Y Y Y X Y Y
 II_Corinthians	1	11	Y X Y X Y X Y Y X X Y X X X Y X Y Y X Y
 II_Corinthians	1	12	Y Y X X Y Y X X X X Y Y X X X X X Y X X X X X X X Y Y X X Y Y Y X Y
-II_Corinthians	1	13	X X X X X X Y Y Y Y Y Y Y X Y X Y Y
+II_Corinthians	1	13	Y Y Y Y Y X Y Y Y Y Y Y Y X Y X Y Y
 II_Corinthians	1	14	Y Y Y Y X Y Y X Y Y Y X Y Y X X X X X X Y
 II_Corinthians	1	15	Y X X Y Y Y X Y Y Y X Y Y
 II_Corinthians	1	16	Y X Y Y X Y Y Y X Y Y X Y Y X Y Y X X Y
 II_Corinthians	1	17	Y Y Y X Y X Y Y Y Y Y X Y Y Y Y X Y X X X X X X Y
 II_Corinthians	1	18	Y Y X Y Y X X X X X Y Y Y X X Y
-II_Corinthians	1	19	X X X X X X X Y X Y X Y Y X X X X X Y Y Y X X Y Y Y X Y Y
+II_Corinthians	1	19	X X Y Y X X X Y X Y X Y Y X X X X X Y Y Y X X Y Y Y X Y Y
 II_Corinthians	1	20	Y Y X Y X Y X Y Y X X Y X Y X Y X Y X Y
 II_Corinthians	1	21	X Y Y Y X Y X Y Y Y Y Y
 II_Corinthians	1	22	X Y Y Y Y Y X X X Y X X X Y
@@ -5666,7 +5666,7 @@ II_Corinthians	1	24	X Y Y X X Y Y Y Y X X Y Y Y Y Y
 II_Corinthians	2	1	Y Y Y X Y X Y X Y X Y Y
 II_Corinthians	2	2	X Y Y Y Y X Y Y Y Y Y Y Y Y X Y
 II_Corinthians	2	3	Y Y X Y Y Y Y Y Y Y Y Y Y Y Y X X Y Y X X Y X Y Y
-II_Corinthians	2	4	Y Y X X X X Y Y Y X X Y X Y Y Y X Y Y Y X X X X Y
+II_Corinthians	2	4	Y Y X X X X Y Y Y X X Y X Y Y Y X Y Y Y Y Y Y X Y
 II_Corinthians	2	5	X Y Y Y Y Y Y Y X Y Y Y Y X Y
 II_Corinthians	2	6	Y X Y X X X X X X Y
 II_Corinthians	2	7	Y X Y Y X X X X Y X X Y Y X Y
@@ -5676,7 +5676,7 @@ II_Corinthians	2	10	Y Y Y Y Y Y Y Y Y Y Y Y Y X Y X X Y
 II_Corinthians	2	11	Y Y Y X X Y Y Y X X Y Y
 II_Corinthians	2	12	Y Y X X Y X X X X Y Y Y Y Y X Y
 II_Corinthians	2	13	Y Y Y X X Y Y Y Y Y X X X Y Y Y Y Y X Y
-II_Corinthians	2	14	X X X X Y Y Y Y X X Y Y X X X X Y Y X Y X X Y
+II_Corinthians	2	14	Y Y Y Y Y Y Y Y X X Y Y X X X X Y Y X Y X X Y
 II_Corinthians	2	15	Y X Y Y X Y X Y Y X X Y Y
 II_Corinthians	2	16	Y Y X X X X Y Y Y X X X X Y Y X Y Y Y
 II_Corinthians	2	17	X X X Y X Y Y X X X Y X Y X Y X Y X Y X Y X Y Y
@@ -5692,7 +5692,7 @@ II_Corinthians	3	9	X Y X X X Y Y X Y Y X X X Y Y
 II_Corinthians	3	10	Y Y Y Y Y Y X X X Y X Y Y Y
 II_Corinthians	3	11	X X Y Y X Y X Y Y Y X Y
 II_Corinthians	3	12	Y Y X Y X Y Y
-II_Corinthians	3	13	X X Y Y Y Y X X X Y X Y Y Y X X Y X X X X Y
+II_Corinthians	3	13	X X Y Y Y Y X X X Y X Y Y Y X X Y X X X Y Y
 II_Corinthians	3	14	Y Y X X Y Y Y X X Y X X Y X X X X X Y Y Y Y Y X Y Y
 II_Corinthians	3	15	Y X Y X Y Y Y Y X X X Y Y
 II_Corinthians	3	16	X X Y Y X Y Y X Y
@@ -5701,7 +5701,7 @@ II_Corinthians	3	18	Y Y Y Y Y X X Y Y X X Y Y X Y X Y Y X X Y
 II_Corinthians	4	1	X Y Y X X Y Y Y Y Y
 II_Corinthians	4	2	Y Y X X X Y Y Y X Y Y Y X X X Y Y X X X Y Y Y X X X Y X X Y
 II_Corinthians	4	3	X Y Y X Y X X Y X Y Y X Y
-II_Corinthians	4	4	X Y X X X X Y Y X X X Y X Y Y Y X X X X X X X X X X X X Y
+II_Corinthians	4	4	X Y X X X X Y Y X X X Y X Y Y Y X X X X X X X Y Y Y X X Y
 II_Corinthians	4	5	X Y Y Y Y X Y Y Y Y X Y X Y
 II_Corinthians	4	6	Y X Y Y Y X Y Y Y Y Y X X X Y X X X X X X X Y X X Y
 II_Corinthians	4	7	Y Y X X Y X X Y Y X X X Y Y X Y Y Y X Y
@@ -5716,10 +5716,10 @@ II_Corinthians	4	15	Y Y Y X Y Y X Y Y X X Y X Y Y X X X X Y
 II_Corinthians	4	16	Y Y Y X Y X X X X Y Y Y X X Y Y X X Y
 II_Corinthians	4	17	Y Y X X X Y X X X Y X X Y Y Y
 II_Corinthians	4	18	Y Y Y Y Y X Y Y Y X Y Y Y X Y Y Y Y
-II_Corinthians	5	1	Y X X Y X X X X X Y Y Y Y Y Y X X Y X X Y
+II_Corinthians	5	1	Y X X Y X X X X X Y Y Y X Y Y X X Y X X Y
 II_Corinthians	5	2	Y Y X Y Y X X X X X Y Y Y
 II_Corinthians	5	3	X Y Y Y Y Y Y
-II_Corinthians	5	4	X X Y Y X X Y Y Y Y Y Y Y X X X Y Y X Y X X Y
+II_Corinthians	5	4	Y Y Y Y X X Y Y Y Y Y Y Y X X Y Y Y X Y X X Y
 II_Corinthians	5	5	X Y Y Y X X Y X Y Y Y X X X Y
 II_Corinthians	5	6	Y Y Y Y Y Y Y X X Y Y X X Y
 II_Corinthians	5	7	X Y Y Y X X Y
@@ -5730,7 +5730,7 @@ II_Corinthians	5	11	Y Y X X X Y Y Y Y Y Y Y Y X X X X Y Y
 II_Corinthians	5	12	Y Y Y Y Y Y Y Y Y Y X Y Y Y X Y X Y Y Y Y X Y
 II_Corinthians	5	13	X Y Y Y Y Y Y
 II_Corinthians	5	14	Y Y X X Y Y Y Y Y Y Y X Y Y Y X Y Y
-II_Corinthians	5	15	Y X Y Y X Y Y X X X X Y X Y X X Y
+II_Corinthians	5	15	Y X Y Y X Y Y X Y Y X Y X Y X X Y
 II_Corinthians	5	16	Y Y X X Y Y Y X Y Y Y Y X Y Y Y Y Y Y
 II_Corinthians	5	17	X Y Y X Y X Y X Y Y Y Y Y
 II_Corinthians	5	18	Y Y Y X X X Y Y Y Y X Y Y Y Y X X X Y
@@ -5739,7 +5739,7 @@ II_Corinthians	5	20	X Y Y Y Y X Y Y X Y Y X Y Y X Y
 II_Corinthians	5	21	Y Y Y Y X Y Y Y Y Y Y X Y X Y
 II_Corinthians	6	1	Y Y Y Y Y X Y X X X Y Y Y
 II_Corinthians	6	2	Y Y X Y Y Y Y X X Y Y Y Y Y X Y Y Y X Y
-II_Corinthians	6	3	Y Y Y Y Y Y Y Y X Y
+II_Corinthians	6	3	Y X Y Y Y Y Y Y X Y
 II_Corinthians	6	4	Y X Y Y Y X X Y X X X X X X X X Y
 II_Corinthians	6	5	X X X X X X X X X X X Y
 II_Corinthians	6	6	X X X X X X X X X X X X X Y
@@ -5752,7 +5752,7 @@ II_Corinthians	6	12	Y Y X Y Y Y X X X Y
 II_Corinthians	6	13	Y Y X Y Y Y Y Y X Y
 II_Corinthians	6	14	Y X Y Y Y Y Y X X Y Y Y Y Y X Y
 II_Corinthians	6	15	Y Y X Y X Y Y Y Y Y X Y
-II_Corinthians	6	16	Y Y Y X Y X Y Y Y X X Y Y Y Y X Y Y Y X Y Y Y Y Y X Y Y Y Y X Y
+II_Corinthians	6	16	Y Y Y X Y X Y Y Y X Y Y Y Y Y X Y Y Y X Y Y Y Y Y X Y Y Y Y X Y
 II_Corinthians	6	17	Y Y X X Y Y Y Y Y Y Y Y Y Y Y Y
 II_Corinthians	6	18	Y Y Y X Y Y Y Y Y X X X Y Y X Y
 II_Corinthians	7	1	Y Y Y X Y Y Y Y X X X X X Y Y Y X X Y
@@ -5761,7 +5761,7 @@ II_Corinthians	7	3	X Y Y Y Y X Y X X X Y Y X X X X Y
 II_Corinthians	7	4	Y Y Y X Y Y Y Y X Y Y X Y Y X Y X X X X Y
 II_Corinthians	7	5	Y Y Y Y X Y Y Y Y X X Y Y X Y Y Y Y Y Y
 II_Corinthians	7	6	Y Y Y X Y Y Y X Y X X X Y
-II_Corinthians	7	7	X X X X X X X X X X X Y Y Y X Y Y Y X X X X X X X X X X Y Y Y Y Y
+II_Corinthians	7	7	X Y Y X X X X X X X X Y Y Y X Y Y Y X X X X X X X X X X Y Y Y Y Y
 II_Corinthians	7	8	X Y Y Y Y X X Y Y Y Y Y Y Y Y X X Y Y Y X Y Y Y
 II_Corinthians	7	9	Y Y X Y Y X Y Y X Y Y Y X Y Y X Y Y X Y
 II_Corinthians	7	10	Y Y X X Y X X X Y Y Y Y X X Y Y Y
@@ -5781,7 +5781,7 @@ II_Corinthians	8	7	X Y X Y Y X X X X X X X X X X X X X X Y Y X X X X Y Y
 II_Corinthians	8	8	Y X Y Y Y X X X Y X X X X X Y Y
 II_Corinthians	8	9	Y Y X X X X X X Y Y X Y Y Y Y Y Y X X Y Y
 II_Corinthians	8	10	Y Y X Y Y Y Y Y Y Y X X Y Y X X Y Y Y X Y
-II_Corinthians	8	11	Y Y X Y Y Y X Y X X Y Y Y X Y Y X X Y
+II_Corinthians	8	11	Y Y X Y Y Y X Y X X Y Y Y X Y Y X Y Y
 II_Corinthians	8	12	X Y X Y Y X Y Y Y Y Y Y Y
 II_Corinthians	8	13	X X Y Y Y Y Y Y X Y
 II_Corinthians	8	14	X X X Y X X Y X X X Y Y X X X Y Y X X X Y Y Y Y
@@ -5789,13 +5789,13 @@ II_Corinthians	8	15	Y Y Y X Y Y Y X Y X Y Y Y
 II_Corinthians	8	16	Y Y X X Y Y X X Y X Y X X X Y
 II_Corinthians	8	17	Y Y Y Y Y Y Y Y Y Y X Y
 II_Corinthians	8	18	Y Y X Y X Y X X X X X Y X X X Y
-II_Corinthians	8	19	Y Y X Y Y Y X X Y X Y X X X X Y Y X Y X X X X X X X X Y
+II_Corinthians	8	19	Y Y Y Y Y Y X X Y X Y X X X X Y Y X Y X X X X X X X X Y
 II_Corinthians	8	20	Y Y Y Y Y Y X X X X Y Y X Y
 II_Corinthians	8	21	Y Y Y X X X X X X X Y
 II_Corinthians	8	22	Y Y Y X X Y Y Y X Y Y Y Y Y Y Y Y X X X X Y
 II_Corinthians	8	23	Y X Y X X X X X Y X X Y X X X Y
 II_Corinthians	8	24	Y Y X X X X X X X X Y X Y Y X X X Y
-II_Corinthians	9	1	Y Y Y X X X X X Y Y Y Y Y Y Y
+II_Corinthians	9	1	Y X Y X X X X X Y Y Y Y Y Y Y
 II_Corinthians	9	2	Y Y X X Y Y X Y Y Y Y Y Y X Y Y X X Y Y X Y
 II_Corinthians	9	3	Y Y X Y Y Y X X X X X Y Y X X X Y X Y Y X Y
 II_Corinthians	9	4	X X Y Y X Y Y Y Y Y Y Y Y Y Y Y Y X X X Y
@@ -5811,7 +5811,7 @@ II_Corinthians	9	13	X X X X X Y Y X Y X X X X X X X X X X X X X X X X X X X Y
 II_Corinthians	9	14	Y Y X X Y Y Y X Y Y X X X X Y
 II_Corinthians	9	15	Y X Y X X X X Y
 II_Corinthians	10	1	Y Y X Y Y Y X X X X X X Y Y X Y Y Y X Y Y Y Y X Y
-II_Corinthians	10	2	Y X Y Y Y Y X Y Y Y Y X X X X X X X X Y
+II_Corinthians	10	2	Y X Y Y Y Y X Y Y Y Y X X Y Y Y Y X Y Y
 II_Corinthians	10	3	X Y Y Y Y X Y Y
 II_Corinthians	10	4	Y Y X X X Y Y Y Y Y X Y X X Y Y Y
 II_Corinthians	10	5	X X Y Y X X X X Y Y Y X Y X X X X Y
@@ -5819,7 +5819,7 @@ II_Corinthians	10	6	Y X Y Y Y X Y Y Y X X Y
 II_Corinthians	10	7	X X Y Y Y Y Y Y Y Y Y Y Y X Y X Y Y Y Y X Y
 II_Corinthians	10	8	X X Y X Y Y X X X Y Y Y X Y X X X X X X Y Y Y
 II_Corinthians	10	9	Y Y Y X Y Y Y X X Y
-II_Corinthians	10	10	Y X Y X Y X X Y Y Y X X Y Y Y X Y Y
+II_Corinthians	10	10	Y X Y Y Y X X Y Y Y X X Y Y Y X Y Y
 II_Corinthians	10	11	Y Y X Y Y Y Y X X X Y Y Y Y Y X Y
 II_Corinthians	10	12	Y Y Y X X Y Y X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y
 II_Corinthians	10	13	Y Y Y X X Y Y Y X X X X Y Y Y Y X Y Y Y X X Y
@@ -5831,7 +5831,7 @@ II_Corinthians	10	18	X X Y Y Y Y Y Y Y Y X Y Y
 II_Corinthians	11	1	Y Y Y X X Y Y Y Y Y
 II_Corinthians	11	2	Y Y Y X Y Y Y Y X Y X Y Y X Y
 II_Corinthians	11	3	Y X X X Y X Y Y Y X X X Y Y X X Y X X X X X X X X Y
-II_Corinthians	11	4	X X X Y Y X X Y Y Y Y Y X X Y Y Y Y X X Y Y Y Y Y Y
+II_Corinthians	11	4	X X X Y Y X Y Y Y Y Y Y X Y Y Y Y Y X X Y Y Y Y Y Y
 II_Corinthians	11	5	Y Y Y Y X X Y
 II_Corinthians	11	6	X Y X Y X Y Y Y X Y Y X Y Y X Y X Y
 II_Corinthians	11	7	Y Y Y Y Y Y Y Y Y Y X X X Y Y Y
@@ -5858,7 +5858,7 @@ II_Corinthians	11	27	X X Y X Y Y X X X Y X Y Y X X X Y
 II_Corinthians	11	28	X X Y X Y Y X X X X X X X Y
 II_Corinthians	11	29	Y Y Y Y Y Y Y Y Y Y Y
 II_Corinthians	11	30	Y Y Y X X X Y Y
-II_Corinthians	11	31	X X X X X X X X Y Y Y X X Y Y Y Y
+II_Corinthians	11	31	X X X X X X Y Y Y Y Y X X Y Y Y Y
 II_Corinthians	11	32	X Y X X X X Y Y X X Y Y Y
 II_Corinthians	11	33	Y X Y X Y Y X X Y Y Y X X Y
 II_Corinthians	12	1	Y Y Y Y Y Y Y X X X X Y
@@ -5881,10 +5881,10 @@ II_Corinthians	12	17	X Y Y Y X Y X Y Y Y
 II_Corinthians	12	18	Y Y Y Y X Y Y Y Y Y Y X X Y Y Y X X Y
 II_Corinthians	12	19	Y Y Y Y Y X Y X Y Y Y Y Y Y X X X Y
 II_Corinthians	12	20	Y X X Y Y Y Y Y Y Y Y Y Y Y Y Y X Y X X X X X X X Y
-II_Corinthians	12	21	Y Y Y Y Y Y X X Y X Y Y Y X Y Y Y Y Y X X X X X X X X Y
+II_Corinthians	12	21	Y Y Y Y Y Y X X Y X Y Y Y X Y Y Y Y Y X X X X X X Y Y Y
 II_Corinthians	13	1	X Y Y X Y X X X X X Y Y X Y
-II_Corinthians	13	2	X X X Y Y X Y Y Y Y Y Y X X X X X Y Y X X Y Y Y
-II_Corinthians	13	3	Y X X Y X Y Y Y Y X Y Y Y Y Y X Y
+II_Corinthians	13	2	X X X Y Y X Y Y Y Y Y Y X X X Y X Y Y X X Y Y Y
+II_Corinthians	13	3	Y Y Y Y X Y Y Y Y X Y Y Y Y Y X Y
 II_Corinthians	13	4	Y Y Y X Y Y Y X X Y Y Y Y Y X Y Y Y X Y X X Y X Y
 II_Corinthians	13	5	Y Y Y Y X X Y Y Y Y Y Y Y Y X Y X Y X Y Y Y
 II_Corinthians	13	6	Y X Y Y Y Y Y Y Y
@@ -5898,7 +5898,7 @@ II_Corinthians	13	13	X X X X X X X X X X X X X X X X Y X X Y
 Galatians	1	1	X X X X X X X X X X X X X X X Y Y Y X Y
 Galatians	1	2	X X X X X Y X X X Y
 Galatians	1	3	Y Y X Y X X X X X X X Y
-Galatians	1	4	Y Y Y X X X Y Y Y Y X X X Y Y X X X X X X X X Y
+Galatians	1	4	Y Y Y X X X Y Y Y Y X X X Y Y Y X X X X X X X Y
 Galatians	1	5	Y X Y X X X X Y Y
 Galatians	1	6	Y Y Y Y Y X Y Y Y X X Y X X Y
 Galatians	1	7	Y Y Y Y Y Y Y Y Y Y Y Y Y Y X X X Y
@@ -5924,13 +5924,13 @@ Galatians	2	2	Y Y X Y Y Y Y X Y Y Y X X Y X Y X Y Y X Y X Y X X Y
 Galatians	2	3	Y Y X X X Y Y Y Y Y
 Galatians	2	4	X X X X Y Y Y Y X X Y Y Y X X Y Y Y Y
 Galatians	2	5	Y Y X Y Y X Y Y X X X Y Y X Y
-Galatians	2	6	X X Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y Y Y Y
+Galatians	2	6	Y Y Y Y Y Y Y Y Y Y Y Y Y X Y Y Y Y Y X Y Y Y Y
 Galatians	2	7	Y Y Y Y Y X X X Y Y Y X Y
 Galatians	2	8	X Y Y Y X X X Y Y X Y X X Y
-Galatians	2	9	Y Y X X Y Y Y X X X X X Y Y Y Y Y Y Y Y Y Y Y Y X X Y Y Y X X Y
+Galatians	2	9	Y Y X X Y Y Y X X X X X Y Y Y Y Y Y X X Y Y Y Y X X Y Y Y X X Y
 Galatians	2	10	Y X Y Y Y Y Y Y X Y Y
 Galatians	2	11	X Y Y Y X Y X Y Y Y X X Y
-Galatians	2	12	X X Y Y Y X Y X X Y Y X Y Y X Y Y Y Y X X Y
+Galatians	2	12	X Y Y Y Y X Y X X Y Y X Y Y X Y Y Y Y X X Y
 Galatians	2	13	Y Y Y X X X Y Y X Y Y X X Y
 Galatians	2	14	X Y Y Y Y Y X X X X Y Y X Y X Y Y Y Y Y X X X Y Y Y X Y Y Y
 Galatians	2	15	Y Y Y Y Y X Y Y
@@ -5938,10 +5938,10 @@ Galatians	2	16	Y X Y Y Y Y X X Y Y Y X X X Y X Y X X Y Y Y Y X X Y Y Y X X Y Y X
 Galatians	2	17	X Y Y Y X Y Y X Y Y Y Y X Y Y Y
 Galatians	2	18	X Y Y Y Y Y Y Y Y Y
 Galatians	2	19	Y Y X Y Y Y Y Y Y Y Y
-Galatians	2	20	Y Y Y Y Y Y X Y Y Y Y Y Y X Y X X X X X X X X Y Y Y Y Y Y X Y
+Galatians	2	20	Y Y Y Y Y Y X Y Y Y Y Y Y X Y X Y Y X X X X X Y Y Y Y Y Y X Y
 Galatians	2	21	Y Y X X X Y X Y X Y Y Y Y Y Y
 Galatians	3	1	X X Y Y Y Y Y X Y X Y Y Y
-Galatians	3	2	X Y Y Y X Y X X Y Y Y Y X X X Y
+Galatians	3	2	X Y Y Y X Y X X Y X Y Y X X X Y
 Galatians	3	3	Y Y Y Y Y Y Y Y
 Galatians	3	4	Y Y Y Y Y Y Y
 Galatians	3	5	X Y Y Y X Y Y Y Y X Y X X X X X X Y
@@ -5949,20 +5949,20 @@ Galatians	3	6	Y Y Y X Y Y Y Y X Y
 Galatians	3	7	Y X X X X Y Y Y Y Y
 Galatians	3	8	Y Y X Y Y X Y Y X Y X Y Y X Y Y Y X Y X X Y
 Galatians	3	9	Y X X Y Y X X X Y
-Galatians	3	10	Y Y X X Y Y X Y Y Y X Y Y Y Y Y Y X X X X X X X Y Y Y Y
+Galatians	3	10	Y Y X X Y Y X Y Y Y X Y Y Y Y Y Y X Y Y X X X X Y Y Y Y
 Galatians	3	11	X Y X Y Y Y X X Y Y Y X Y X Y Y
 Galatians	3	12	Y Y Y Y Y X Y X Y Y Y Y X Y
 Galatians	3	13	Y Y Y X X X X Y Y X Y Y Y Y Y X Y Y X Y
 Galatians	3	14	Y X X Y X X X Y Y X X Y Y X X X Y Y X X Y
 Galatians	3	15	Y X Y Y Y Y Y Y Y X X Y
-Galatians	3	16	Y Y Y Y Y Y X X X Y Y Y X X X Y X Y X Y X Y X X X Y Y Y Y
+Galatians	3	16	Y Y Y Y X Y X X X Y Y Y X X X Y X Y X Y X Y X X X Y Y Y Y
 Galatians	3	17	Y Y Y Y Y X X Y Y X X X X Y Y Y Y Y X Y Y X Y
 Galatians	3	18	X Y X Y X Y Y X Y Y Y Y X Y Y X Y
 Galatians	3	19	Y Y X Y X X Y Y X Y Y X Y Y Y Y X Y X X Y
 Galatians	3	20	Y Y Y Y Y Y Y Y Y Y Y
 Galatians	3	21	Y Y Y X X X X Y Y Y X Y Y X Y Y Y Y X Y Y Y X Y
 Galatians	3	22	Y Y X Y X Y X Y Y X Y X X X Y Y Y Y
-Galatians	3	23	X X Y Y X Y X Y Y Y X Y Y Y Y
+Galatians	3	23	X Y Y Y X Y X Y Y Y X Y Y Y Y
 Galatians	3	24	Y X Y X Y Y X Y Y X Y Y
 Galatians	3	25	Y Y X Y Y X Y Y
 Galatians	3	26	Y Y X Y Y X X X X X Y
@@ -5986,7 +5986,7 @@ Galatians	4	14	Y X X X X X X Y X X X X X Y X Y Y Y Y X Y
 Galatians	4	15	Y Y X X Y Y Y Y X Y Y X X Y Y Y Y
 Galatians	4	16	Y X Y Y Y Y
 Galatians	4	17	Y Y Y Y Y Y Y Y Y Y Y
-Galatians	4	18	Y Y Y X Y X Y Y Y X X X X X Y
+Galatians	4	18	Y Y Y X Y X Y Y Y X Y Y Y X Y
 Galatians	4	19	X Y Y Y Y Y Y Y Y X Y
 Galatians	4	20	Y Y Y X Y Y Y Y X X Y Y Y X Y
 Galatians	4	21	Y Y Y X Y Y Y X Y Y Y
@@ -6013,7 +6013,7 @@ Galatians	5	10	Y Y X Y X Y Y X Y Y X Y Y Y Y X Y Y Y Y
 Galatians	5	11	Y X X Y Y Y Y Y Y Y Y Y X X X Y
 Galatians	5	12	Y Y Y Y Y Y
 Galatians	5	13	Y Y X Y Y X X Y X Y X X X Y Y X X Y Y Y
-Galatians	5	14	Y Y X Y X X X X X Y Y X X Y Y Y
+Galatians	5	14	Y Y X Y X X Y Y X Y Y X X Y Y Y
 Galatians	5	15	X Y Y X X Y Y Y X Y Y
 Galatians	5	16	Y Y Y Y Y X Y X Y Y
 Galatians	5	17	Y Y Y Y X X Y Y Y Y X X Y Y Y Y Y X Y Y Y Y Y Y
@@ -6041,7 +6041,7 @@ Galatians	6	12	Y Y Y X Y Y Y Y Y Y Y X X X Y Y Y
 Galatians	6	13	X Y Y Y Y Y Y Y Y Y Y Y X X X Y Y
 Galatians	6	14	Y Y Y Y Y Y Y X X X X X X X Y X Y Y Y Y Y Y
 Galatians	6	15	Y Y Y Y Y X X X X Y
-Galatians	6	16	Y Y X X Y Y Y Y Y X Y X X X X X Y
+Galatians	6	16	Y Y X X Y Y Y X Y X Y X X X X X Y
 Galatians	6	17	X Y Y Y Y Y Y Y X X X Y X X X Y Y
 Galatians	6	18	X X X X X X Y X X X Y X Y
 Ephesians	1	1	X X X X X X Y X X Y Y X Y X X X X Y
@@ -6049,13 +6049,13 @@ Ephesians	1	2	Y Y X Y X X X X X X X Y
 Ephesians	1	3	Y X X X X X X X X X Y Y Y X X X Y X X Y X Y
 Ephesians	1	4	Y Y Y X Y X X Y Y Y X X Y X Y X Y
 Ephesians	1	5	Y Y X Y X X Y X Y X X X X X Y
-Ephesians	1	6	X X X X X Y Y Y Y X X Y
+Ephesians	1	6	X X X X X Y Y Y Y X Y Y
 Ephesians	1	7	X Y Y X X X X X X X X X Y X X X X X Y
 Ephesians	1	8	Y Y X Y X X X X Y
 Ephesians	1	9	Y Y X X X X Y X X X Y Y Y X Y
 Ephesians	1	10	X X X X X Y Y X Y X X Y X X X X X X X X Y X Y
 Ephesians	1	11	X Y Y Y Y X X Y X Y Y X X X X X Y
-Ephesians	1	12	X Y Y Y Y Y Y Y X X X X Y
+Ephesians	1	12	X Y Y Y X X X Y Y Y X X Y
 Ephesians	1	13	X Y X Y Y X X X X X X X X Y X Y Y Y Y X X X X X Y
 Ephesians	1	14	Y Y X X X Y X X X Y X X X X Y
 Ephesians	1	15	X Y Y Y X X X X X X X X X X X X X X X Y
@@ -6077,7 +6077,7 @@ Ephesians	2	7	Y Y X X X Y Y Y Y X X X X X X X X X X Y
 Ephesians	2	8	Y Y Y X Y X Y Y Y Y X Y X X Y
 Ephesians	2	9	Y X Y Y Y Y Y
 Ephesians	2	10	Y Y Y Y Y X X Y X X Y Y Y X Y Y X Y Y
-Ephesians	2	11	Y Y Y Y X X X X X Y Y Y X X X X X X Y
+Ephesians	2	11	Y Y Y Y X X X X X Y Y Y X Y Y X X X Y
 Ephesians	2	12	Y Y X X Y X Y Y X X X Y X X X X X Y Y Y Y X X X X Y
 Ephesians	2	13	Y Y X X Y X Y Y Y Y Y Y X X X X Y
 Ephesians	2	14	Y Y Y X X X Y Y X Y Y Y X X X Y Y X Y X X X Y
@@ -6097,7 +6097,7 @@ Ephesians	3	5	Y X Y Y Y X X X Y Y Y Y X X X X X Y X Y
 Ephesians	3	6	Y X Y X X X X X X Y X X Y X X Y
 Ephesians	3	7	Y Y Y X X X X X X X Y Y Y X X X X X Y
 Ephesians	3	8	X X X X Y Y X X Y X Y Y X X X X Y
-Ephesians	3	9	Y Y Y X X X X Y Y X X Y X X X X X X Y
+Ephesians	3	9	Y Y Y X X X X Y Y X X Y X X X Y X Y Y
 Ephesians	3	10	Y Y Y X X X X X X X Y X X Y X X X X Y
 Ephesians	3	11	X X X Y Y Y X X X X X X Y
 Ephesians	3	12	X Y Y X X X Y X Y X X X Y
@@ -6107,8 +6107,8 @@ Ephesians	3	15	X Y X X X X X X Y Y
 Ephesians	3	16	Y Y Y X X X X X Y Y Y X X X Y X X X Y
 Ephesians	3	17	Y X Y X X Y X X X Y X Y X X Y
 Ephesians	3	18	Y Y Y X X X Y Y X X X X X X X Y
-Ephesians	3	19	Y Y Y Y X Y X X X Y Y X X X X X Y
-Ephesians	3	20	X Y Y X X X Y Y X X Y X X X Y Y X Y
+Ephesians	3	19	Y Y Y Y X Y X X Y Y Y X X X X X Y
+Ephesians	3	20	X Y Y X Y Y Y Y X X Y X X X Y Y X Y
 Ephesians	3	21	Y X Y X X X X X X Y X X X X X X X Y Y
 Ephesians	4	1	Y Y Y X X X X Y Y Y X Y Y Y
 Ephesians	4	2	X X X X Y X Y Y Y X Y
@@ -6154,7 +6154,7 @@ Ephesians	5	9	Y Y X X Y X X X X X X Y
 Ephesians	5	10	Y Y Y Y X Y
 Ephesians	5	11	Y Y Y X X X X X Y Y Y Y Y
 Ephesians	5	12	X Y Y Y X Y Y Y Y Y
-Ephesians	5	13	Y Y Y Y X X Y Y X X Y Y Y Y
+Ephesians	5	13	Y Y Y Y X X Y Y Y Y Y Y Y Y
 Ephesians	5	14	Y Y Y Y Y Y Y X X Y Y Y Y X Y
 Ephesians	5	15	Y Y Y Y Y X Y Y X Y Y
 Ephesians	5	16	Y X Y Y X Y Y Y
@@ -6168,7 +6168,7 @@ Ephesians	5	23	Y Y Y X X Y Y X X Y X X Y Y X X Y
 Ephesians	5	24	X Y X Y Y X Y Y X X Y X Y X Y
 Ephesians	5	25	X Y Y X Y Y X X Y Y X Y Y Y Y X Y
 Ephesians	5	26	Y Y Y Y X X X Y X Y
-Ephesians	5	27	Y Y Y Y X X X Y Y X X X X X X Y X Y Y X X Y
+Ephesians	5	27	Y Y Y Y Y X Y Y Y X X X X X X Y X Y Y X X Y
 Ephesians	5	28	Y Y X X Y Y X X Y Y X X Y Y Y X X Y Y Y
 Ephesians	5	29	Y Y Y X X Y Y X X X Y Y Y X X Y X Y
 Ephesians	5	30	Y Y Y X X Y
@@ -6186,7 +6186,7 @@ Ephesians	6	8	Y Y Y Y Y Y Y Y Y X Y Y Y Y Y
 Ephesians	6	9	X X Y X Y Y X Y Y X Y Y Y X X X X X Y Y X Y Y Y Y Y X Y
 Ephesians	6	10	X Y Y X X X X X X X X Y
 Ephesians	6	11	Y X X X Y X Y Y Y Y X X X X Y
-Ephesians	6	12	Y Y Y Y Y Y X X X X X X X X X X X X X X X X X X X X X X X X Y
+Ephesians	6	12	Y Y Y X X Y X X X X X X X X X X X X X X X X X X X X X X X X Y
 Ephesians	6	13	X Y Y X X X Y Y Y Y X X X X Y Y Y Y Y
 Ephesians	6	14	Y Y Y X X Y X Y Y Y X X X Y
 Ephesians	6	15	Y Y X Y X X X X X Y
@@ -6197,7 +6197,7 @@ Ephesians	6	19	X X X Y Y Y Y X X X X Y X Y Y X X X Y
 Ephesians	6	20	X Y Y X Y Y X Y Y Y Y Y Y
 Ephesians	6	21	X Y Y X Y X X Y Y Y Y Y Y X X X X X X X X Y
 Ephesians	6	22	Y Y X Y X X Y Y Y X X Y Y Y X X Y
-Ephesians	6	23	Y Y Y X Y X Y X X X X X X Y
+Ephesians	6	23	Y X Y X Y X Y X X X X X X Y
 Ephesians	6	24	X Y X X Y Y X X X X Y X Y
 Philippians	1	1	X X X X X Y X X X X X X Y Y X Y X X X Y
 Philippians	1	2	Y Y X Y X X X X X X X Y
@@ -6325,7 +6325,7 @@ Colossians	1	19	Y X Y Y X X Y Y
 Colossians	1	20	Y X Y Y X Y X Y Y X X X X X Y X Y X X X X X X X X X Y
 Colossians	1	21	Y Y Y Y Y X Y X Y X X X X Y
 Colossians	1	22	Y Y Y X X X X X Y X X Y Y Y X X X X Y X Y
-Colossians	1	23	X Y Y X Y Y Y Y Y Y Y X X X X X X X X X X X X X X X X X X X X Y
+Colossians	1	23	X Y Y X Y Y Y Y Y Y Y X X X X Y Y Y Y Y X X X X X X Y Y Y X Y Y
 Colossians	1	24	Y Y X X Y X Y Y Y X X X X X Y X X X Y X X X Y Y Y X Y
 Colossians	1	25	Y Y Y Y X X X X X Y Y Y X Y Y X X X Y
 Colossians	1	26	X X Y Y X X X X X X Y Y Y Y X X Y
@@ -6343,7 +6343,7 @@ Colossians	2	8	Y Y Y Y Y Y Y X X X X X Y X X X X X X X X X X X X X Y
 Colossians	2	9	Y X Y Y X X X X Y Y
 Colossians	2	10	X X X X Y Y Y X X X X X Y
 Colossians	2	11	X Y Y Y X Y X X X X X X X X X X X Y
-Colossians	2	12	Y Y X X Y X Y Y Y X X X X X X X X X X X Y
+Colossians	2	12	Y Y X X Y X Y Y Y X X X X X X X Y Y Y X Y
 Colossians	2	13	Y Y Y Y X X X X X X X Y Y Y X Y Y Y X X Y
 Colossians	2	14	Y X X X X X Y Y Y X Y Y Y Y X X Y Y Y X Y
 Colossians	2	15	Y X X X X Y Y X Y Y Y X Y
@@ -6364,7 +6364,7 @@ Colossians	3	6	X Y Y X X X Y
 Colossians	3	7	Y Y X Y Y Y Y Y X Y
 Colossians	3	8	Y Y Y X Y X X X X X X Y X X X Y
 Colossians	3	9	Y Y X Y Y X X Y X X X Y
-Colossians	3	10	Y Y X X Y Y X Y X X X X Y
+Colossians	3	10	Y Y X X Y Y X Y X X Y Y Y
 Colossians	3	11	Y Y Y X X X X X X X X X Y Y Y Y X Y Y
 Colossians	3	12	Y Y X X X X X Y Y X X X X X Y
 Colossians	3	13	Y Y Y Y Y Y Y X Y Y Y Y X X Y Y Y Y X Y
@@ -6402,16 +6402,16 @@ I_Thessalonians	1	1	X X X X Y X X X X X X X X X Y Y Y X Y
 I_Thessalonians	1	2	Y X Y Y X X Y Y Y X X X Y Y
 I_Thessalonians	1	3	Y X X X X X X X X X X X X X X X X X X X Y X X X X X Y
 I_Thessalonians	1	4	Y Y Y X X Y X X Y
-I_Thessalonians	1	5	Y X X Y Y Y Y Y X X X X X X X X X X X X X Y Y Y Y Y X Y X Y
+I_Thessalonians	1	5	Y X X Y Y Y X Y X X X X X X X X X X X X X Y Y Y Y Y X Y X Y
 I_Thessalonians	1	6	Y Y X Y Y X X Y Y X Y X X Y X X X Y
 I_Thessalonians	1	7	Y Y Y Y X Y Y X X X X X X Y
 I_Thessalonians	1	8	X Y Y Y X X X Y Y Y X X X X Y Y X X Y X X X X X X Y Y Y Y Y Y Y Y Y
 I_Thessalonians	1	9	Y Y X Y Y X Y Y X Y Y Y Y X X Y X X Y Y Y Y X Y
-I_Thessalonians	1	10	Y Y X X X X X Y Y Y X X Y X Y Y Y X X X X Y
+I_Thessalonians	1	10	Y Y X X Y X X Y Y Y X X Y X Y Y Y X X X Y Y
 I_Thessalonians	2	1	Y Y Y Y X X X X X Y X Y Y Y
 I_Thessalonians	2	2	X X X X Y Y X Y Y X X X Y Y X Y X X X Y X X Y
 I_Thessalonians	2	3	Y Y X Y Y X X X X X X X Y
-I_Thessalonians	2	4	X Y Y X X Y Y X Y Y Y X X X X X X Y Y X X Y
+I_Thessalonians	2	4	X Y Y X X Y Y X Y Y Y Y Y Y Y X X Y Y X X Y
 I_Thessalonians	2	5	X Y Y X X Y Y Y Y Y X X Y Y Y
 I_Thessalonians	2	6	Y Y X Y Y X X X X X Y
 I_Thessalonians	2	7	Y X Y Y Y X Y Y Y Y X X Y X Y Y Y X X Y
@@ -6419,9 +6419,9 @@ I_Thessalonians	2	8	Y Y Y Y Y Y X X X X X X X X X X Y Y Y Y Y
 I_Thessalonians	2	9	Y X Y X X X X X Y X X Y Y X Y Y Y X Y Y X Y X X X Y
 I_Thessalonians	2	10	Y Y X X Y X X X X X Y X Y Y Y
 I_Thessalonians	2	11	Y Y Y X X Y Y Y X Y
-I_Thessalonians	2	12	Y Y X X X Y X Y Y Y Y X X X X X X X X X X Y
-I_Thessalonians	2	13	Y X Y X Y Y X Y Y Y Y X X X X X Y Y X X X X Y Y Y X Y Y Y Y X X X Y
-I_Thessalonians	2	14	Y Y X X X X X X X Y Y X X Y X X Y Y X Y Y X Y X X X Y Y X Y X X Y
+I_Thessalonians	2	12	Y Y X X X Y X Y Y Y Y X X Y Y Y X X X X X Y
+I_Thessalonians	2	13	Y X Y X Y Y X Y Y Y Y X X X X X Y Y X X X X Y Y Y X Y Y Y Y X X Y Y
+I_Thessalonians	2	14	Y Y Y Y Y X X X X Y Y X X Y X X Y Y X Y Y X Y X X X Y Y X Y X X Y
 I_Thessalonians	2	15	Y X X Y Y X X X Y Y Y Y Y Y Y Y Y X Y Y
 I_Thessalonians	2	16	Y Y X Y Y Y Y X Y Y X X Y Y Y Y X Y X Y X Y
 I_Thessalonians	2	17	Y X Y Y X Y X X Y X X Y Y Y X X Y Y X X Y
@@ -6448,7 +6448,7 @@ I_Thessalonians	4	4	Y X Y X X Y Y X X X Y
 I_Thessalonians	4	5	Y X X Y Y X X X Y Y Y X Y
 I_Thessalonians	4	6	Y Y X X Y X X Y X X Y Y Y Y X X Y Y Y Y Y Y Y
 I_Thessalonians	4	7	X Y Y Y X Y X Y Y X Y
-I_Thessalonians	4	8	X Y Y X X X X X X Y Y Y X X X X Y X Y
+I_Thessalonians	4	8	X Y Y X Y Y X X X Y Y Y X X X X Y X Y
 I_Thessalonians	4	9	Y Y X Y Y Y Y Y Y Y Y Y Y Y X Y Y Y
 I_Thessalonians	4	10	Y Y Y Y X X X X X X X Y Y Y Y Y Y Y
 I_Thessalonians	4	11	Y Y Y Y Y X Y Y Y X X Y Y Y Y
@@ -6491,7 +6491,7 @@ II_Thessalonians	1	1	X X X X Y X X X X X X X X X X Y
 II_Thessalonians	1	2	Y Y X Y X X X X X X Y
 II_Thessalonians	1	3	Y Y X Y Y X Y X Y Y Y Y Y X X Y Y Y X X X X X X X Y
 II_Thessalonians	1	4	Y X Y X Y Y X X X X Y X X X X X X X X X X X X X Y Y Y
-II_Thessalonians	1	5	X X X X X Y X Y Y Y X X X X X X X Y
+II_Thessalonians	1	5	X X X X X Y X Y Y Y X X X Y X Y Y Y
 II_Thessalonians	1	6	Y Y X Y Y Y Y Y Y
 II_Thessalonians	1	7	Y X Y Y Y X Y X X X X X X X X X X X Y
 II_Thessalonians	1	8	X X Y Y Y Y Y Y Y X Y Y Y X X X X X Y
@@ -6508,20 +6508,20 @@ II_Thessalonians	2	6	Y Y Y Y Y X Y Y Y X X X Y
 II_Thessalonians	2	7	Y Y Y Y Y X Y Y Y Y Y Y X Y Y
 II_Thessalonians	2	8	Y Y Y X Y Y X X Y Y X X X X Y Y Y X X X X Y
 II_Thessalonians	2	9	Y Y X Y X X X Y X X X X X X X Y
-II_Thessalonians	2	10	X X X X X Y Y Y Y X X X Y Y Y X X X Y
+II_Thessalonians	2	10	X X X X X Y Y Y Y X X X Y Y Y X Y Y Y
 II_Thessalonians	2	11	Y X Y Y Y X Y X Y X Y Y Y X Y
 II_Thessalonians	2	12	Y Y X X Y Y X Y Y Y X Y
 II_Thessalonians	2	13	Y Y Y Y X Y Y X Y Y Y X Y Y Y Y X Y X Y X Y X X X X X Y
 II_Thessalonians	2	14	X Y Y Y Y X X X Y X X X X X X X Y
 II_Thessalonians	2	15	X X Y Y Y Y X Y Y Y X X X X X X Y
-II_Thessalonians	2	16	X X X X X X X X X X X X X Y Y Y Y Y X X X X Y X Y
+II_Thessalonians	2	16	Y Y X X X X X X X X X X X Y Y Y Y Y X X X X Y X Y
 II_Thessalonians	2	17	Y X X Y Y Y X X X X X Y
 II_Thessalonians	3	1	X Y Y Y X Y Y X X X Y Y Y Y Y X X Y
 II_Thessalonians	3	2	X Y Y X X X X X Y Y Y Y X Y
 II_Thessalonians	3	3	Y Y Y X Y Y Y Y Y Y X X Y
 II_Thessalonians	3	4	Y Y X Y X Y Y Y Y X X X Y
 II_Thessalonians	3	5	Y Y Y Y X X Y X X X X X X X X X X Y
-II_Thessalonians	3	6	Y Y Y Y X X X X X Y Y Y X X Y Y Y Y Y X X X X X X Y
+II_Thessalonians	3	6	Y Y Y Y X X X X X Y Y Y X X Y Y Y Y Y X X Y Y Y X Y
 II_Thessalonians	3	7	Y Y Y Y Y Y Y X Y Y X Y
 II_Thessalonians	3	8	Y Y Y Y X Y Y X X X Y X X Y Y X Y Y Y X Y
 II_Thessalonians	3	9	X Y Y Y Y X Y Y Y Y Y X Y Y Y
@@ -6545,13 +6545,13 @@ I_Timothy	1	8	Y X Y Y X Y Y Y Y Y Y
 I_Timothy	1	9	Y Y Y Y Y Y Y X X X X X X X X X X X X X Y
 I_Timothy	1	10	X X X X X X Y X Y Y Y Y Y
 I_Timothy	1	11	X X X X X X X Y Y Y Y
-I_Timothy	1	12	Y Y Y Y Y X X X X X Y Y Y Y Y X Y
+I_Timothy	1	12	Y Y Y Y Y X X X X Y Y Y Y Y Y X Y
 I_Timothy	1	13	X Y Y X X X X Y Y Y Y Y Y X Y
 I_Timothy	1	14	Y Y X X X X Y X X X X X X X Y
-I_Timothy	1	15	Y Y Y X X X Y Y X Y Y X X Y Y Y X Y Y Y
+I_Timothy	1	15	Y X Y X X X Y Y X Y Y X X Y Y Y X Y Y Y
 I_Timothy	1	16	Y X Y Y Y X X Y Y X Y X X Y X X Y Y Y X Y X X Y
 I_Timothy	1	17	Y Y X X X X X X Y X X Y X X X X Y Y
-I_Timothy	1	18	X X Y Y Y X Y X Y Y X Y X Y Y X Y X X Y
+I_Timothy	1	18	X X Y Y Y X Y X Y Y X Y Y Y Y X Y X X Y
 I_Timothy	1	19	Y X X X Y Y Y Y X X Y Y
 I_Timothy	1	20	Y Y X X Y Y Y X Y Y Y Y Y
 I_Timothy	2	1	Y Y X Y Y X X X Y X X Y
@@ -6565,7 +6565,7 @@ I_Timothy	2	8	Y Y Y X Y X X Y Y X Y X X X Y
 I_Timothy	2	9	Y Y X X Y X X X Y Y Y X X X X X X X X X Y
 I_Timothy	2	10	Y Y Y Y Y Y X X Y
 I_Timothy	2	11	Y X Y Y X X Y
-I_Timothy	2	12	Y Y Y X X Y Y Y Y Y X Y
+I_Timothy	2	12	Y Y Y Y Y Y Y Y Y Y X Y
 I_Timothy	2	13	Y Y Y Y Y Y
 I_Timothy	2	14	Y Y Y Y Y Y Y Y X Y Y
 I_Timothy	2	15	Y Y X X Y Y Y X X X X X Y X Y
@@ -6583,7 +6583,7 @@ I_Timothy	3	11	Y Y X X X X X X Y
 I_Timothy	3	12	Y Y X X Y Y Y Y X X X Y
 I_Timothy	3	13	X Y Y Y Y Y Y Y Y X Y X X X X X Y
 I_Timothy	3	14	Y Y Y Y Y X Y Y
-I_Timothy	3	15	X Y Y Y Y Y Y X X X Y Y Y X X X X X X X Y
+I_Timothy	3	15	X Y Y Y Y Y Y X X Y Y Y Y X Y Y X X X X Y
 I_Timothy	3	16	Y Y Y Y X X X Y Y Y X Y Y X Y Y Y Y X Y Y X Y Y X Y
 I_Timothy	4	1	Y Y Y Y Y Y X X Y Y Y X Y Y X X X X Y
 I_Timothy	4	2	X X Y Y X X Y
@@ -6592,20 +6592,20 @@ I_Timothy	4	4	Y X X Y Y Y Y Y X Y Y
 I_Timothy	4	5	Y Y X X X X Y
 I_Timothy	4	6	Y Y X Y Y Y X X Y Y X X X X X X X Y Y Y
 I_Timothy	4	7	Y Y X X X Y Y Y Y Y X Y
-I_Timothy	4	8	Y Y X Y X Y Y Y Y Y Y X Y Y Y X X X X X X Y Y
-I_Timothy	4	9	Y Y Y X X X Y
+I_Timothy	4	8	Y Y X Y X Y Y Y Y Y Y X Y Y Y Y Y X X X X Y Y
+I_Timothy	4	9	Y X Y X X X Y
 I_Timothy	4	10	X Y X X X X Y Y X Y Y Y Y X X X X Y
 I_Timothy	4	11	Y Y X Y
 I_Timothy	4	12	Y X X Y Y Y Y Y X Y X X X X X X X X X Y
 I_Timothy	4	13	Y Y Y X X X X X Y
 I_Timothy	4	14	Y Y X X X Y Y Y Y X Y X X X X X Y
 I_Timothy	4	15	Y Y X Y Y Y X X Y Y Y Y
-I_Timothy	4	16	Y X X X Y Y Y Y Y Y X X X X Y Y Y
+I_Timothy	4	16	Y X X X Y Y Y Y Y Y X Y Y X Y Y Y
 I_Timothy	5	1	Y Y Y Y Y X Y Y X Y
 I_Timothy	5	2	Y X Y Y X Y X X Y
 I_Timothy	5	3	Y Y X X Y
 I_Timothy	5	4	X Y X Y X X Y Y Y Y X X Y Y Y Y Y X Y Y Y Y Y X X Y
-I_Timothy	5	5	X X X X Y Y Y X Y Y Y X X X X Y X X Y
+I_Timothy	5	5	Y Y X X Y Y Y X Y Y Y X X X X Y X X Y
 I_Timothy	5	6	X Y Y Y Y
 I_Timothy	5	7	X Y Y Y Y Y
 I_Timothy	5	8	X Y Y X X X X Y Y Y X Y Y Y Y Y Y
@@ -6651,7 +6651,7 @@ II_Timothy	1	1	X X X X X X X X X X X X X Y
 II_Timothy	1	2	X X Y X X Y X X X X X X X X Y
 II_Timothy	1	3	Y Y X Y Y Y X Y X X Y Y Y Y X X X Y X X X Y X X Y
 II_Timothy	1	4	Y Y Y Y X X Y Y Y Y
-II_Timothy	1	5	X X X X X X Y Y Y Y X X X X X X X X X Y Y X Y X X Y
+II_Timothy	1	5	Y Y X X X X Y Y Y Y X X X X X X X X X Y Y X Y X X Y
 II_Timothy	1	6	X X Y Y Y Y X X X Y Y Y X Y X X X X X Y
 II_Timothy	1	7	X Y Y Y X Y X Y Y X X X X Y
 II_Timothy	1	8	X Y Y X X X X X X X X X Y Y Y X Y X X Y
@@ -6659,7 +6659,7 @@ II_Timothy	1	9	Y Y Y Y Y X Y X X X X X X X X X X X Y Y Y X X Y X X Y
 II_Timothy	1	10	Y Y Y X X X X X X X Y Y Y X Y Y Y X X Y X X Y
 II_Timothy	1	11	X Y Y Y X X X X Y
 II_Timothy	1	12	X X Y X Y Y Y Y Y Y Y Y Y Y Y X Y Y X X Y Y X X X Y
-II_Timothy	1	13	X Y Y Y Y X Y Y X X X X X X X Y
+II_Timothy	1	13	Y Y Y Y Y X Y Y X X X X X X X Y
 II_Timothy	1	14	X X Y Y X X X Y Y X Y
 II_Timothy	1	15	Y Y Y Y Y X X X X Y Y Y X X Y
 II_Timothy	1	16	Y Y X Y X X Y Y Y Y Y Y X X Y Y Y
@@ -6679,7 +6679,7 @@ II_Timothy	2	11	Y X Y X Y Y Y Y
 II_Timothy	2	12	Y Y Y Y Y Y Y Y Y
 II_Timothy	2	13	Y Y Y Y Y Y Y Y Y Y
 II_Timothy	2	14	Y Y Y X X Y Y Y X X Y X X Y Y
-II_Timothy	2	15	Y Y X X X X X Y Y X X X Y
+II_Timothy	2	15	Y Y Y Y X X X Y Y X X X Y
 II_Timothy	2	16	Y Y X Y Y X Y Y Y Y
 II_Timothy	2	17	Y X X Y X Y Y Y Y Y X X Y
 II_Timothy	2	18	Y X X Y Y Y Y Y Y Y Y X X Y
@@ -6702,20 +6702,20 @@ II_Timothy	3	8	X Y Y X X Y Y Y Y Y Y Y X Y Y Y X Y X X X Y
 II_Timothy	3	9	Y Y Y X Y Y Y X Y Y Y Y Y X X Y Y
 II_Timothy	3	10	Y Y Y X X X X X X X X X X X X X X Y
 II_Timothy	3	11	X X X Y Y Y Y X X X X X Y X Y Y Y X Y Y Y X Y
-II_Timothy	3	12	X X X Y Y Y Y X X Y Y
+II_Timothy	3	12	X Y Y Y Y Y Y X X Y Y
 II_Timothy	3	13	Y Y X X Y Y X X Y X X Y
 II_Timothy	3	14	Y Y Y Y Y X X Y Y X Y Y
-II_Timothy	3	15	X Y X Y X X X Y Y Y Y X Y X X X X X Y
+II_Timothy	3	15	X Y X Y X Y Y Y Y Y Y X Y X X X X X Y
 II_Timothy	3	16	X Y X X X X X X X X X X X X X Y
 II_Timothy	3	17	Y Y Y X X X Y X X X Y Y
-II_Timothy	4	1	Y X X X X X X Y Y Y X X Y X X X X X X X Y
+II_Timothy	4	1	Y X X X X X X Y Y Y Y X Y X X X X X X X Y
 II_Timothy	4	2	Y X Y Y X Y Y Y Y X X X X Y
-II_Timothy	4	3	Y Y Y Y Y Y X Y Y Y X X X Y Y Y Y Y X Y
+II_Timothy	4	3	Y Y Y Y Y Y Y Y Y Y X X X Y Y Y Y Y X Y
 II_Timothy	4	4	Y Y Y X Y X Y Y Y Y X Y Y
 II_Timothy	4	5	Y Y Y X Y Y Y Y Y X X Y Y
 II_Timothy	4	6	Y Y Y Y Y X X X X Y Y
 II_Timothy	4	7	X X Y Y X Y Y X Y Y
-II_Timothy	4	8	Y Y Y X X X Y Y Y Y X Y Y Y Y Y X X Y X X X X X X X Y Y X X Y
+II_Timothy	4	8	Y Y Y X X X Y Y Y Y X Y X X X Y X X Y X Y Y X X X X Y Y X X Y
 II_Timothy	4	9	Y Y X Y Y
 II_Timothy	4	10	Y Y Y Y Y X X Y Y Y X Y Y X Y Y X Y
 II_Timothy	4	11	Y Y Y X Y Y Y Y X Y Y Y Y Y X Y
@@ -6744,16 +6744,16 @@ Titus	1	11	Y Y Y Y X Y Y Y Y Y Y X X Y
 Titus	1	12	Y X X X X X Y Y Y X X X X Y
 Titus	1	13	X X Y Y Y X X Y Y Y Y Y Y X X Y
 Titus	1	14	Y Y X X X X Y Y X Y
-Titus	1	15	Y Y X Y X Y Y X Y Y Y Y Y X X X X X X Y
+Titus	1	15	Y Y X Y Y Y Y X Y Y Y Y Y X X X X X X Y
 Titus	1	16	Y Y Y Y Y Y Y Y Y X X X X X X X Y
 Titus	2	1	Y Y Y Y Y Y Y Y
-Titus	2	2	Y X X X Y Y X X X X X Y
+Titus	2	2	Y Y Y X Y Y X X X X X Y
 Titus	2	3	Y Y X Y X X Y Y X Y Y Y
 Titus	2	4	Y Y X Y Y Y Y
 Titus	2	5	X X X Y Y X X Y Y Y X X X Y Y
 Titus	2	6	X Y Y Y Y
 Titus	2	7	X Y Y Y X X Y X X Y X Y
-Titus	2	8	X X X Y X X Y Y Y Y Y Y Y Y
+Titus	2	8	X X X Y X X Y Y Y Y Y X Y Y
 Titus	2	9	Y X Y Y X Y Y Y Y Y
 Titus	2	10	Y Y Y X Y Y Y Y X X X X X X Y Y X Y
 Titus	2	11	Y Y X X X Y X X Y
@@ -6772,7 +6772,7 @@ Titus	3	8	Y X Y Y X Y Y Y Y Y Y X Y Y Y Y Y Y Y X X Y X Y
 Titus	3	9	Y Y X X X X X X X Y Y Y Y X X Y
 Titus	3	10	X Y X X X X Y Y
 Titus	3	11	Y X Y X Y X Y Y Y
-Titus	3	12	Y Y Y Y Y X Y Y Y X Y X Y Y Y Y Y
+Titus	3	12	Y Y Y X Y X Y Y Y X Y X Y Y Y Y Y
 Titus	3	13	X X X X Y Y Y Y Y Y Y
 Titus	3	14	Y Y X X Y X Y Y X X X Y Y Y Y Y
 Titus	3	15	Y Y X X X Y Y Y Y Y X Y X Y X X Y
@@ -6787,7 +6787,7 @@ Philemon	1	8	Y X X X Y Y Y Y Y Y
 Philemon	1	9	X X Y Y Y Y Y X X Y Y Y X X X Y
 Philemon	1	10	Y Y X X X X Y Y X X Y Y
 Philemon	1	11	X X X X X X X X X X Y
-Philemon	1	12	X X X Y Y Y X X Y
+Philemon	1	12	Y Y Y Y Y Y X X Y
 Philemon	1	13	Y Y Y X Y Y Y X Y Y Y X X X X Y
 Philemon	1	14	Y Y X X Y Y Y Y X Y X X Y X X Y Y Y X Y
 Philemon	1	15	Y Y X Y Y X Y Y Y Y Y
@@ -6804,7 +6804,7 @@ Philemon	1	25	X X X X X Y X X X Y
 Hebrews	1	1	X X Y Y X Y Y X Y X X Y
 Hebrews	1	2	X X X X Y Y Y X Y Y Y X Y X Y Y Y X Y
 Hebrews	1	3	Y Y X X X X X X X Y Y Y X Y X X X X Y X X Y Y Y X X X Y X Y
-Hebrews	1	4	Y Y Y X Y Y Y Y Y Y Y
+Hebrews	1	4	Y Y Y X Y Y Y X Y Y Y
 Hebrews	1	5	Y Y Y Y X Y X Y Y Y Y Y Y Y Y Y Y Y Y X Y Y Y Y Y X Y
 Hebrews	1	6	X Y Y Y X Y X X Y Y Y Y Y X X Y
 Hebrews	1	7	Y Y Y X Y Y Y Y X X Y Y Y X X Y X Y
@@ -6814,7 +6814,7 @@ Hebrews	1	10	Y Y X Y Y X Y Y Y X X X Y Y X Y
 Hebrews	1	11	Y Y Y Y Y Y Y Y Y Y
 Hebrews	1	12	X Y Y Y Y Y Y Y Y Y Y X Y Y Y X X Y Y Y
 Hebrews	1	13	X Y Y X Y Y Y Y X X Y X Y Y X X Y X X X Y
-Hebrews	1	14	Y Y Y X Y X Y Y X X X X Y
+Hebrews	1	14	Y Y Y X Y X Y Y X Y Y Y Y
 Hebrews	2	1	X Y Y Y Y Y Y Y Y Y Y
 Hebrews	2	2	X Y Y X Y Y Y Y Y Y X X X Y Y X Y
 Hebrews	2	3	Y Y Y Y Y Y Y Y Y Y X X Y X Y Y X Y Y
@@ -6822,10 +6822,10 @@ Hebrews	2	4	Y X Y X X X X X X X X X X Y X X X Y
 Hebrews	2	5	Y Y Y Y X X Y Y X Y Y
 Hebrews	2	6	Y Y Y Y Y Y Y Y Y Y Y Y X Y Y Y Y
 Hebrews	2	7	Y Y X Y X Y X X Y Y Y
-Hebrews	2	8	Y Y X X X Y X X Y Y Y X Y Y Y X Y Y Y Y Y Y X Y Y
-Hebrews	2	9	X Y X Y X Y Y Y Y X X X X Y X X Y Y Y X Y X Y Y Y
+Hebrews	2	8	Y Y X X X Y X Y Y Y Y X Y Y Y X Y Y Y Y Y Y X Y Y
+Hebrews	2	9	Y Y X Y X Y Y Y Y X X X X Y X X Y Y Y X Y X Y Y Y
 Hebrews	2	10	Y X Y X Y X Y Y X Y X Y X Y X Y Y X X X X Y X Y Y
-Hebrews	2	11	X X Y Y X Y Y X X Y X X Y Y Y Y Y Y
+Hebrews	2	11	X Y Y Y X Y Y X X Y X X Y Y Y Y Y Y
 Hebrews	2	12	Y Y X X Y X X Y X X Y Y Y
 Hebrews	2	13	Y Y Y X Y X Y Y Y Y X X X Y Y Y Y X Y
 Hebrews	2	14	X Y X Y Y X X Y X Y Y Y X Y Y X X Y Y Y X Y Y X Y Y Y X Y
@@ -6844,7 +6844,7 @@ Hebrews	3	8	Y Y X X Y Y X X Y X X X X Y X X Y
 Hebrews	3	9	Y Y X X Y X Y Y Y X X Y
 Hebrews	3	10	X Y Y Y X X Y Y Y Y Y X Y Y Y Y Y X X Y
 Hebrews	3	11	Y Y X X X Y Y Y X X X Y
-Hebrews	3	12	Y Y Y Y Y X X Y X X Y X Y Y X X Y
+Hebrews	3	12	Y Y Y Y Y X X Y X X Y X Y Y X Y Y
 Hebrews	3	13	Y Y Y X X Y Y Y X Y Y Y Y Y X X Y X X Y
 Hebrews	3	14	Y Y X Y Y Y X X X Y X Y Y Y
 Hebrews	3	15	X Y Y Y Y X X Y Y Y Y X X Y Y X X Y
@@ -6859,16 +6859,16 @@ Hebrews	4	4	Y Y Y X X Y Y Y Y X Y X X X X Y X X X X Y
 Hebrews	4	5	Y X Y Y Y Y X X X Y
 Hebrews	4	6	X Y Y Y Y X Y X Y Y Y Y Y X Y
 Hebrews	4	7	Y Y Y X Y X Y Y X X Y Y Y Y Y X X Y Y Y Y X X Y
-Hebrews	4	8	X Y Y Y Y Y Y X Y Y Y Y Y
+Hebrews	4	8	X Y Y Y Y Y Y X Y Y X Y Y
 Hebrews	4	9	Y Y Y X X X Y
-Hebrews	4	10	X Y Y X X X Y X Y Y X X X Y Y X X Y X Y
+Hebrews	4	10	Y Y Y X X X Y X Y Y X X X Y Y X X Y X Y
 Hebrews	4	11	Y Y Y X X X Y Y Y X X Y Y Y Y X Y
-Hebrews	4	12	Y X X X X X X X X X X X X X Y Y X X X X X X X X Y X X X X X Y
+Hebrews	4	12	Y Y X X X Y X X X X X X X X Y Y X X X X X X X X Y X X X X X Y
 Hebrews	4	13	Y Y Y Y Y X Y Y Y X Y Y X X Y X Y Y X Y
 Hebrews	4	14	Y Y X Y Y X Y X X X X Y Y X Y
-Hebrews	4	15	X X X Y Y Y Y X X Y Y Y X Y X Y X Y
+Hebrews	4	15	Y Y Y Y Y Y Y X X Y Y Y X Y X Y X Y
 Hebrews	4	16	Y Y X Y X X X Y Y Y Y Y Y Y X X Y
-Hebrews	5	1	X X Y X Y Y X Y Y X X X Y Y Y X X X Y X Y
+Hebrews	5	1	Y Y Y X Y Y X Y Y X X X Y Y Y X X X Y X Y
 Hebrews	5	2	Y Y X X X X Y X Y Y Y
 Hebrews	5	3	Y X Y Y Y X X Y Y X X Y Y X Y
 Hebrews	5	4	X Y Y Y Y X Y Y Y X X Y Y X Y
@@ -6879,21 +6879,21 @@ Hebrews	5	8	Y Y Y Y Y Y Y X Y
 Hebrews	5	9	Y Y Y X Y Y Y X X Y
 Hebrews	5	10	Y X X Y X X X X Y
 Hebrews	5	11	X Y Y Y X Y Y Y Y Y Y Y X Y
-Hebrews	5	12	Y Y Y Y Y X X Y Y X X Y Y Y Y X X X X X X X Y Y Y Y Y X X X Y
-Hebrews	5	13	X X Y Y Y X X Y Y Y Y
-Hebrews	5	14	X X X X X X Y X X Y X Y Y Y X X X X X Y
+Hebrews	5	12	Y Y Y Y Y X X Y Y Y Y Y Y Y Y X X X X X X X Y Y Y Y Y X X X Y
+Hebrews	5	13	Y Y Y Y Y X X Y Y Y Y
+Hebrews	5	14	Y Y Y X X Y Y X X Y X Y Y Y X X X X X Y
 Hebrews	6	1	Y Y X X X X X Y X X Y Y Y Y Y Y X X X X X X X Y
 Hebrews	6	2	X X X X X X X X X Y
 Hebrews	6	3	Y Y Y Y Y X Y
 Hebrews	6	4	Y X Y Y Y Y Y X X X Y Y Y Y X Y
-Hebrews	6	5	Y X X X X X Y Y Y
+Hebrews	6	5	Y Y Y X X X Y Y Y
 Hebrews	6	6	Y Y Y Y X Y Y Y X X X Y Y Y
-Hebrews	6	7	X X Y Y X X X X X Y Y Y X Y Y X Y Y Y Y Y X X Y
+Hebrews	6	7	Y Y Y Y Y X Y Y Y Y Y Y X Y Y X Y Y Y Y Y X X Y
 Hebrews	6	8	Y Y X X Y Y Y X Y X X Y X Y
 Hebrews	6	9	Y Y X Y Y X X Y Y Y Y Y Y Y
 Hebrews	6	10	Y Y Y X Y Y X X X X X Y Y Y X X X Y Y X Y X Y
 Hebrews	6	11	Y Y X Y X Y Y Y X X X X Y X Y
-Hebrews	6	12	Y Y Y Y X X Y X X X Y Y X Y
+Hebrews	6	12	Y Y Y Y Y Y Y X X X Y Y X Y
 Hebrews	6	13	Y Y Y Y X Y Y X Y Y Y Y Y X Y
 Hebrews	6	14	Y X Y Y Y Y Y Y Y Y
 Hebrews	6	15	Y Y Y Y X Y
@@ -6901,11 +6901,11 @@ Hebrews	6	16	Y Y X X Y Y Y Y Y X Y X Y X Y
 Hebrews	6	17	X Y Y Y X Y Y X X X Y X X X X Y Y Y
 Hebrews	6	18	Y X X X Y X Y Y Y Y X Y Y Y Y Y Y Y Y
 Hebrews	6	19	Y X Y Y X X X X X X Y Y X X X X Y
-Hebrews	6	20	Y Y Y Y Y Y X X X Y Y Y X X Y
+Hebrews	6	20	Y Y X Y Y Y X X X Y Y Y X X Y
 Hebrews	7	1	X X X X X X X X X X X Y Y Y Y X X X X Y Y Y Y
-Hebrews	7	2	Y X Y X Y Y Y Y Y Y X Y Y Y X X X X X X Y
+Hebrews	7	2	Y X Y X Y Y Y Y Y Y X Y Y Y X X Y Y Y X Y
 Hebrews	7	3	X X Y X X X X X Y Y Y Y X X X Y Y Y X X Y
-Hebrews	7	4	Y Y Y Y Y Y Y Y Y Y Y X Y
+Hebrews	7	4	Y Y Y Y Y Y Y Y X X Y X Y
 Hebrews	7	5	X X Y X X X Y X Y Y Y Y Y X Y X X Y Y Y X X Y Y Y X X X Y
 Hebrews	7	6	X Y Y Y X Y Y Y X Y Y X Y Y
 Hebrews	7	7	Y Y X Y X Y X X Y Y
@@ -6919,8 +6919,8 @@ Hebrews	7	14	Y X Y X Y Y X X Y X X Y X Y Y Y Y
 Hebrews	7	15	Y Y X Y Y Y X X X Y Y X Y
 Hebrews	7	16	Y X X X X Y Y X X X X Y
 Hebrews	7	17	Y X Y Y Y X X Y X X X Y
-Hebrews	7	18	X X X Y Y Y X X X X X Y
-Hebrews	7	19	Y Y Y X Y X X X Y X Y Y X Y
+Hebrews	7	18	Y X Y Y Y Y X X X X X Y
+Hebrews	7	19	Y Y Y X Y Y Y X Y X Y Y X Y
 Hebrews	7	20	Y X Y Y X Y Y X Y X Y Y Y Y
 Hebrews	7	21	Y Y X Y X Y Y X Y Y Y Y Y Y Y Y X X Y
 Hebrews	7	22	X Y X X Y Y Y Y
@@ -6930,19 +6930,19 @@ Hebrews	7	25	Y Y Y X X Y Y Y Y X Y X Y Y Y X Y Y X Y
 Hebrews	7	26	X Y Y Y Y X X X Y Y X X Y Y Y X Y Y
 Hebrews	7	27	Y Y Y X Y Y X X Y Y X X X Y Y Y Y X X Y Y Y Y Y Y Y
 Hebrews	7	28	X Y Y Y Y Y Y Y X Y Y X X X X X Y Y X X Y Y
-Hebrews	8	1	X X X Y Y Y Y Y Y Y X X X X X Y X X Y
+Hebrews	8	1	Y Y X Y Y Y Y Y Y Y X X X X X Y X X Y
 Hebrews	8	2	X X X X X X X Y Y Y X X X Y
 Hebrews	8	3	Y Y Y X Y Y X X X Y Y Y Y Y Y X Y Y Y
 Hebrews	8	4	X X Y Y X Y Y Y Y Y Y Y Y X Y X Y
 Hebrews	8	5	Y X X Y Y X Y Y Y Y Y Y X Y Y Y Y Y Y X X X Y Y Y X X Y
-Hebrews	8	6	Y Y Y Y Y Y Y X X X Y Y X X Y Y
+Hebrews	8	6	Y Y Y Y Y Y Y Y Y X Y Y X X Y Y
 Hebrews	8	7	X Y X X Y Y Y Y Y Y Y Y
 Hebrews	8	8	Y Y Y Y Y Y Y Y Y Y Y X X X X X X X X Y X Y
 Hebrews	8	9	Y X X Y Y Y X X Y X Y Y Y X X Y Y Y X X Y Y Y Y Y X X X Y Y Y Y Y Y
 Hebrews	8	10	Y Y X Y Y Y X X Y X X X Y Y Y Y X Y X X X Y Y X X Y Y Y Y Y Y X Y Y Y Y Y X Y
 Hebrews	8	11	Y X Y Y Y X X Y Y Y X X Y Y Y X Y Y Y Y Y X X X X Y
 Hebrews	8	12	Y Y Y X X Y Y X X Y X Y Y Y
-Hebrews	8	13	X Y Y Y Y X Y X Y Y Y Y X Y
+Hebrews	8	13	X Y Y Y Y X Y Y Y Y Y Y X Y
 Hebrews	9	1	Y X Y X X Y X X X X X Y
 Hebrews	9	2	X Y Y X Y X Y X X X X X X X X X X Y Y Y Y
 Hebrews	9	3	Y Y X X Y X Y Y X Y
@@ -6953,12 +6953,12 @@ Hebrews	9	7	Y Y X Y X X Y Y X Y X X Y Y Y X X X X X X Y
 Hebrews	9	8	Y Y X X X Y Y Y X X X Y Y X X Y Y Y
 Hebrews	9	9	Y Y X X X Y Y X Y X X X Y Y Y Y X Y Y Y Y
 Hebrews	9	10	Y X X X X X X Y X Y X X Y Y
-Hebrews	9	11	X X X X Y Y X X X X X X X X Y Y Y Y X X Y
+Hebrews	9	11	Y Y Y X Y Y Y X X X X X X X Y Y Y Y X X Y
 Hebrews	9	12	X X X X X X X X X X Y Y Y X X Y X Y Y
 Hebrews	9	13	X Y X X X X X X X Y Y Y Y Y X X X X Y
-Hebrews	9	14	X Y X X X Y Y X X Y Y Y Y X Y Y X X Y X X Y X Y Y X Y
+Hebrews	9	14	X Y X X X Y Y X X Y Y Y Y X Y Y X X Y X X Y X Y Y Y Y
 Hebrews	9	15	Y X Y X X Y Y Y Y Y X X X X X X X Y X Y Y Y Y X X Y
-Hebrews	9	16	Y Y Y X X X Y Y
+Hebrews	9	16	Y Y Y Y Y Y Y Y
 Hebrews	9	17	Y Y X Y Y Y Y Y Y Y Y Y Y
 Hebrews	9	18	Y Y X Y X Y Y
 Hebrews	9	19	Y Y X Y X X Y X Y X X Y Y X X X X X X Y X X X X X X Y X X X X X X X Y Y
@@ -6971,7 +6971,7 @@ Hebrews	9	25	Y Y Y Y Y Y X Y Y X X Y X Y X X Y
 Hebrews	9	26	Y Y Y Y Y X X Y Y Y Y X X X Y X X X Y X X X Y Y
 Hebrews	9	27	Y X Y Y X Y Y Y Y Y Y Y
 Hebrews	9	28	Y X X Y Y Y X Y Y Y Y X Y X Y Y Y Y Y X Y
-Hebrews	10	1	X X X X X Y Y X X X X X X Y X Y X X Y Y Y X X Y Y Y Y Y Y
+Hebrews	10	1	Y Y Y X Y Y Y X X X X X X Y X Y X X Y Y Y X X Y Y Y Y Y Y
 Hebrews	10	2	X X Y Y Y X Y Y Y Y X Y Y Y Y Y
 Hebrews	10	3	Y X Y X Y X Y
 Hebrews	10	4	Y Y X X X Y Y Y
@@ -6981,8 +6981,8 @@ Hebrews	10	7	Y Y Y Y X X Y Y X Y Y Y X Y X X Y
 Hebrews	10	8	Y Y Y X X X X X X X Y X X X Y Y X Y Y
 Hebrews	10	9	Y Y Y Y Y Y X X Y Y X Y Y X Y Y
 Hebrews	10	10	X X Y X Y X X X X X X Y Y
-Hebrews	10	11	Y Y Y Y Y X Y Y Y X X X X Y Y Y Y Y Y
-Hebrews	10	12	Y Y Y Y Y Y Y X X Y Y X X X Y
+Hebrews	10	11	Y Y Y Y Y X Y Y Y X Y Y Y Y Y Y Y Y Y
+Hebrews	10	12	Y Y Y X Y Y Y X X Y Y X X X Y
 Hebrews	10	13	X Y Y Y Y X X Y X X X Y
 Hebrews	10	14	Y Y Y Y X X Y Y Y
 Hebrews	10	15	Y Y Y X X X X Y X X Y Y
@@ -6995,15 +6995,15 @@ Hebrews	10	21	Y X Y X X X X Y
 Hebrews	10	22	Y X X Y X X Y Y X Y X X Y Y Y X Y X Y
 Hebrews	10	23	Y X X X Y Y Y X Y Y
 Hebrews	10	24	Y Y Y X X X X X Y
-Hebrews	10	25	Y Y X X Y Y Y Y Y Y X Y Y X X X X Y
+Hebrews	10	25	Y Y X X Y Y Y Y Y Y X Y Y Y Y Y X Y
 Hebrews	10	26	Y Y Y Y X Y Y X X X Y Y X Y Y Y
-Hebrews	10	27	X X X X X X X Y Y Y X Y
+Hebrews	10	27	Y Y X X X X X Y Y Y X Y
 Hebrews	10	28	Y Y X Y X Y X X X X Y Y
 Hebrews	10	29	Y Y Y Y Y Y X X X Y Y X X X X Y Y Y X Y Y Y X X X Y Y
 Hebrews	10	30	Y X Y Y Y Y Y Y Y Y Y Y X X Y
 Hebrews	10	31	Y Y Y X X Y Y
 Hebrews	10	32	Y X X X Y X Y Y X Y Y Y
-Hebrews	10	33	Y Y X X X Y Y Y Y X X X Y Y
+Hebrews	10	33	Y Y X X X Y Y Y Y X Y Y Y Y
 Hebrews	10	34	Y Y X Y Y Y X X Y Y Y X Y Y Y Y Y X X Y Y
 Hebrews	10	35	Y Y X X X Y Y Y X Y
 Hebrews	10	36	Y Y Y Y Y X X X Y Y Y X Y
@@ -7012,7 +7012,7 @@ Hebrews	10	38	Y Y X Y X Y Y X Y Y Y Y X X Y X Y
 Hebrews	10	39	Y Y Y Y X X X X X X X Y
 Hebrews	11	1	Y Y Y Y X X Y Y Y
 Hebrews	11	2	X Y Y Y X Y
-Hebrews	11	3	Y Y Y X Y X Y X Y Y X Y Y Y Y
+Hebrews	11	3	Y Y Y X Y X Y X Y Y Y Y Y Y Y
 Hebrews	11	4	Y X Y Y X Y Y X Y X Y Y Y Y Y X X X Y X Y Y X Y Y Y Y
 Hebrews	11	5	Y Y Y Y Y Y Y Y Y Y Y Y Y X Y Y Y X Y Y Y X Y
 Hebrews	11	6	Y Y Y Y Y Y Y Y Y Y X Y Y Y X Y Y Y Y Y
@@ -7021,7 +7021,7 @@ Hebrews	11	8	Y Y Y Y Y X Y Y Y Y X Y Y Y Y Y Y Y
 Hebrews	11	9	Y Y X X X Y X Y X Y Y X X X X X X X X X Y
 Hebrews	11	10	Y X Y X Y Y Y X X X Y X Y
 Hebrews	11	11	Y X X Y Y X X Y Y X X X Y Y Y Y Y Y
-Hebrews	11	12	Y X X X X X Y Y Y X X X Y X Y X Y X X X X X X X Y X Y
+Hebrews	11	12	Y X X Y Y X Y Y Y X X X Y X Y X Y X X X X X X X Y X Y
 Hebrews	11	13	X Y Y X Y Y Y X Y Y Y Y X X X Y Y Y X X Y Y X X Y
 Hebrews	11	14	X Y Y Y Y Y Y Y
 Hebrews	11	15	X X X Y Y X Y Y Y Y Y Y
@@ -7050,20 +7050,20 @@ Hebrews	11	37	Y Y Y X X Y Y Y X X X X Y Y Y Y
 Hebrews	11	38	Y Y Y Y X Y X Y Y X X X X X X X X Y
 Hebrews	11	39	Y X Y Y X X Y Y Y X Y
 Hebrews	11	40	X Y X Y X Y Y Y Y X Y Y
-Hebrews	12	1	Y X Y X Y Y Y X Y Y Y X X X X Y X Y Y Y Y Y Y
-Hebrews	12	2	Y X X X X X X X Y Y X X X X Y Y Y Y Y X Y Y X X X Y Y
+Hebrews	12	1	Y X Y Y Y Y Y X Y Y Y X X X X Y X Y Y Y Y Y Y
+Hebrews	12	2	Y X X X X X X X Y Y X Y Y Y Y Y Y Y Y X Y Y X X X Y Y
 Hebrews	12	3	Y X Y Y Y X X X X X Y Y Y Y X X Y Y
 Hebrews	12	4	Y X Y Y X X Y Y
 Hebrews	12	5	Y Y X Y Y Y Y Y Y X Y Y Y X Y Y Y X Y Y
 Hebrews	12	6	Y Y Y Y Y Y Y X Y Y Y
 Hebrews	12	7	X Y Y Y Y Y Y X Y Y X Y Y Y Y Y
-Hebrews	12	8	X Y X X Y X Y Y Y Y X X X Y Y
+Hebrews	12	8	X Y Y Y Y X Y Y Y Y X X X Y Y
 Hebrews	12	9	Y Y Y X X X Y Y Y Y Y Y X Y Y X X X Y Y Y
 Hebrews	12	10	Y X Y X X Y X Y Y Y Y Y Y X Y Y X Y Y X X Y
-Hebrews	12	11	Y Y Y Y Y X Y Y Y X X X Y Y Y X Y Y Y Y Y Y Y
+Hebrews	12	11	Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y X Y Y X Y Y Y Y
 Hebrews	12	12	Y Y Y X X Y Y Y Y
 Hebrews	12	13	Y X Y Y X X Y Y Y X Y Y Y Y Y
-Hebrews	12	14	X X X X X X Y X Y Y Y X Y
+Hebrews	12	14	Y Y X Y X X Y X Y Y Y X Y
 Hebrews	12	15	Y Y Y Y X X X X Y Y X X Y Y Y Y Y X Y Y X Y
 Hebrews	12	16	Y Y X X X X Y Y X X Y Y X X Y
 Hebrews	12	17	Y X Y Y Y Y Y X Y Y Y Y Y Y Y Y X Y Y Y
@@ -7074,7 +7074,7 @@ Hebrews	12	21	Y Y Y Y Y Y Y Y Y Y X Y
 Hebrews	12	22	Y Y X X X X Y Y X X X X X Y
 Hebrews	12	23	X X Y Y X Y X X X X X X Y Y
 Hebrews	12	24	X X X X X X X Y Y Y X X Y
-Hebrews	12	25	Y Y Y Y Y X Y X X Y X Y Y Y Y X Y X Y X X Y Y
+Hebrews	12	25	Y Y Y Y Y X Y Y Y Y X Y Y Y Y X Y X Y X X Y Y
 Hebrews	12	26	X X Y X Y Y Y Y Y Y Y X Y Y Y X X X X X X X Y
 Hebrews	12	27	Y Y X Y Y X Y Y Y Y Y Y Y Y Y Y
 Hebrews	12	28	Y X Y Y Y Y X Y Y Y X Y X X X Y
@@ -7092,13 +7092,13 @@ Hebrews	13	10	Y Y X Y Y Y Y Y Y X Y Y
 Hebrews	13	11	Y Y Y X X Y X Y X X Y X X Y X X Y Y X X Y
 Hebrews	13	12	Y X Y Y Y X X X Y X Y X X Y Y
 Hebrews	13	13	Y Y X Y X X Y X X Y Y
-Hebrews	13	14	X Y Y Y Y X X Y Y Y
+Hebrews	13	14	X Y Y Y Y Y X Y Y Y
 Hebrews	13	15	X Y Y Y X Y X Y X Y Y Y X Y Y X X Y
 Hebrews	13	16	Y Y X X Y Y Y Y Y Y Y X Y
-Hebrews	13	17	Y Y Y X Y Y Y Y Y X X X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y
+Hebrews	13	17	Y Y Y Y Y Y Y Y Y X X X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y
 Hebrews	13	18	Y X Y Y X Y X Y Y X Y Y Y Y
 Hebrews	13	19	Y Y Y Y Y Y Y Y Y
-Hebrews	13	20	X X X X X Y Y X Y X X X X X Y Y Y Y Y X X X Y
+Hebrews	13	20	Y Y X X X Y Y X Y X X X X X Y X X X Y X X X Y
 Hebrews	13	21	Y Y X X Y X Y Y X X Y Y X Y X Y X Y X X Y Y X Y X X X X Y Y
 Hebrews	13	22	Y Y Y Y Y X X X Y Y Y X Y Y Y
 Hebrews	13	23	Y X X X Y Y X Y Y Y Y Y Y
@@ -7188,7 +7188,7 @@ James	4	10	Y X Y Y Y Y
 James	4	11	Y Y Y X Y Y Y Y Y X X Y Y Y Y Y Y X Y Y Y Y Y X X X Y
 James	4	12	Y Y X X X Y Y X X Y Y Y Y Y Y Y X Y
 James	4	13	Y Y Y Y X X Y Y X X X Y Y Y Y Y Y Y Y Y
-James	4	14	Y Y Y X Y Y X X Y X X X Y X Y Y X Y Y
+James	4	14	Y Y Y X Y Y X X Y Y Y Y Y X Y Y X Y Y
 James	4	15	X Y Y Y Y X Y Y Y Y Y Y X X Y
 James	4	16	Y Y Y X X X Y X X Y Y Y
 James	4	17	Y Y Y Y Y Y Y Y Y Y
@@ -7202,7 +7202,7 @@ James	5	7	Y X Y X X X X Y Y X Y Y X X X X Y Y X Y Y Y X X Y
 James	5	8	Y X Y Y X X Y Y X X X Y Y
 James	5	9	Y Y Y X Y Y Y Y Y X Y X X Y Y
 James	5	10	Y Y Y X X X X Y X Y Y Y X X X Y
-James	5	11	Y Y Y Y X X Y Y Y X X Y Y Y Y Y Y Y X Y
+James	5	11	Y Y Y Y X X Y Y Y X X Y Y Y Y Y X Y X Y
 James	5	12	X Y X X Y Y Y X X X X X X X X Y Y Y Y X X Y Y Y X Y Y Y Y X Y Y
 James	5	13	Y X X Y Y Y Y Y
 James	5	14	Y X X Y Y X X X Y Y Y X Y Y Y X X X X Y
@@ -7223,7 +7223,7 @@ I_Peter	1	8	Y Y Y Y X Y Y Y Y Y Y Y X X Y Y
 I_Peter	1	9	Y X X X X X Y
 I_Peter	1	10	X X Y X X Y X Y X X X X Y Y
 I_Peter	1	11	Y X X X X Y Y X X X X Y Y X X X X X X X X Y
-I_Peter	1	12	Y Y Y X X X Y Y Y Y Y Y Y X Y Y Y X X X X X Y X Y Y Y Y
+I_Peter	1	12	Y Y Y X X X Y Y Y Y Y Y Y X Y Y Y X X Y Y X Y X Y Y Y Y
 I_Peter	1	13	Y Y X X X X Y Y Y Y X Y Y Y Y X X X Y
 I_Peter	1	14	Y X Y Y Y X X X X X X Y
 I_Peter	1	15	Y X Y Y Y Y X Y Y X X Y Y
@@ -7240,12 +7240,12 @@ I_Peter	1	25	Y Y X Y Y X X Y Y Y Y X X Y Y X Y
 I_Peter	2	1	Y Y X X X X X X X X X X X Y
 I_Peter	2	2	X X Y X X X Y Y Y X Y Y X Y
 I_Peter	2	3	Y Y Y Y X Y
-I_Peter	2	4	X X X Y Y X Y Y Y Y Y Y X Y
+I_Peter	2	4	X Y Y Y Y X Y Y Y Y Y Y X Y
 I_Peter	2	5	X Y X Y Y Y X Y X X Y Y X X Y Y X X Y
 I_Peter	2	6	Y Y X Y Y Y X Y X X X Y X Y Y X Y X Y Y
-I_Peter	2	7	X X X X Y Y Y X Y Y Y Y Y Y Y X X Y
+I_Peter	2	7	Y Y X Y Y Y Y X Y Y Y Y Y Y Y X X Y
 I_Peter	2	8	Y X X X X Y Y Y X Y Y X Y Y Y
-I_Peter	2	9	Y Y X X X X X X X X Y Y X X X Y X Y Y Y X X X X Y
+I_Peter	2	9	Y Y X X X X X X X X Y Y X Y Y Y X Y Y Y X X X X Y
 I_Peter	2	10	Y Y Y Y Y Y X Y Y Y Y Y Y Y
 I_Peter	2	11	Y Y X X X Y Y X X Y Y Y X X Y
 I_Peter	2	12	X X Y X X Y Y Y Y Y Y Y Y Y Y X X X Y Y Y X Y X X Y
@@ -7260,7 +7260,7 @@ I_Peter	2	20	Y Y Y X X X Y Y X X X X Y Y Y Y X Y
 I_Peter	2	21	X Y Y Y Y X Y Y X Y Y Y Y Y Y X X Y
 I_Peter	2	22	Y Y Y Y Y Y Y X X X Y
 I_Peter	2	23	Y Y Y Y Y Y Y Y X Y Y Y
-I_Peter	2	24	Y Y Y Y Y Y X X X Y X X Y Y X Y Y X Y Y X X Y Y
+I_Peter	2	24	Y X X Y Y Y X X X Y X X Y Y X Y Y X Y Y X X Y Y
 I_Peter	2	25	Y Y X Y Y Y Y Y X X X X X X X Y
 I_Peter	3	1	Y Y Y X X Y Y Y Y Y Y X Y X X X X Y X Y Y
 I_Peter	3	2	Y X X X X X Y
@@ -7315,12 +7315,12 @@ I_Peter	5	8	Y Y X X X Y Y Y Y Y Y Y Y
 I_Peter	5	9	Y Y X X Y Y X X X Y X X X X X Y Y
 I_Peter	5	10	X X X X X Y Y Y X X X X Y X Y Y Y Y Y Y Y Y
 I_Peter	5	11	Y X Y X X X X Y Y
-I_Peter	5	12	X X X X X X Y Y X Y Y Y Y Y Y Y X X X Y X Y Y
+I_Peter	5	12	X Y Y X X X Y Y X Y Y Y Y Y Y Y X X X Y X Y Y
 I_Peter	5	13	Y Y X X X X X X X X Y
 I_Peter	5	14	Y Y X X Y Y X X X X Y
 II_Peter	1	1	X X X X X X Y Y Y Y Y Y X X X X X X X X Y
 II_Peter	1	2	Y Y X Y Y X X X X X X X X Y
-II_Peter	1	3	Y X Y Y Y Y Y Y X X X X Y Y X X X Y Y Y X X X Y
+II_Peter	1	3	Y X Y Y X X X Y X X X X Y Y X X X Y Y Y X X X Y
 II_Peter	1	4	X Y X X X Y Y Y Y Y X Y Y X X Y Y X X X X X X Y
 II_Peter	1	5	X X Y Y X Y Y Y X X X Y X Y Y Y X Y X Y
 II_Peter	1	6	Y Y X Y X Y Y Y X Y X Y Y Y X Y X Y
@@ -7361,7 +7361,7 @@ II_Peter	2	19	Y Y Y Y Y Y X Y Y Y Y Y Y Y
 II_Peter	2	20	X Y Y X X X Y X X X X X X X Y Y Y Y Y Y Y Y X Y Y X Y
 II_Peter	2	21	Y Y Y Y Y Y X X X Y Y Y Y X Y Y Y X Y
 II_Peter	2	22	Y Y X X X Y Y Y X X X Y Y Y Y X X Y
-II_Peter	3	1	Y Y Y Y Y Y Y X Y Y Y Y Y X X Y
+II_Peter	3	1	Y Y Y Y Y Y Y X Y Y Y X Y X X Y
 II_Peter	3	2	Y Y Y Y X X X Y X X X X X X X X X Y
 II_Peter	3	3	Y Y Y Y Y X X X Y X Y Y X X X X Y Y
 II_Peter	3	4	Y Y Y Y X X X X Y Y Y Y X Y Y Y Y Y X X Y
@@ -7369,7 +7369,7 @@ II_Peter	3	5	Y Y Y Y Y Y Y Y Y Y Y X X X X Y Y X X X Y
 II_Peter	3	6	X Y X X Y Y Y Y
 II_Peter	3	7	Y Y X X X X Y X X Y X Y Y Y X X X X X X X Y
 II_Peter	3	8	Y Y Y Y Y Y X Y X Y X Y X X Y Y X Y X X Y
-II_Peter	3	9	Y Y Y X Y Y Y Y Y Y Y X Y X Y Y Y Y Y X Y Y
+II_Peter	3	9	Y Y Y X Y Y Y Y Y Y Y X Y Y Y Y Y Y Y X Y Y
 II_Peter	3	10	Y Y X Y X Y X Y X Y Y Y Y Y Y Y Y X X X X X Y Y
 II_Peter	3	11	Y Y Y Y Y Y Y Y X X X X Y
 II_Peter	3	12	X X Y X X X X X Y X Y Y Y Y Y Y Y Y
@@ -7383,19 +7383,19 @@ I_John	1	1	Y Y X Y Y Y Y Y X X Y Y Y Y X X Y Y X X X X Y
 I_John	1	2	Y X Y Y Y Y Y Y Y Y Y X X X Y Y Y X X Y Y Y Y
 I_John	1	3	Y X X Y Y X Y Y X Y Y Y X Y X X Y Y X Y X X X X X X X X X Y
 I_John	1	4	Y Y Y Y Y X X Y X Y
-I_John	1	5	Y Y Y X Y Y Y X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y
+I_John	1	5	Y Y Y X Y Y Y X Y Y Y Y Y X Y Y Y Y Y X Y Y Y Y
 I_John	1	6	Y Y Y Y Y X Y Y X X Y Y Y Y Y Y X Y
 I_John	1	7	X Y X X Y Y Y Y Y X X Y Y Y X Y Y X X X X X Y Y Y X X Y
 I_John	1	8	Y Y Y Y Y Y Y Y Y X Y Y Y X Y
 I_John	1	9	Y Y X X Y Y Y X Y Y Y Y X Y Y Y Y X X Y
 I_John	1	10	Y Y Y Y Y Y Y Y Y X X Y Y Y X Y
-I_John	2	1	X Y Y Y Y Y Y Y X Y Y Y Y Y Y Y Y X X Y
+I_John	2	1	X Y Y Y Y Y Y Y X Y Y Y Y Y X X Y X X Y
 I_John	2	2	Y Y Y Y X X X Y X X X Y Y X X X X X X Y
 I_John	2	3	Y X Y Y Y Y Y Y X X Y Y
 I_John	2	4	Y Y Y Y Y Y X X Y Y Y Y Y Y X Y X Y Y Y
 I_John	2	5	Y X Y Y X X Y Y X Y X X X Y Y X Y Y Y X Y Y
 I_John	2	6	Y Y X Y Y Y Y Y Y X Y Y Y
-I_John	2	7	Y X X X X X X X Y Y Y X Y X X X Y Y X Y Y Y
+I_John	2	7	Y X X Y Y Y X X Y Y Y X Y X X X Y Y X Y Y Y
 I_John	2	8	Y X Y Y Y Y Y Y X X X X Y Y X Y Y Y X X X Y Y Y
 I_John	2	9	Y Y X X Y Y Y X X Y Y X X Y Y X Y
 I_John	2	10	Y Y X X Y X X Y Y Y Y X Y Y Y
@@ -7409,7 +7409,7 @@ I_John	2	17	Y X Y Y X X X Y X Y Y X X X Y Y X X Y
 I_John	2	18	Y X Y Y X Y Y Y Y Y X Y X Y Y Y Y Y X Y Y
 I_John	2	19	X Y Y Y Y Y X Y X Y X Y Y Y Y X Y X Y Y Y Y Y Y X Y
 I_John	2	20	Y Y Y Y X X Y Y Y Y
-I_John	2	21	X X X Y Y Y X Y X Y Y Y X Y X Y X X Y Y Y
+I_John	2	21	Y Y Y Y Y Y X Y X Y Y Y X Y X Y X X Y Y Y
 I_John	2	22	Y Y X Y Y Y Y Y Y Y Y Y X Y Y Y X X Y Y X X X X Y
 I_John	2	23	X Y Y X Y Y X Y Y Y Y X Y X X Y Y
 I_John	2	24	Y Y Y X Y X Y Y Y X Y Y Y X Y Y X Y X X X X X X Y Y
@@ -7475,22 +7475,22 @@ I_John	5	9	Y X X X Y Y X X X Y Y Y Y Y Y X X X Y Y Y X X X Y
 I_John	5	10	Y Y X X X X Y Y X Y X Y Y Y Y X Y Y Y Y Y Y Y X X Y Y Y X Y X X X Y
 I_John	5	11	Y Y Y X Y Y X Y Y X Y Y Y X X Y X X X Y Y
 I_John	5	12	Y Y X Y Y X Y Y Y Y X X X Y X Y Y Y
-I_John	5	13	Y Y X X X X X X X Y Y X X X X X X Y
+I_John	5	13	Y Y Y Y Y Y Y Y Y Y Y X X X X X X Y
 I_John	5	14	Y Y Y X Y Y Y X Y X Y Y Y X X X Y Y Y
 I_John	5	15	X Y Y Y Y Y Y Y Y Y Y Y X Y Y Y X Y
-I_John	5	16	Y Y Y X X Y Y X X X Y Y Y Y X X Y Y X X Y Y X X Y Y X Y Y Y Y
+I_John	5	16	Y Y Y X X Y Y X X X Y Y Y Y Y Y Y Y X X Y Y X X Y Y X Y Y Y Y
 I_John	5	17	X Y Y Y Y Y X X X Y
 I_John	5	18	Y Y X Y Y X X Y Y Y X Y Y X X Y Y Y Y X Y Y Y Y
 I_John	5	19	Y Y X X Y Y Y X X Y X X Y Y
 I_John	5	20	Y X Y X X X Y Y Y Y Y Y Y Y X Y Y Y X X X X X X X X Y Y Y X X X X X Y
 I_John	5	21	Y Y Y X X Y
-II_John	1	1	X Y X X X X X Y Y X X X X X X X X X X X Y Y X Y
+II_John	1	1	X Y X X X X X Y Y Y Y X Y X X X X X X X Y Y X Y
 II_John	1	2	X X X Y Y X Y Y X Y Y X X Y
 II_John	1	3	Y X Y X X X X X X X X X X X X X Y X X X Y
 II_John	1	4	Y Y Y Y X X X Y Y X Y Y Y Y X X Y
 II_John	1	5	Y Y Y Y Y X Y Y Y Y Y Y Y Y X Y Y Y Y
 II_John	1	6	Y Y Y X Y Y Y X X X Y Y X Y Y Y Y X Y Y X Y Y
-II_John	1	7	Y X X X X X X Y Y Y X Y Y X Y Y Y X X X X Y
+II_John	1	7	Y X Y Y X X Y Y Y Y X Y Y X Y Y Y X X X X Y
 II_John	1	8	Y Y X Y Y Y Y Y X Y Y
 II_John	1	9	X Y Y Y Y Y X X X X Y Y Y Y Y Y X X Y Y X X X X X Y Y
 II_John	1	10	Y Y Y X Y Y X X Y Y Y Y Y Y X Y Y Y Y Y Y
@@ -7517,7 +7517,7 @@ Jude	1	2	Y Y X X X Y Y
 Jude	1	3	Y X Y Y Y Y X X X X Y Y Y Y Y Y Y Y Y Y X Y Y
 Jude	1	4	Y Y X X Y Y Y X X X Y Y X X X X Y Y X Y Y X X X X X X X Y Y
 Jude	1	5	Y Y Y Y Y Y Y Y Y Y X X Y Y X Y Y Y Y Y
-Jude	1	6	X X Y Y Y X X Y Y Y X X Y X X X Y X Y X Y Y
+Jude	1	6	Y Y Y Y Y X X Y Y Y X X Y X X X Y X Y X Y Y
 Jude	1	7	Y X X X X X X X Y X X Y Y Y Y Y X X Y Y Y X X Y Y
 Jude	1	8	Y Y X Y Y Y Y Y Y Y Y Y Y Y
 Jude	1	9	Y Y X X Y Y X Y Y Y X X X Y Y Y Y Y Y Y Y Y Y Y
@@ -7533,7 +7533,7 @@ Jude	1	18	Y Y Y X X X Y Y Y X X X Y Y X Y
 Jude	1	19	Y Y Y Y Y Y Y Y
 Jude	1	20	Y X Y Y Y X X X Y X X Y Y
 Jude	1	21	Y X X Y Y Y X X X X X X Y X X Y
-Jude	1	22	Y X X Y Y
+Jude	1	22	Y Y Y Y Y
 Jude	1	23	Y X Y Y Y Y Y X Y Y X Y X X Y Y Y
 Jude	1	24	X Y Y Y Y Y Y Y X X X Y Y X Y
 Jude	1	25	X X X Y X X X X X Y X X X X Y X X X X X X X X X X Y Y
@@ -7603,7 +7603,7 @@ Revelation	3	14	Y X X X X X Y Y Y Y X X X X X X X X X X X X X Y
 Revelation	3	15	Y X X Y Y X Y Y X Y Y Y Y X Y
 Revelation	3	16	Y Y Y Y Y X X X Y Y Y Y X X X Y
 Revelation	3	17	Y Y Y Y Y Y Y Y X Y Y Y Y Y Y Y Y X X X X X X X X X Y
-Revelation	3	18	Y Y Y X Y X X X Y Y Y Y X Y Y Y Y Y Y X X X X Y Y Y Y X X Y Y Y
+Revelation	3	18	Y Y Y X Y Y Y X Y Y Y Y X Y Y Y Y Y Y X X X X Y Y Y Y X X Y Y Y
 Revelation	3	19	Y Y Y Y X X Y Y X Y Y
 Revelation	3	20	Y Y X X Y Y Y Y Y Y X X Y Y Y X Y Y X Y Y Y X Y Y Y X Y
 Revelation	3	21	Y Y Y Y Y X Y X X X Y Y Y Y Y Y X X X Y X X X Y
@@ -7624,7 +7624,7 @@ Revelation	5	2	Y Y X Y Y X X Y Y Y Y X Y Y Y X X Y
 Revelation	5	3	Y Y Y X X X X X X X X X X Y Y X Y Y Y Y
 Revelation	5	4	Y Y Y Y X Y Y Y X Y Y Y Y
 Revelation	5	5	Y X X X Y Y Y Y Y Y Y X X X X X X X X X Y Y X X X X X X Y
-Revelation	5	6	Y Y X X X X X X X X X X X X Y Y Y Y Y Y X X X X Y Y Y X X X X X X X X X Y
+Revelation	5	6	Y Y X X X X X X X X X X X X Y Y Y Y Y Y X X X X Y Y Y X X X X Y Y X X X Y
 Revelation	5	7	Y Y Y Y X X X Y Y X X Y
 Revelation	5	8	X Y Y X Y X X X X X X X Y Y X X Y Y Y X X X Y Y Y Y Y X X X Y
 Revelation	5	9	Y Y X Y Y Y Y Y X Y Y Y X X Y Y Y Y Y X Y X X X Y X X X X X X X X Y
@@ -7641,7 +7641,7 @@ Revelation	6	5	X Y Y X X X Y Y X X Y Y Y Y Y Y Y X Y X Y Y X Y Y Y X X X Y
 Revelation	6	6	Y Y Y Y X X X X Y Y X Y Y Y X X Y Y Y X X X X Y Y Y
 Revelation	6	7	X Y Y X X X Y Y X X X Y Y Y
 Revelation	6	8	Y Y Y Y X Y X Y Y X Y Y Y X Y Y X Y Y X Y Y Y Y Y X X X X Y Y X X X X X X X X X X X X X Y
-Revelation	6	9	X Y Y X X Y Y X X Y X X Y Y X X X X X X X X X X Y
+Revelation	6	9	X Y Y X X Y Y X X Y X X Y Y X X X X X X X X Y Y Y
 Revelation	6	10	Y Y X Y Y X Y X X X X X Y Y Y Y Y X X Y X Y Y X X Y
 Revelation	6	11	Y Y X Y X Y Y Y Y Y Y Y X Y Y Y X X X X X X X X Y Y Y Y X Y
 Revelation	6	12	Y Y Y Y X X X Y Y X Y Y Y X Y Y Y X X Y Y X X Y Y X Y
@@ -7689,7 +7689,7 @@ Revelation	9	6	Y X X X Y Y X Y X Y Y X Y Y Y Y Y Y Y Y X Y X Y
 Revelation	9	7	Y X X X Y Y Y Y X Y Y X X X Y X Y Y Y Y X X Y X X Y
 Revelation	9	8	Y Y X X X Y Y X X Y X Y Y
 Revelation	9	9	Y Y X X X Y Y X X X X Y X X X X Y Y X Y
-Revelation	9	10	Y Y Y Y Y X X Y X X X Y X X Y Y X Y X Y
+Revelation	9	10	Y Y Y Y Y X Y Y X X X Y X X Y Y X Y X Y
 Revelation	9	11	Y X Y X X X X Y X Y Y Y Y X X Y Y Y Y
 Revelation	9	12	X X X Y Y Y Y Y X Y X Y
 Revelation	9	13	Y X X Y Y Y Y X Y X X X X X X X X X X X Y
@@ -7697,7 +7697,7 @@ Revelation	9	14	Y X X X Y Y X Y Y X X X Y Y X X X X X Y
 Revelation	9	15	Y Y X X X Y Y X X X X X X X X Y Y Y X X X Y
 Revelation	9	16	Y X X X X X Y X Y Y X X Y
 Revelation	9	17	Y Y Y X Y X X Y X Y Y X Y Y X X X X X Y Y X X X Y X X Y Y X X X Y Y X X X X Y
-Revelation	9	18	X X X X X X X X X X X X X X X X X X X Y Y X X X Y
+Revelation	9	18	X X X X Y Y X X X Y X X X X X X X X X Y Y X X X Y
 Revelation	9	19	Y Y X X Y X X X Y Y X X X X Y Y Y X Y Y Y Y Y Y X Y Y
 Revelation	9	20	Y X X X Y Y Y Y X X X Y Y Y X X X X X Y Y Y Y X X X X X X X X X X X X X X X X X X Y Y X Y Y X X X Y
 Revelation	9	21	Y Y Y X X X X X X X X X X X X X X X X X X Y
@@ -7708,7 +7708,7 @@ Revelation	10	4	X Y Y X X Y Y Y Y Y Y X X Y Y Y Y Y X X Y Y Y Y Y
 Revelation	10	5	Y X Y Y Y Y X X X X X X Y Y X X X X Y X X Y
 Revelation	10	6	Y Y X Y Y X X X X Y Y Y X X X X X X X X X X X X X X X X X X X Y Y Y Y Y
 Revelation	10	7	Y X X X X X X X Y Y Y Y Y Y X X X Y Y Y X X X X Y
-Revelation	10	8	Y X Y Y Y X X Y Y Y X Y Y Y Y Y X X Y Y X X X X X X X X X X X X X Y
+Revelation	10	8	Y X Y Y Y X X Y Y Y X Y Y Y Y Y X X Y Y X X X X X Y Y X X X X X X Y
 Revelation	10	9	Y Y X X Y Y Y Y Y X Y Y Y Y Y Y Y Y Y Y X X Y Y X X X Y Y Y Y Y
 Revelation	10	10	Y Y X Y X X X X Y Y Y Y Y Y X X X Y X Y Y X Y Y Y Y X X Y
 Revelation	10	11	Y Y Y Y Y Y Y X X X X X X X X Y
@@ -7729,14 +7729,14 @@ Revelation	11	14	X X X Y Y Y X X X Y Y Y
 Revelation	11	15	Y X X Y Y Y Y X Y X X Y Y Y X X X Y X X X X X X Y Y Y X X X X Y
 Revelation	11	16	Y X X X X Y X X Y Y X X X Y Y X X X Y Y Y X Y
 Revelation	11	17	Y Y Y X X X X X Y Y X Y Y Y Y X X X X Y Y Y
-Revelation	11	18	Y X Y Y Y Y X X Y Y X X X Y Y Y Y X Y X X X X X X X X X X X X X Y X X X X Y Y Y Y Y X Y
+Revelation	11	18	Y X Y Y Y Y X X Y Y X X X Y Y Y Y X Y X X X X X X X X X Y Y X X Y X X X X Y Y Y Y Y X Y
 Revelation	11	19	Y Y X X X X X X X Y Y Y X X X X Y X X X Y Y Y X X X X X X X X X Y
 Revelation	12	1	Y X Y Y X X Y Y Y X Y Y X Y X X X Y Y X X X Y X X Y
 Revelation	12	2	Y X Y Y Y Y Y Y Y Y
 Revelation	12	3	Y Y X Y X X Y X Y X X Y Y X X X X Y Y X X X Y X Y
 Revelation	12	4	Y X X Y Y X X X X X Y Y Y Y X X Y Y X Y Y X X X Y Y Y X Y Y X X Y Y
 Revelation	12	5	Y Y X Y Y Y Y X X Y X X Y Y Y X X Y X X X X X X X Y
-Revelation	12	6	Y X Y Y X X Y Y Y Y X X X X Y Y Y Y Y X X X Y
+Revelation	12	6	Y X Y Y X X Y Y Y Y Y Y X X Y Y Y Y Y X X X Y
 Revelation	12	7	Y Y Y X X Y X X X X X Y Y Y X X Y Y X Y Y X X X Y
 Revelation	12	8	Y Y Y Y Y Y Y Y X X Y
 Revelation	12	9	Y Y X X X X X X X X Y Y X X X Y Y Y X X Y Y X X Y Y X X Y X Y Y
@@ -7756,7 +7756,7 @@ Revelation	13	4	Y Y X Y Y Y X Y X Y Y Y X Y Y Y Y X Y Y Y Y Y X Y
 Revelation	13	5	Y Y Y Y Y X X Y Y Y Y Y Y X X Y
 Revelation	13	6	Y Y X X Y X X X X Y Y X X X X X X X Y X X Y Y
 Revelation	13	7	Y Y Y Y Y X X Y Y Y Y Y Y Y Y X X X X X X X X Y
-Revelation	13	8	Y Y Y X Y Y X X Y Y Y Y X X Y X X X X X X X X Y X X Y
+Revelation	13	8	Y Y Y X Y Y X X Y Y Y Y X X Y X X X X X X X Y Y X X Y
 Revelation	13	9	Y Y Y Y Y
 Revelation	13	10	Y Y X Y X Y Y Y Y X Y Y Y Y X Y Y Y Y X X X X X X Y
 Revelation	13	11	Y Y X Y Y X X Y Y Y X Y X Y Y Y Y Y
@@ -7778,13 +7778,13 @@ Revelation	14	8	Y X X Y Y Y Y Y X X Y Y X X X X X X X Y Y X X Y
 Revelation	14	9	Y X X Y Y Y Y X X Y Y Y Y X X X X X Y Y Y Y X X X X X X X X Y
 Revelation	14	10	X Y Y X X X X X X X Y Y Y X X X X X Y Y Y X X X Y X X X X X X Y
 Revelation	14	11	Y X X X X Y X X Y Y Y Y Y Y X X Y Y Y X X X X X Y X Y Y Y X X X X Y
-Revelation	14	12	Y X X X X X Y Y X X X X X X X Y
+Revelation	14	12	Y X X X Y Y Y Y X X X X X X X Y
 Revelation	14	13	Y Y Y X X Y Y Y Y X X Y X Y Y Y Y Y X Y Y Y X X X Y Y Y X Y Y X Y
 Revelation	14	14	Y Y X Y X Y Y X X Y Y X X Y Y X X X Y X Y Y X X X Y X Y
 Revelation	14	15	Y X Y Y X X Y Y X X Y Y Y X X Y Y X X Y Y Y Y Y X Y Y Y Y X X X Y
 Revelation	14	16	Y Y Y Y X X Y X X Y X X Y Y Y X Y
 Revelation	14	17	Y X Y Y X X X X X X Y Y X Y X Y
-Revelation	14	18	Y X X X X X X Y Y Y X X Y Y Y X Y Y Y X X X Y Y Y X X X X Y Y Y X X X X X Y Y Y X X Y
+Revelation	14	18	Y X Y Y X X Y Y Y Y X X Y Y Y X Y Y Y X X X Y Y Y X X X X Y Y Y X X X X X Y Y Y X X Y
 Revelation	14	19	Y Y X Y X X Y X X Y Y Y X X X Y Y Y X X X X X X X X Y
 Revelation	14	20	Y Y X Y X X Y Y Y Y X X Y X X X X Y X X X Y
 Revelation	15	1	Y Y X X X X X X X Y X Y Y X X X Y Y X Y Y X X X Y
@@ -7793,7 +7793,7 @@ Revelation	15	3	Y Y X X X X X X X X X X X Y Y X X Y X X Y X X X X Y X X Y X X Y 
 Revelation	15	4	Y X Y Y X Y Y X X Y Y Y Y Y X X Y Y Y Y X Y Y X X Y Y
 Revelation	15	5	Y X Y Y Y Y X X X X X X X X Y
 Revelation	15	6	Y Y X X X Y Y X X Y X X Y Y X X Y Y Y X X Y X Y
-Revelation	15	7	Y X X X X Y Y X X Y X X Y Y X X X X X X X X X X Y
+Revelation	15	7	Y X X X X Y Y X X Y X X Y Y X X X X Y Y X X X X Y
 Revelation	15	8	Y Y X Y Y X X X X X X X X X Y Y Y Y Y X X Y Y Y X X X X X Y
 Revelation	16	1	Y Y X Y X X Y Y X X Y Y Y Y X X X X X X Y X X Y
 Revelation	16	2	Y Y X Y Y Y X X Y X X Y Y Y X X X Y X X X Y Y X X X Y X Y Y X X Y
@@ -7819,7 +7819,7 @@ Revelation	16	21	Y X X X Y Y X X Y X X Y Y Y X Y X Y X X X X Y Y Y Y X X Y Y
 Revelation	17	1	Y Y X X X X X Y Y X X Y Y Y X Y Y Y Y Y X X X X X X Y Y X X Y
 Revelation	17	2	X Y Y X X X Y Y Y Y Y X Y X X X X X Y
 Revelation	17	3	Y Y Y X Y X Y Y Y Y Y X X Y Y X Y Y X X X X Y
-Revelation	17	4	Y X Y Y Y X X Y Y Y X X X X X Y Y X X X X X Y Y X X X X X X Y
+Revelation	17	4	Y X Y Y Y X X Y Y Y X X X X X Y Y X Y X X X Y Y X X X X X X Y
 Revelation	17	5	Y X X X Y Y Y X X X X X X X X X X X X Y
 Revelation	17	6	Y Y X Y Y X X X X X X X X X X X Y Y Y Y Y X Y
 Revelation	17	7	Y Y Y X Y X Y Y Y Y Y X X X X X X X Y Y Y Y Y X X X X X X Y
@@ -7831,7 +7831,7 @@ Revelation	17	12	Y X X Y Y Y X Y Y Y Y Y Y Y Y X Y X Y Y X X Y
 Revelation	17	13	Y X Y Y Y X X X X Y X Y Y
 Revelation	17	14	Y X X Y Y Y X Y Y Y Y X Y Y X X Y Y X X Y X X X X Y
 Revelation	17	15	Y Y Y X Y Y Y Y X Y Y X X Y Y X X X Y
-Revelation	17	16	X X X Y Y Y X X Y Y Y X Y Y Y Y Y X X Y X X Y Y Y Y Y X Y
+Revelation	17	16	X X X Y Y Y X X Y Y Y X Y Y Y Y Y X Y Y X X Y Y Y Y Y X Y
 Revelation	17	17	Y Y Y Y X X X Y Y X X Y Y Y X Y Y Y X X Y X Y Y Y X X X Y
 Revelation	17	18	Y X Y Y Y Y X X X X Y Y Y X X X X Y
 Revelation	18	1	X Y Y X Y Y X X Y Y X Y Y X Y Y X X X Y
@@ -7842,7 +7842,7 @@ Revelation	18	5	Y Y X X Y X X Y Y Y X Y X X Y
 Revelation	18	6	Y Y Y X Y Y Y Y X Y X X X Y X X Y Y Y Y Y Y
 Revelation	18	7	Y Y Y Y Y Y Y Y X X Y Y X X X Y Y Y Y Y Y Y Y Y Y Y X Y Y
 Revelation	18	8	X Y X X Y Y X X X X X X X Y Y X Y Y Y Y X X X Y Y Y
-Revelation	18	9	X X X Y X Y X X X X Y X Y X X X Y Y X X X X Y
+Revelation	18	9	X X X Y X Y X X X X Y X Y X X Y Y Y X X X X Y
 Revelation	18	10	X Y Y X X X X X Y Y X X X X X X X X X X X Y X Y Y X X Y
 Revelation	18	11	Y X X X Y X X Y X Y X X X Y Y Y Y
 Revelation	18	12	X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X Y
@@ -7857,7 +7857,7 @@ Revelation	18	20	Y X Y X X X X X X X X X X Y Y X Y X X Y X Y
 Revelation	18	21	Y Y X X Y X X X Y Y Y X X Y Y Y Y Y X X X Y Y X Y Y Y
 Revelation	18	22	Y X X X X X X X Y X Y Y X Y Y Y X X X Y X Y Y X Y Y Y X Y X Y Y X Y Y
 Revelation	18	23	Y X Y X Y Y X Y Y Y X X X Y X Y Y X Y Y Y X X Y Y X X X Y Y X X X Y Y X X Y
-Revelation	18	24	Y X Y X X X X X X X Y Y X X Y
+Revelation	18	24	Y X Y X X X Y Y X X Y Y X X Y
 Revelation	19	1	X Y Y X X X X Y X X Y Y Y X X X X X X X Y X X Y
 Revelation	19	2	Y X X Y X X Y Y Y X X X Y Y Y X Y X X X Y Y Y X X X X Y X X Y
 Revelation	19	3	Y Y Y X Y X X Y Y X X X X Y
@@ -7867,7 +7867,7 @@ Revelation	19	6	Y Y X X X X X X X X X X X X X Y Y X Y Y X X X X X Y
 Revelation	19	7	Y Y Y Y Y X Y Y Y Y X X X Y Y X X Y Y Y
 Revelation	19	8	Y Y Y Y Y X X Y Y Y Y X X X Y Y
 Revelation	19	9	Y Y Y Y Y Y X X X X X X Y Y Y Y Y Y X X X X Y Y
-Revelation	19	10	Y Y X X X Y Y Y Y Y Y Y Y X X X X X X X Y Y X X Y X Y Y Y Y X Y Y X X X Y
+Revelation	19	10	Y Y X X X Y Y Y Y Y Y Y Y X Y Y X X X X Y Y X X Y X Y Y Y Y X Y Y X X X Y
 Revelation	19	11	Y Y X Y Y Y Y X Y X Y Y X Y Y X X Y Y X Y X X Y
 Revelation	19	12	Y Y X Y X Y Y X X X Y X Y Y Y Y Y Y Y Y Y Y
 Revelation	19	13	Y Y Y Y Y Y Y X X Y X X X Y
@@ -7902,7 +7902,7 @@ Revelation	21	5	Y Y Y Y X X Y Y Y Y Y Y Y Y Y X X Y X X Y Y
 Revelation	21	6	Y Y Y Y Y X X X X X X X X X Y Y Y Y Y X X X X X X Y Y
 Revelation	21	7	Y Y Y Y Y Y Y Y Y Y Y Y Y
 Revelation	21	8	X X X X X Y Y X X X X X X X X X X X Y X X Y X X X Y Y X X Y Y Y X X X Y
-Revelation	21	9	Y Y X X X X X Y Y X X X X X X X X X Y Y Y X Y Y Y Y Y X X X X X Y
+Revelation	21	9	Y Y X X X X X Y Y X X X Y Y X X X X Y Y Y X Y Y Y Y Y X X X X X Y
 Revelation	21	10	Y Y Y X Y X X X X Y Y Y Y X X X X Y Y X X Y X X Y
 Revelation	21	11	Y X X X Y X X Y Y X Y Y X Y Y
 Revelation	21	12	Y X X X Y Y X Y Y X X Y X Y X Y Y Y Y X X X X Y
@@ -7915,7 +7915,7 @@ Revelation	21	18	Y X X X X Y Y Y X Y X Y Y X Y
 Revelation	21	19	X X X X X Y X X Y Y X X X Y Y X Y Y X Y Y X Y Y
 Revelation	21	20	X Y Y X Y Y X Y Y X Y Y X Y Y X Y Y X Y Y X Y Y
 Revelation	21	21	Y X X Y X Y Y X X X Y Y X X Y Y X X X Y X Y X X Y
-Revelation	21	22	Y Y Y Y X Y Y Y X X X X Y Y Y Y X X Y
+Revelation	21	22	Y Y Y Y X Y Y Y X X X X Y X Y Y X X Y
 Revelation	21	23	Y X Y Y Y Y X X X X Y Y Y Y Y Y X X Y Y Y Y X X Y X Y
 Revelation	21	24	Y Y X Y X X X Y Y X X X Y Y X X Y X Y
 Revelation	21	25	Y X X Y X Y Y Y Y Y Y Y Y
@@ -7929,7 +7929,7 @@ Revelation	22	5	Y Y Y Y Y Y Y Y X X X X X Y Y X X Y Y X Y Y Y X X X X Y
 Revelation	22	6	Y Y Y X X Y X X Y Y X X X X X X X Y Y X X Y Y X X Y Y Y Y X Y
 Revelation	22	7	X Y Y Y Y Y Y X X X X X X Y
 Revelation	22	8	X Y X X X Y Y X Y Y Y Y Y Y X X X X X Y Y Y Y
-Revelation	22	9	Y Y Y Y Y X X X X X X X X X X Y Y X X X X Y X Y Y
+Revelation	22	9	Y Y Y Y Y X Y Y X X X X X X X Y Y X X X X Y X Y Y
 Revelation	22	10	Y Y Y Y Y X X X X X X Y X Y Y Y Y
 Revelation	22	11	Y Y Y Y Y X Y Y Y Y X Y Y Y Y Y X Y Y Y
 Revelation	22	12	Y Y Y Y X X Y X Y Y Y Y X Y Y Y
