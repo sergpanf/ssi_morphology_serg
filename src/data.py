@@ -73,6 +73,7 @@ class DataReader:
         
         for i in range(len(input_verses)):
             bo, ch, ve, text = tuple(input_verses[i].strip().split('\t'))
+            # print(f"bo, ch, ve, output are: {bo}, {ch}, {ve}, {output}")
             bo, ch, ve, output = tuple(output_verses[i].strip().split('\t'))
 
             input_words = text.split()

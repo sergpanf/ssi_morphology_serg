@@ -187,8 +187,9 @@ total_support = sum(Support.values())
 print(f"{'Class':<25} | {'Precision':<9} | {'Recall':<9} | {'F1-Score':<9} | {'Support':<7}")
 print("-" * 70)
 
-# Calculate metrics for each class
-for cls in sorted(all_classes):
+# Calculate and store metrics for each class first
+class_metrics = []
+for cls in all_classes:
     tp = TP[cls]
     fp = FP[cls]
     fn = FN[cls]
@@ -198,6 +199,14 @@ for cls in sorted(all_classes):
     precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
     recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
     f1 = (2 * precision * recall) / (precision + recall) if (precision + recall) > 0 else 0.0
+    
+    class_metrics.append((cls, precision, recall, f1, support))
+
+# Sort the classes by F1-Score descending (index 3 is the f1 variable)
+class_metrics.sort(key=lambda x: x[3], reverse=True)
+
+# Loop through the sorted metrics to print and calculate averages
+for cls, precision, recall, f1, support in class_metrics:
     
     # Uncomment the line below if you want to print the metrics for EVERY single unique class
     print(f"{cls:<25} | {precision:<9.4f} | {recall:<9.4f} | {f1:<9.4f} | {support:<7}")
