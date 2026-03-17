@@ -57,8 +57,14 @@ class PipeLineTrain:
         self.beam_size = beam_size
         self.beam_alpha = beam_alpha
         self.torch_seed = 42
-        self.model_name = f'seq2seq_{self.length}seqlen_{self.learning_rate}lr_{self.epochs}_{self.epochs2}epochs_{self.emb}embedsize_{self.nh}nhead_{self.nel}nenclayers_{self.ndl}numdeclayers_transformer.pth'
-        self.log_dir = f'runs/{self.input_file}_{self.output_file}/{self.length}seq_len_{self.learning_rate}lr_{self.epochs}_{self.epochs2}epochs_{self.emb}embsize_{self.nh}nhead_{self.nel}nenclayers_{self.ndl}numdeclayers_transformer'
+        # self.model_name = f'seq2seq_{self.length}seqlen_{self.learning_rate}lr_{self.epochs}_{self.epochs2}epochs_{self.emb}embedsize_{self.nh}nhead_{self.nel}nenclayers_{self.ndl}numdeclayers_transformer.pth'
+        # self.log_dir = f'runs/{self.input_file}_{self.output_file}/{self.length}seq_len_{self.learning_rate}lr_{self.epochs}_{self.epochs2}epochs_{self.emb}embsize_{self.nh}nhead_{self.nel}nenclayers_{self.ndl}numdeclayers_transformer'
+        # Keep model name short
+        short_name = f'len{self.length}_lr{self.learning_rate}_ep{self.epochs}_emb{self.emb}_h{self.nh}_l{self.nel}'
+        self.model_name = f'seq2seq_{short_name}.pth'
+        # Use os.path.join to prevent the "mixed slash" bug
+        self.log_dir = os.path.join('runs', f'{self.input_file}_{self.output_file}', short_name)
+
         self.model_path_full = None
 
         self.data_set_one = DataReader(input_file, output_file, length, self.val_plus_test_size, INPUT_WORD_TO_IDX, OUTPUT_WORD_TO_IDX)
@@ -131,7 +137,10 @@ class PipeLineTrain:
                         'src_vocab_size': self.src_vocab_size,
                         'tgt_vocab_size': self.tgt_vocab_size
         }
-        config_name = 'model_config' + self.model_name.rstrip('.pth') + '.json'
+
+        # shortening the name
+        # config_name = 'model_config' + self.model_name.rstrip('.pth') + '.json'
+        config_name = 'mdlCfg' + self.model_name.rstrip('.pth') + '.json'
         
         model_folder = f'MODEL_{self.input_file}_{self.output_file}_{training_type}'
         if self.input_file2 and self.output_file2:
@@ -148,11 +157,14 @@ class PipeLineTrain:
         
     def evaluate_on_test_set(self, test_set, training_type):
     
-        eval_path = f'{self.evaluation_results_path}/{self.input_file}_{self.output_file}_{training_type}'
-        evaluation_file_name = f'{self.length}seq_len_{self.learning_rate}lr_{self.emb}embsize_{self.nh}nhead_transformer_{self.dr}dropout_{self.batch_size}_batchsize_{self.epochs}epochs_{self.beam_size}beamsize'
+        # eval_path = f'{self.evaluation_results_path}/{self.input_file}_{self.output_file}_{training_type}'
+        eval_path = os.path.join(self.evaluation_results_path, f'{self.input_file}_{self.output_file}_{training_type}')
+
+        # evaluation_file_name = f'{self.length}seq_len_{self.learning_rate}lr_{self.emb}embsize_{self.nh}nhead_transformer_{self.dr}dropout_{self.batch_size}_batchsize_{self.epochs}epochs_{self.beam_size}beamsize'
+        evaluation_file_name = f'{self.length}seq_len_{self.learning_rate}lr_{self.emb}esize_{self.nh}nh_{self.dr}dout_{self.batch_size}_bsize_{self.epochs}ep_{self.beam_size}bsize'
         if self.input_file2 and self.output_file2:
             eval_path = eval_path + f'_{self.input_file2}_{self.output_file2}'
-            evaluation_file_name = evaluation_file_name + f'_epochs2_{self.epochs2}'
+            evaluation_file_name = evaluation_file_name + f'_ep2_{self.epochs2}'
 
         evaluate_transformer_model(eval_path,
                                    evaluation_file_name,

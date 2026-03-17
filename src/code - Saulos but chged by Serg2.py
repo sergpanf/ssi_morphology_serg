@@ -132,7 +132,7 @@ main(["-mo", "train"
       ]) # first OOP-refactored version testing 
 
 # %%
-file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0001lr_512embsize_8nhead_transformer_0.1dropout_128_batchsize_10epochs_3beamsize.txt"
+file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0001lr_512esize_8nh_0.1dout_128_bsize_10ep_3bsize.txt"
 
 from collections import defaultdict
 
