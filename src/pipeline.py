@@ -62,8 +62,14 @@ class PipeLineTrain:
         # Keep model name short
         short_name = f'len{self.length}_lr{self.learning_rate}_ep{self.epochs}_emb{self.emb}_h{self.nh}_l{self.nel}'
         self.model_name = f'seq2seq_{short_name}.pth'
+
         # Use os.path.join to prevent the "mixed slash" bug
-        self.log_dir = os.path.join('runs', f'{self.input_file}_{self.output_file}', short_name)
+        # self.log_dir = os.path.join('runs', f'{self.input_file}_{self.output_file}', short_name)
+        # Force TensorBoard logs to a local drive to prevent Google Drive Errno 22 crashes
+        local_temp_dir = r"C:\tensorboard_runs"
+        if not os.path.exists(local_temp_dir):
+            os.makedirs(local_temp_dir)
+        self.log_dir = os.path.join(local_temp_dir, f'{self.input_file}_{self.output_file}', short_name)
 
         self.model_path_full = None
 
