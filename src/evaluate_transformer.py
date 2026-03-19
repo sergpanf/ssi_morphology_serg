@@ -172,36 +172,43 @@ def evaluate_transformer_model(eval_path: str,
     if not os.path.exists(eval_path):
         os.makedirs(eval_path)
 
-    with open(f'{eval_path}/results_{evaluation_file_name}.txt', 'w', encoding='utf-8') as f:
-        test_len = len(evaluation_data)
-        for i in range(test_len):
-            predicted = translate(loaded_transf.to(device), evaluation_data[i]['encoded_text'].to(device), OUTPUT_IDX_TO_WORD, OUTPUT_WORD_TO_IDX, beam_size, beam_alpha)
-            true_val = evaluation_data[i]['output']
+    # 1. First, gather all the lines in memory
+    results_to_write = []
+    test_len = len(evaluation_data)
+    
+    for i in range(test_len):
+        predicted = translate(loaded_transf.to(device), evaluation_data[i]['encoded_text'].to(device), OUTPUT_IDX_TO_WORD, OUTPUT_WORD_TO_IDX, beam_size, beam_alpha)
+        true_val = evaluation_data[i]['output']
 
-            #predicted = mc_expand_whole_sequences(predicted)
-            true_val = mc_expand_whole_sequences(true_val)
-            f.write(f'Predicted {predicted}\n')
-            f.write(f'Truevalue {true_val}\n')
-
-            predicted_words = predicted.split()
-            true_val_words = true_val.split()
-            
-            if predicted == true_val:
-                correct_complete_sequence += 1
+        true_val = mc_expand_whole_sequences(true_val)
         
-            for word_idx in range(input_seq_len):
-                try:
-                    if predicted_words[word_idx] == true_val_words[word_idx]:
-                        correct_all_words[word_idx] += 1
-            
-                        word_eval_dict[true_val_words[word_idx]][word_idx].append('correct')
-                    else:
-                        word_eval_dict[true_val_words[word_idx]][word_idx].append('wrong')
-                except:
-                    continue
-        f.write('\n')
-        f.write(f'Correct complete strings {correct_complete_sequence / test_len}\n')
-        f.write(f'Correct distinct words {[correct_count / test_len for correct_count in correct_all_words]}\n')
+        # Append to our list instead of writing to file directly
+        results_to_write.append(f'Predicted {predicted}\n')
+        results_to_write.append(f'Truevalue {true_val}\n')
+
+        predicted_words = predicted.split()
+        true_val_words = true_val.split()
+        
+        if predicted == true_val:
+            correct_complete_sequence += 1
+    
+        for word_idx in range(input_seq_len):
+            try:
+                if predicted_words[word_idx] == true_val_words[word_idx]:
+                    correct_all_words[word_idx] += 1
+                    word_eval_dict[true_val_words[word_idx]][word_idx].append('correct')
+                else:
+                    word_eval_dict[true_val_words[word_idx]][word_idx].append('wrong')
+            except:
+                continue
+                
+    results_to_write.append('\n')
+    results_to_write.append(f'Correct complete strings {correct_complete_sequence / test_len}\n')
+    results_to_write.append(f'Correct distinct words {[correct_count / test_len for correct_count in correct_all_words]}\n')
+
+    # 2. Finally, open the file and write EVERYTHING at once
+    with open(f'{eval_path}/results_{evaluation_file_name}.txt', 'w', encoding='utf-8') as f:
+        f.writelines(results_to_write)
 
     
 def mc_expand_whole_sequences(sequence: str) -> str:
