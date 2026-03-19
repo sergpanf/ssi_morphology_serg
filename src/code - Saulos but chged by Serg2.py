@@ -122,6 +122,9 @@ main(["-mo", "train"
       , "-l", "10"
       , "-lr", "0.0001"
       , "-et", "True"
+
+      , "-etonly", "True" # default: False; if True, only the evaluation will be performed, without training. This is useful when we want to evaluate a model that has already been trained and saved, without having to retrain it.
+      
       # non-reduced extra parameters
     #   , "-emb", "64" # default: 512
     #   , "-nh", "2"  # default: 8
