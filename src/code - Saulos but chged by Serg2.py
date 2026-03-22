@@ -120,22 +120,23 @@ main(["-mo", "train"
       , "-o", "fileB__NT"
       , "-ep", "10"
       , "-l", "10"
-      , "-lr", "0.0001"
+      , "-lr", "0.0003" # increased from 0.0001
       , "-et", "True"
 
     #  , "-etonly", "True" # default: False; if True, only the evaluation will be performed, without training. This is useful when we want to evaluate a model that has already been trained and saved, without having to retrain it.
       
       # non-reduced extra parameters
-    #   , "-emb", "64" # default: 512
-    #   , "-nh", "2"  # default: 8
-    #   , "-nel", "1"  # default: 3
-    #   , "-ndl", "1"  # default: 3
+       , "-emb", "256" # default: 512
+       , "-nh", "4"  # default: 8
+       , "-nel", "2"  # default: 3
+       , "-ndl", "2"  # default: 3
     #   , "-ffn", "256"  # default: 2048 
-    #   , "-b", "1" # default: 128
+       , "-b", "32" # default: 128
       ]) # first OOP-refactored version testing 
 
 # %%
-file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0001lr_512esize_8nh_0.1dout_128_bsize_10ep_3bsize.txt"
+# file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0001lr_512esize_8nh_0.1dout_128_bsize_10ep_3bsize.txt"
+file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_10ep_3bsize.txt"
 
 from collections import defaultdict
 
