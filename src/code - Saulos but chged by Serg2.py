@@ -9,7 +9,7 @@ main(["-mo", "train"
       , "-i", "fileA__NT"
       , "-o", "fileB__NT"
       , "-ep", "10"
-      , "-l", "15"
+      , "-l", "10"
       , "-lr", "0.0003" # increased from 0.0001
       , "-et", "True"
 
@@ -25,10 +25,7 @@ main(["-mo", "train"
       ]) # first OOP-refactored version testing 
 
 # %%
-# file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0001lr_512esize_8nh_0.1dout_128_bsize_10ep_3bsize.txt"
-# file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_10ep_3bsize.txt"
-# file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_30seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_10ep_3bsize.txt"
-file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_15seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_10ep_3bsize.txt"
+file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_10ep_3bsize.txt"
 
 from collections import defaultdict
 
