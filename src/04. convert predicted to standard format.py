@@ -1,5 +1,12 @@
 import collections
 
+def main():
+    # Point these to your actual files
+    INPUT_PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-04-03_subphrases_ep40"
+    OUTPUT_FILE = "../sp_new_data/fileB__NT_predicted_2026-04-03_subphrases_ep40_reformatted"
+    
+    convert_predicted_to_actual_format(INPUT_PREDICTED_FILE, OUTPUT_FILE)
+
 def convert_predicted_to_actual_format(predicted_file_path: str, output_file_path: str):
     # Dictionary to hold the sequence of predicted letters for each verse
     # Key: (Book, Chapter, Verse) -> Value: List of predicted letters
@@ -49,8 +56,5 @@ def convert_predicted_to_actual_format(predicted_file_path: str, output_file_pat
     print(f"✅ Successfully converted {len(grouped_predictions)} verses!")
 
 if __name__ == "__main__":
-    # Point these to your actual files
-    INPUT_PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-03-27_beam1alpha0h2,5"
-    OUTPUT_FILE = "../sp_new_data/fileB__NT_predicted_2026-03-27_beam1alpha0h2,5_reformatted"
+    main()
     
-    convert_predicted_to_actual_format(INPUT_PREDICTED_FILE, OUTPUT_FILE)

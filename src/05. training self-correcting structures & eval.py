@@ -1,12 +1,7 @@
-# %% initialize torch and CUDA
-# import torch
-# torch.cuda.is_available()
+# %% 
 from main import main
-
-# %% TRAINING with EVAL flag and reduced parameters
-
 main(["-mo", "train"
-      , "-i", "fileA__NT"
+      , "-i", "fileB__NT_predicted_2026-04-03_subphrases_ep40_reformatted"
       , "-o", "fileB__NT"
       , "-ep", "40"
       , "-l", "10"
@@ -24,7 +19,7 @@ main(["-mo", "train"
        , "-b", "32" # default: 128
       ]) 
 
-# %%
+# %% # todo: to update file_path
 file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_40ep_3bsize.txt"
 
 from collections import defaultdict

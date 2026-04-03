@@ -7,10 +7,12 @@ __pycache__/
 *.so
 
 # model stuff
-*.pth
-*.json
-*.yml
-*.yaml
+# *.pth
+# *.json
+# *.yml
+# *.yaml
+sp_transformer_models/
+sp_evaluation_results_transformer/
 
 # Distribution / packaging
 .Python
