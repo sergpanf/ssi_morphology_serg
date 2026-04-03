@@ -1,6 +1,6 @@
 # %% initialize torch and CUDA
-import torch
-torch.cuda.is_available()
+# import torch
+# torch.cuda.is_available()
 from main import main
 
 # %% TRAINING with EVAL flag and reduced parameters
@@ -8,7 +8,7 @@ from main import main
 main(["-mo", "train"
       , "-i", "fileA__NT"
       , "-o", "fileB__NT"
-      , "-ep", "10"
+      , "-ep", "40"
       , "-l", "10"
       , "-lr", "0.0003" # increased from 0.0001
       , "-et", "True"
@@ -22,10 +22,10 @@ main(["-mo", "train"
        , "-ndl", "2"  # default: 3
     #   , "-ffn", "256"  # default: 2048 
        , "-b", "32" # default: 128
-      ]) # first OOP-refactored version testing 
+      ]) 
 
 # %%
-file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_10ep_3bsize.txt"
+file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_40ep_3bsize.txt"
 
 from collections import defaultdict
 
@@ -131,4 +131,4 @@ print(f"{'Macro Avg':<25} | {macro_precision:<9.4f} | {macro_recall:<9.4f} | {ma
 print(f"{'Weighted Avg':<25} | {weighted_precision:<9.4f} | {weighted_recall:<9.4f} | {weighted_f1:<9.4f} | {total_support:<7}")
 
 
-# %%
+

@@ -47,7 +47,7 @@ class PipeLinePredict:
         new_data_file = self.config_parser.new_data_file.split('.')[0]
         
         if self.config_parser.output:
-            with open(f'{PREDICTION_DATA_FOLDER}/{self.config_parser.output}', 'w') as f:
+            with open(f'{PREDICTION_DATA_FOLDER}/{self.config_parser.output}', 'w', encoding='utf-8') as f:
                 for prediction in self.make_predictions():
                     f.write(prediction + '\n')
         else:

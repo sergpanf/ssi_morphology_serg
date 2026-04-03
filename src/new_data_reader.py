@@ -29,7 +29,7 @@ class NewDataReader:
 
     def import_data(self):
         try:
-            with open(os.path.join(PREDICTION_DATA_FOLDER, self.input_filename), 'r') as f:
+            with open(os.path.join(PREDICTION_DATA_FOLDER, self.input_filename), 'r', encoding='utf-8') as f:
                 return f.readlines()
         except FileNotFoundError:
             print('Input file missing!')
