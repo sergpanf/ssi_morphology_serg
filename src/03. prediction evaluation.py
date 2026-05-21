@@ -4,7 +4,11 @@ from sklearn.metrics import classification_report
 def main():
     ACTUAL_FILE = "../sp_data/fileB__NT"
     # PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-03-27_beam1alpha0h2,5"
-    PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-04-03_subphrases_ep40"
+    # PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-04-03_subphrases_ep40"
+    # PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-04-03_subphrases_ep40_autocorrectedByAi"
+    # PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-04-03_subphrases_ep40_2ndDerivationAiModel"
+    PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-05-21_subphrases_ep100"
+    
     evaluate_predictions(ACTUAL_FILE, PREDICTED_FILE)
 
 def evaluate_predictions(actual_file_path: str, predicted_file_path: str):
@@ -95,4 +99,5 @@ def evaluate_predictions(actual_file_path: str, predicted_file_path: str):
 
 if __name__ == "__main__":
     main()
+    
     

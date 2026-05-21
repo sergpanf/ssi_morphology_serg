@@ -1,26 +1,25 @@
 # %% 
 from main import main
 main(["-mo", "train"
-      , "-i", "fileB__NT_predicted_2026-04-03_subphrases_ep40_reformatted"
-      , "-o", "fileB__NT"
-      , "-ep", "40"
-      , "-l", "10"
-      , "-lr", "0.0003" # increased from 0.0001
+      , "-i", "context_train_predicted"
+      , "-o", "context_train_actual"
+      , "-ep", "20"         
+      , "-l", "10"          
+      , "-lr", "0.0001"     
       , "-et", "True"
-
-    #  , "-etonly", "True" # default: False; if True, only the evaluation will be performed, without training. This is useful when we want to evaluate a model that has already been trained and saved, without having to retrain it.
       
-      # non-reduced extra parameters
-       , "-emb", "256" # default: 512
-       , "-nh", "4"  # default: 8
-       , "-nel", "2"  # default: 3
-       , "-ndl", "2"  # default: 3
-    #   , "-ffn", "256"  # default: 2048 
-       , "-b", "32" # default: 128
-      ]) 
+      # --- Highly Compressed Architecture for Pattern Recognition ---
+      , "-emb", "32"        # PLUMMETED to 32 (Plenty of space for 3 letters)
+      , "-nh", "4"          # Kept at 4 (To track multiple patterns in the 10-word chunk)
+      , "-nel", "2"         # Kept at 2
+      , "-ndl", "2"         # Kept at 2
+      , "-ffn", "128"       # DROPPED to 128 (Matches the small embedding size)
+      , "-b", "32"          # Kept at 32 (Good for 10,000+ sequences)
+      ])
+ 
 
 # %% # todo: to update file_path
-file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET/results_10seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_40ep_3bsize.txt"
+file_path = "../sp_evaluation_results_transformer/context_train_predicted_context_train_actual_ONE_DATASET_2026-04-05/results_10seq_len_0.0001lr_32esize_4nh_0.1dout_32_bsize_20ep_3bsize.txt"
 
 from collections import defaultdict
 
@@ -127,3 +126,5 @@ print(f"{'Weighted Avg':<25} | {weighted_precision:<9.4f} | {weighted_recall:<9.
 
 
 
+
+# %%

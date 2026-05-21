@@ -14,13 +14,16 @@ from pipeline_predict import PipeLinePredict
 pp = PipeLinePredict("data.yaml")
 # using the following data.yaml:
 # model_info:
-#     folder: MODEL_fileA__NT_fileB__NT_ONE_DATASET
-#     model_config: mdlCfgseq2seq_len10_lr0.0003_ep40_emb256_h4_l2.json
-#     model: seq2seq_len10_lr0.0003_ep40_emb256_h4_l2.pth
+#     folder: MODEL_fileA__NT_fileB__NT_ONE_DATASET_2026-05-20_subphr_100ep
+#     model_config: mdlCfgseq2seq_len10_lr0.0003_ep100_emb256_h4_l2.json
+#     model: seq2seq_len10_lr0.0003_ep100_emb256_h4_l2.pth
 # new_data: ../sp_data/fileA__NT
 # output: fileB__NT_predicted
+# # output: C:/temp/fileB__NT_predicted
 # predict_idx: 0
-# beam_size: 1 # 3
-# beam_alpha: 0 # 0.75
+# beam_size: 1
+# beam_alpha: 0
+
+
 
 

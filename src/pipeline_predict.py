@@ -47,7 +47,18 @@ class PipeLinePredict:
         new_data_file = self.config_parser.new_data_file.split('.')[0]
         
         if self.config_parser.output:
-            with open(f'{PREDICTION_DATA_FOLDER}/{self.config_parser.output}', 'w', encoding='utf-8') as f:
+            output_file = self.config_parser.output
+            
+            # --- THE PATH FIX ---
+            # If it's an absolute path (starts with / or has a Windows drive letter like C:), use it as-is.
+            # Otherwise, combine it with the default PREDICTION_DATA_FOLDER.
+            if os.path.isabs(output_file) or (len(output_file) > 1 and output_file[1] == ':'):
+                final_path = output_file
+            else:
+                final_path = os.path.join(PREDICTION_DATA_FOLDER, output_file)
+            # --------------------
+
+            with open(final_path, 'w', encoding='utf-8') as f:
                 for prediction in self.make_predictions():
                     f.write(prediction + '\n')
         else:

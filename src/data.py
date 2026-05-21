@@ -73,7 +73,6 @@ class DataReader:
         
         for i in range(len(input_verses)):
             bo, ch, ve, text = tuple(input_verses[i].strip().split('\t'))
-            # print(f"bo, ch, ve, output are: {bo}, {ch}, {ve}, {output}")
             bo, ch, ve, output = tuple(output_verses[i].strip().split('\t'))
 
             input_words = text.split()
@@ -87,18 +86,49 @@ class DataReader:
                 print(input_words)
                 print(output_words)
 
-        all_input_words_per_book_grouped = self.group_verses(all_input_words_per_book)
-        all_output_words_per_book_grouped = self.group_verses(all_output_words_per_book)
-
-        all_input_words = self.flatten_inner_lists(all_input_words_per_book_grouped)
-        all_output_words = self.flatten_inner_lists(all_output_words_per_book_grouped)
-
-        all_input_seq_lists, all_output_seq_lists = self.make_rolling_window_strings(all_input_words, all_output_words)
-
-        self.X_train, X_val_test, self.y_train, y_val_test = train_test_split(all_input_seq_lists, all_output_seq_lists, test_size=self.val_plus_test_size, random_state=42)
-        self.X_val, self.X_test, self.y_val, self.y_test = train_test_split(X_val_test, y_val_test, test_size=0.5, random_state=11)
+        # --- THE BYPASS LOGIC ---
+        # Check if the first few verses are already perfectly chunked to our target length.
+        # We safely grab the first book's key to check its lines.
+        first_book_key = list(all_input_words_per_book.keys())[0]
+        check_length = min(10, len(all_input_words_per_book[first_book_key]))
         
-        self.flatten_list_of_lists()
+        is_pre_chunked = all(len(words) == self.sequence_length for words in all_input_words_per_book[first_book_key][:check_length])
+
+        if is_pre_chunked:
+            print(f"Detected pre-chunked {self.sequence_length}-word context windows. Bypassing internal rolling window logic...")
+            all_input_seq_lists = []
+            all_output_seq_lists = []
+            
+            for bo in all_input_words_per_book.keys():
+                for input_words, output_words in zip(all_input_words_per_book[bo], all_output_words_per_book[bo]):
+                    input_seq = ' '.join(input_words)
+                    output_seq = ' '.join(output_words)
+                    
+                    if '*' not in input_seq and '_' not in output_seq:
+                        all_input_seq_lists.append(input_seq)
+                        all_output_seq_lists.append(output_seq)
+                        self.make_char2idx_dicts(input_seq, output_seq)
+        else:
+            # --- THE ORIGINAL LOGIC ---
+            all_input_words_per_book_grouped = self.group_verses(all_input_words_per_book)
+            all_output_words_per_book_grouped = self.group_verses(all_output_words_per_book)
+
+            all_input_words = self.flatten_inner_lists(all_input_words_per_book_grouped)
+            all_output_words = self.flatten_inner_lists(all_output_words_per_book_grouped)
+
+            all_input_seq_lists, all_output_seq_lists = self.make_rolling_window_strings(all_input_words, all_output_words)
+
+        # Train/Validation/Test Splits
+        self.X_train, X_val_test, self.y_train, y_val_test = train_test_split(
+            all_input_seq_lists, all_output_seq_lists, test_size=self.val_plus_test_size, random_state=42
+        )
+        self.X_val, self.X_test, self.y_val, self.y_test = train_test_split(
+            X_val_test, y_val_test, test_size=0.5, random_state=11
+        )
+        
+        # Only flatten lists if we used the original grouping logic
+        if not is_pre_chunked:
+            self.flatten_list_of_lists()
 
         
     def group_verses(self, all_words_per_book: dict):
