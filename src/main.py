@@ -83,6 +83,9 @@ def main(args):
     parser.add_argument("-sz", metavar="beam_size", help="Optional: size of beam during beam size decoding. If 0 is chosen, decoding takes place with greedy decoding", type=int, default=3, nargs='?')
     parser.add_argument("-ba", metavar="beam_alpha", help="Optional: alpha value regulates the penalty for longer sequences during beam search.", type=float, default=0.75, nargs='?')
 
+    # --- NEW OPTIONAL ARGUMENT FOR RESUMING ---
+    parser.add_argument("-resume", metavar="resume_path", help="Optional: Path to an existing model checkpoint (.pth) to continue training from", type=str, default='', nargs='?')
+
     args = parser.parse_args(args)
     
     assert args.mo
@@ -171,6 +174,17 @@ def main(args):
         # Train model on (first) dataset
         train_dataloader, eval_dataloader = pipeline.make_data_loader(hebrew_train, hebrew_val)
         transformer = pipeline.initialize_model()
+
+        # --- THE RESUME LOADING LOGIC ---
+        if args.resume:
+            import os
+            if os.path.exists(args.resume):
+                print(f"\n🔄 [RESUME MODE] Loading existing weights from: {args.resume}")
+                transformer.load_state_dict(torch.load(args.resume, map_location=device))
+            else:
+                raise FileNotFoundError(f"Could not find the model checkpoint at: {args.resume}")
+        # --------------------------------
+
         loss_fn = nn.CrossEntropyLoss(ignore_index=PAD_IDX)
         optimizer = optim.Adam(transformer.parameters(), lr=args.lr, betas=(0.9, 0.98), eps=1e-9, weight_decay=args.wd)
         trained_transformer = pipeline.train_model(transformer, loss_fn, optimizer, train_dataloader, eval_dataloader, args.ep, PAD_IDX)
@@ -192,4 +206,3 @@ def main(args):
 
 if __name__ == '__main__':
     main(sys.argv[1:])
-    

@@ -2,8 +2,8 @@ import collections
 
 def main():
     # Point these to your actual files
-    INPUT_PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-04-03_subphrases_ep40_autocorrectedByAi"
-    OUTPUT_FILE = "../sp_new_data/fileB__NT_predicted_2026-04-03_subphrases_ep40_autocorrectedByAi_reformatted"
+    INPUT_PREDICTED_FILE =  "../sp_new_data/fileB__NT_predicted_2026-05-26_subphrases_ep440"
+    OUTPUT_FILE =           "../sp_new_data/fileB__NT_predicted_2026-05-26_subphrases_ep440_reformatted"
     
     convert_predicted_to_actual_format(INPUT_PREDICTED_FILE, OUTPUT_FILE)
 
