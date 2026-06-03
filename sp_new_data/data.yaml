@@ -3,8 +3,8 @@ model_info:
     model_config: mdlCfgseq2seq_len10_lr0.0003_ep100_emb256_h4_l2.json
     model: seq2seq_len10_lr0.0003_ep100_emb256_h4_l2.pth
 new_data: ../sp_data/fileA__NT
-output: fileB__NT_predicted_2026-05-26_subphrases_ep440
-# output: C:/temp/fileB__NT_predicted_2026-05-26_subphrases_ep440
+output: fileB__NT_predicted_2026-06-02_subphrases_ep440_VETOED
+# output: C:/temp/fileB__NT_predicted_2026-06-02_subphrases_ep440_VETOED
 predict_idx: 0
-beam_size: 1
-beam_alpha: 0
+beam_size: 3 # should be 1 for Y-tags
+beam_alpha: 0.75 # should be 0 for Y-tags

@@ -8,7 +8,9 @@ def main():
     # PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-04-03_subphrases_ep40_autocorrectedByAi"
     # PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-04-03_subphrases_ep40_2ndDerivationAiModel"
     # PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-05-21_subphrases_ep100"
-    PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-05-26_subphrases_ep440"
+    # PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-05-26_subphrases_ep440"
+    # PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-05-29_subphrases_ep440_VETOED"
+    PREDICTED_FILE = "../sp_new_data/fileB__NT_predicted_2026-06-02_subphrases_ep440_VETOED"
     
     
     evaluate_predictions(ACTUAL_FILE, PREDICTED_FILE)
