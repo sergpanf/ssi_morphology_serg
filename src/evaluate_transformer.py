@@ -36,7 +36,7 @@ def greedy_decode(model: torch.nn.Module, src, src_mask, max_len: int, start_sym
 def sequence_length_penalty(length: int, alpha: float=0.75) -> float:
     return ((5 + length) / (5 + 1)) ** alpha
     
-def beam_search(model: torch.nn.Module, src, src_mask, max_len: int, start_symbol: int, end_symbol: int, beam_size: int, alpha:int=0.75):
+def beam_search(model: torch.nn.Module, src, src_mask, max_len: int, start_symbol: int, end_symbol: int, beam_size: int, OUTPUT_WORD_TO_IDX: dict, alpha:float=0.75):
     """Function to generate output sequence using beam search algorithm.
     If the beam size is 0, greedy decoding will be applied.
     It returns a list with beam_size vectors, each representing
@@ -44,6 +44,12 @@ def beam_search(model: torch.nn.Module, src, src_mask, max_len: int, start_symbo
     memory = (model.encode(src, src_mask)).to(device)
     
     sequences = [[torch.ones(1, 1).fill_(start_symbol).type(torch.long).to(device), 0.0]]
+    
+    # # This was an experiment that did not work
+    # # Pre-fetch token indices for the transition matrix
+    # Y_idx = OUTPUT_WORD_TO_IDX.get('Y')
+    # TILDE_idx = OUTPUT_WORD_TO_IDX.get('Ỹ')
+    # UNDERDOT_idx = OUTPUT_WORD_TO_IDX.get('Ỵ')
     
     for i in range(max_len + 50):
         all_candidates = list()
@@ -58,6 +64,32 @@ def beam_search(model: torch.nn.Module, src, src_mask, max_len: int, start_symbo
             
             log_probs_all = torch.log_softmax(prob_beam, dim=1)
             log_probs_all = log_probs_all / sequence_length_penalty(i+1, alpha)
+            
+            # # This was an experiment that did not work
+            # # --- CONSTRAINED DECODING PENALTY MATRIX ---
+            # last_token = seq[-1].item()
+            
+            # # Rule 1: No Ỹ after SOS (Start-of-Verse)
+            # if last_token == start_symbol and TILDE_idx is not None:
+            #     log_probs_all[0, TILDE_idx] = float('-inf')
+                
+            # # Rule 2: No Ỹ after Ỵ (Standalone/End)
+            # elif last_token == UNDERDOT_idx and TILDE_idx is not None:
+            #     log_probs_all[0, TILDE_idx] = float('-inf')
+                
+            # # Rule 3: No Y after Y (Begin)
+            # elif last_token == Y_idx and Y_idx is not None:
+            #     log_probs_all[0, Y_idx] = float('-inf')
+                
+            # # Rule 4: No Y after Ỹ (Inside)
+            # elif last_token == TILDE_idx and Y_idx is not None:
+            #     log_probs_all[0, Y_idx] = float('-inf')
+                
+            # # Rule 0: Strict Termination (EOS is only permitted if the phrase legally terminated in Ỵ)
+            # if last_token in (Y_idx, TILDE_idx) and end_symbol is not None:
+            #     log_probs_all[0, end_symbol] = float('-inf')
+            # # ---------------------------------------------
+
             prob_beam[0] = log_probs_all
             scores, indices = torch.topk(prob_beam, beam_size)
 
@@ -130,8 +162,8 @@ def translate(model: torch.nn.Module,
         tgt_tokens_list = [greedy_decode(model, src, src_mask, num_tokens, OUTPUT_WORD_TO_IDX['SOS'], OUTPUT_WORD_TO_IDX['EOS'])]
     
     tgt_tokens_list = beam_search(
-        model, src, src_mask, num_tokens, OUTPUT_WORD_TO_IDX['SOS'], OUTPUT_WORD_TO_IDX['EOS'], beam_size, beam_alpha)
-    
+        model, src, src_mask, num_tokens, OUTPUT_WORD_TO_IDX['SOS'], OUTPUT_WORD_TO_IDX['EOS'], beam_size, OUTPUT_WORD_TO_IDX, beam_alpha)
+
     predicted_strings_list = [num_to_char(OUTPUT_IDX_TO_WORD, numerical_seq) for numerical_seq in tgt_tokens_list]
     predicted_strings_list = [mc_expand_whole_sequences(predicted) for predicted in predicted_strings_list]
     if language and version:
