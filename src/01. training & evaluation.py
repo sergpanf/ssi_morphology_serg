@@ -4,17 +4,17 @@ torch.cuda.is_available()
 from main import main
 
 # %% TRAINING with EVAL flag and reduced parameters
-
 main(["-mo", "train"
-      , "-i", "fileA__NT"
-      , "-o", "fileB__NT"
-      , "-ep", "100" # with -resume option, the number of epochs will be counted from the epoch specified in the checkpoint file, so if the checkpoint file was saved at epoch 100, and we specify -ep 150, the training will continue for 150 more epochs, until it reaches epoch 250.
-      , "-l", "10"
+      , "-i", "fileA_B_merged_subphrases"
+      , "-o", "fileB__NT_phr0"
+      , "-ep", "200" # with -resume option, the number of epochs will be counted from the epoch specified in the checkpoint file, so if the checkpoint file was saved at epoch 100, and we specify -ep 150, the training will continue for 150 more epochs, until it reaches epoch 250.
+      , "-l", "11" # subphrases=10; phrases[0]=11; 
       , "-lr", "0.0003" # increased from 0.0001
-      , "-resume", "../sp_transformer_models/MODEL_fileA__NT_fileB__NT_ONE_DATASET_2026-05-25_subphr_340ep/seq2seq_len10_lr0.0003_ep70_emb256_h4_l2.pth"
-      , "-et", "True"
+      , "-resume", "../sp_transformer_models/MODEL_fileA_B_merged_subphrases_fileB__NT_phr0_ONE_DATASET_2026-07-08/seq2seq_len11_lr0.0003_ep60_emb256_h4_l2.pth"
+      , "-et", "False"
+      , "-save_externally", "True"
 
-    #  , "-etonly", "True" # default: False; if True, only the evaluation will be performed, without training. This is useful when we want to evaluate a model that has already been trained and saved, without having to retrain it.
+      # , "-etonly", "True" # default: False; if True, only the evaluation will be performed, without training. This is useful when we want to evaluate a model that has already been trained and saved, without having to retrain it.
       
       # non-reduced extra parameters
        , "-emb", "256" # default: 512
@@ -26,7 +26,11 @@ main(["-mo", "train"
       ]) 
 
 # %%
-file_path = "../sp_evaluation_results_transformer/fileA__NT_fileB__NT_ONE_DATASET_2026-05-26_subphr_440ep/results_10seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_100ep_3bsize.txt"
+import os
+results_dir = "../sp_evaluation_results_transformer"
+results_subdir = "fileA_B_merged_subphrases_fileB__NT_phr0_ONE_DATASET_2026-06-26"
+results_file = "results_11seq_len_0.0003lr_256esize_4nh_0.1dout_32_bsize_15ep_3bsize.txt"
+file_path = os.path.join(results_dir, results_subdir, results_file)
 
 from collections import defaultdict
 

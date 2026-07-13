@@ -86,6 +86,9 @@ def main(args):
     # --- NEW OPTIONAL ARGUMENT FOR RESUMING ---
     parser.add_argument("-resume", metavar="resume_path", help="Optional: Path to an existing model checkpoint (.pth) to continue training from", type=str, default='', nargs='?')
 
+    # --- NEW OPTIONAL ARGUMENT FOR LOCAL SAVING ---
+    parser.add_argument("-save_externally", metavar="save_externally", help="Optional: Absolute path to save the trained model externally (in C:\\AI_training_transformer_models). If True, the relative path will be ignored for saving the model.", type=str2bool, const=True, default=False, nargs='?')
+
     args = parser.parse_args(args)
     
     assert args.mo
@@ -146,7 +149,8 @@ def main(args):
                         args.ep2,
                         args.sz,
                         args.ba,
-                        val_plus_test_size=0.3
+                        val_plus_test_size=0.3,
+                        save_externally=args.save_externally 
                         )
 
         if training_type == TrainingType.TWO_DATASETS_SIMULTANEOUSLY:

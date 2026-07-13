@@ -31,7 +31,8 @@ class PipeLineTrain:
                  epochs2: int,
                  beam_size: int,
                  beam_alpha: float,
-                 val_plus_test_size: float
+                 val_plus_test_size: float,
+                 save_externally: bool = False
                  ):
                  
         self.input_file = input_file
@@ -56,6 +57,7 @@ class PipeLineTrain:
         self.epochs2 = epochs2
         self.beam_size = beam_size
         self.beam_alpha = beam_alpha
+        self.save_externally = save_externally        
         self.torch_seed = 42
         # self.model_name = f'seq2seq_{self.length}seqlen_{self.learning_rate}lr_{self.epochs}_{self.epochs2}epochs_{self.emb}embedsize_{self.nh}nhead_{self.nel}nenclayers_{self.ndl}numdeclayers_transformer.pth'
         # self.log_dir = f'runs/{self.input_file}_{self.output_file}/{self.length}seq_len_{self.learning_rate}lr_{self.epochs}_{self.epochs2}epochs_{self.emb}embsize_{self.nh}nhead_{self.nel}nenclayers_{self.ndl}numdeclayers_transformer'
@@ -66,10 +68,10 @@ class PipeLineTrain:
         # Use os.path.join to prevent the "mixed slash" bug
         # self.log_dir = os.path.join('runs', f'{self.input_file}_{self.output_file}', short_name)
         # Force TensorBoard logs to a local drive to prevent Google Drive Errno 22 crashes
-        local_temp_dir = r"C:\tensorboard_runs"
-        if not os.path.exists(local_temp_dir):
-            os.makedirs(local_temp_dir)
-        self.log_dir = os.path.join(local_temp_dir, f'{self.input_file}_{self.output_file}', short_name)
+        external_temp_dir = r"C:\\AI_training_tensorboard_runs"
+        if not os.path.exists(external_temp_dir):
+            os.makedirs(external_temp_dir)
+        self.log_dir = os.path.join(external_temp_dir, f'{self.input_file}_{self.output_file}', short_name)
 
         self.model_path_full = None
 
@@ -152,13 +154,33 @@ class PipeLineTrain:
         if self.input_file2 and self.output_file2:
             model_folder = model_folder + f'_{self.input_file2}_{self.output_file2}'
         
-        pth = os.path.join(self.model_path, model_folder)
+        # --- NEW EXTERNAL SAVE LOGIC ---
+        if self.save_externally:    
+            temp_external_save_path = r"C:\\AI_training_transformer_models"
+            if not os.path.exists(temp_external_save_path):
+                os.makedirs(temp_external_save_path)
+            
+            pth = os.path.join(temp_external_save_path, model_folder)
+        else:
+            # Otherwise, use the default relative MODEL_PATH
+            pth = os.path.join(self.model_path, model_folder)
+        # ----------------------------
+
+        # pth = os.path.join(self.model_path, model_folder)
         if not os.path.exists(pth):
             os.makedirs(pth)
+
         self.model_path_full = os.path.join(pth, self.model_name)
+
         with open(os.path.join(pth, config_name), 'w') as json_file:
             json.dump(model_config, json_file, indent=4)
+
         torch.save(trained_model.state_dict(), self.model_path_full)
+
+        # Print the absolute path so the user can easily copy/paste it
+        absolute_path = os.path.abspath(self.model_path_full)
+        print(f"\n✅ Model and Config successfully saved to:")
+        print(f"-> {absolute_path}\n")
 
         
     def evaluate_on_test_set(self, test_set, training_type):
