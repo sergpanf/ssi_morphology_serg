@@ -59,14 +59,11 @@ class PipeLineTrain:
         self.beam_alpha = beam_alpha
         self.save_externally = save_externally        
         self.torch_seed = 42
-        # self.model_name = f'seq2seq_{self.length}seqlen_{self.learning_rate}lr_{self.epochs}_{self.epochs2}epochs_{self.emb}embedsize_{self.nh}nhead_{self.nel}nenclayers_{self.ndl}numdeclayers_transformer.pth'
-        # self.log_dir = f'runs/{self.input_file}_{self.output_file}/{self.length}seq_len_{self.learning_rate}lr_{self.epochs}_{self.epochs2}epochs_{self.emb}embsize_{self.nh}nhead_{self.nel}nenclayers_{self.ndl}numdeclayers_transformer'
+        
         # Keep model name short
         short_name = f'len{self.length}_lr{self.learning_rate}_ep{self.epochs}_emb{self.emb}_h{self.nh}_l{self.nel}'
         self.model_name = f'seq2seq_{short_name}.pth'
 
-        # Use os.path.join to prevent the "mixed slash" bug
-        # self.log_dir = os.path.join('runs', f'{self.input_file}_{self.output_file}', short_name)
         # Force TensorBoard logs to a local drive to prevent Google Drive Errno 22 crashes
         external_temp_dir = r"C:\\AI_training_tensorboard_runs"
         if not os.path.exists(external_temp_dir):
@@ -120,10 +117,51 @@ class PipeLineTrain:
         return transformer
         
     def train_model(self, transformer, loss_fn, optimizer, train_dataloader, eval_dataloader, epochs, PAD_IDX):
-        trained_model = train_transformer(transformer, loss_fn, optimizer, train_dataloader, 
-                                          eval_dataloader, epochs, PAD_IDX, self.torch_seed, 
-                                          self.learning_rate, self.log_dir, self.batch_size, self.INPUT_WORD_TO_IDX, 
-                                          self.OUTPUT_WORD_TO_IDX)
+        # trained_model = train_transformer(transformer, loss_fn, optimizer, train_dataloader, 
+        #                                   eval_dataloader, epochs, PAD_IDX, self.torch_seed, 
+        #                                   self.learning_rate, self.log_dir, self.batch_size, self.INPUT_WORD_TO_IDX, 
+        #                                   self.OUTPUT_WORD_TO_IDX)
+
+        # # --- NEW CHECKPOINT SAVING WRAPPER ---
+        checkpoint_interval = 50 
+        trained_model = transformer
+        
+        for epoch_start in range(0, epochs, checkpoint_interval):
+            current_chunk = min(checkpoint_interval, epochs - epoch_start)
+            print(f"\n--- Running Training Chunk: Target Epochs {epoch_start + 1} to {epoch_start + current_chunk} ---")
+            
+            trained_model = train_transformer(
+                trained_model, loss_fn, optimizer, train_dataloader, 
+                eval_dataloader, current_chunk, PAD_IDX, self.torch_seed, 
+                self.learning_rate, self.log_dir, self.batch_size, self.INPUT_WORD_TO_IDX, 
+                self.OUTPUT_WORD_TO_IDX
+            )
+            
+            current_total_epochs = epoch_start + current_chunk
+            # If we haven't reached the end, save an intermediate checkpoint
+            if current_total_epochs < epochs:
+                checkpoint_folder = r"C:\\AI_training_transformer_models" if self.save_externally else self.model_path
+                if not os.path.exists(checkpoint_folder):
+                    os.makedirs(checkpoint_folder)
+                    
+                checkpoint_file = os.path.join(checkpoint_folder, f"CHECKPOINT_{self.model_name.replace('.pth', '')}_ep{current_total_epochs}.pth")
+                
+                # CPU Safe Save
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                torch.save(trained_model.cpu().state_dict(), checkpoint_file)
+                
+                try:
+                    from config import device
+                    trained_model.to(device)
+                except ImportError:
+                    if torch.cuda.is_available(): 
+                        trained_model.to("cuda")
+                    else:
+                        trained_model.to("cpu")
+                
+                print(f"💾 Intermediate Checkpoint saved safely to: {checkpoint_file}")
+
         return trained_model
         
         
@@ -146,8 +184,6 @@ class PipeLineTrain:
                         'tgt_vocab_size': self.tgt_vocab_size
         }
 
-        # shortening the name
-        # config_name = 'model_config' + self.model_name.rstrip('.pth') + '.json'
         config_name = 'mdlCfg' + self.model_name.rstrip('.pth') + '.json'
         
         model_folder = f'MODEL_{self.input_file}_{self.output_file}_{training_type}'
@@ -166,7 +202,6 @@ class PipeLineTrain:
             pth = os.path.join(self.model_path, model_folder)
         # ----------------------------
 
-        # pth = os.path.join(self.model_path, model_folder)
         if not os.path.exists(pth):
             os.makedirs(pth)
 
@@ -175,7 +210,22 @@ class PipeLineTrain:
         with open(os.path.join(pth, config_name), 'w') as json_file:
             json.dump(model_config, json_file, indent=4)
 
-        torch.save(trained_model.state_dict(), self.model_path_full)
+        # torch.save(trained_model.state_dict(), self.model_path_full)
+        # --- MEMORY CRASH FIX FOR FINAL SAVE ---
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            
+        torch.save(trained_model.cpu().state_dict(), self.model_path_full)
+        
+        try:
+            from config import device
+            trained_model.to(device)
+        except ImportError:
+            if torch.cuda.is_available(): 
+                trained_model.to("cuda")
+            else:
+                trained_model.to("cpu")
+        # ---------------------------------------
 
         # Print the absolute path so the user can easily copy/paste it
         absolute_path = os.path.abspath(self.model_path_full)
@@ -185,10 +235,8 @@ class PipeLineTrain:
         
     def evaluate_on_test_set(self, test_set, training_type):
     
-        # eval_path = f'{self.evaluation_results_path}/{self.input_file}_{self.output_file}_{training_type}'
         eval_path = os.path.join(self.evaluation_results_path, f'{self.input_file}_{self.output_file}_{training_type}')
 
-        # evaluation_file_name = f'{self.length}seq_len_{self.learning_rate}lr_{self.emb}embsize_{self.nh}nhead_transformer_{self.dr}dropout_{self.batch_size}_batchsize_{self.epochs}epochs_{self.beam_size}beamsize'
         evaluation_file_name = f'{self.length}seq_len_{self.learning_rate}lr_{self.emb}esize_{self.nh}nh_{self.dr}dout_{self.batch_size}_bsize_{self.epochs}ep_{self.beam_size}bsize'
         if self.input_file2 and self.output_file2:
             eval_path = eval_path + f'_{self.input_file2}_{self.output_file2}'
